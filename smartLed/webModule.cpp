@@ -4,13 +4,14 @@
 #include "webModule.h"
 
 // Constants
-#define LOGIN_PAGE_PATH "/main.html"
+#define AP_PAGE_PATH "/ap.html"
+#define WS_PAGE_PATH "/ws.html"
 #define MESSAGE_PAGE_PATH "/message.html"
 #define ERROR_PAGE_PATH "/error.html"
 #define HTML_CONTENT_TYPE "text/html"
 #define CSS_CONTENT_TYPE "text/css"
 #define JS_CONTENT_TYPE "application/javascript"
-#define CONNECTION_TIMEOUT 7000
+#define CONNECTION_TIMEOUT 10000
 
 // Funciton implementation
 WebModule::WebModule(bool isSerial) {
@@ -40,16 +41,17 @@ void WebModule::createWorkStation(String ssid, String password) {
   }
   long startTime = millis();
   WiFi.begin(ssid, password);
-  while(WiFi.status() != WL_CONNECTED) {
+  while (WiFi.status() != WL_CONNECTED) {
     delay(200);
-    if(millis() - startTime >= CONNECTION_TIMEOUT) {
-      if(_isSerial) {
+    if (millis() - startTime >= CONNECTION_TIMEOUT) {
+      if (_isSerial) {
         Serial.println("connection timeout");
         return;
       }
     }
   }
   _isWS = true;
+  _networkSsid = ssid;
   if (_isSerial) {
     Serial.println("connected");
     Serial.print("local ip address: ");
@@ -59,7 +61,7 @@ void WebModule::createWorkStation(String ssid, String password) {
 
 void WebModule::destroyAccessPoint() {
   bool isDisconnected = WiFi.softAPdisconnect();
-  if(_isSerial) {
+  if (_isSerial) {
     Serial.println("destroyAP: " + isDisconnected);
   }
 }
@@ -70,6 +72,7 @@ void WebModule::createWebServer() {
     Serial.println("started SPIFFS");
   }
   server->on("/main", [ = ] () -> void {onMainHandler();});
+  server->on("/disconnect", [ = ] () -> void {onDisconnect();});
   server->on("/login", [ = ] () -> void {onLoginHandler();});
   server->onNotFound([ = ] () -> void {onNotFoundHandler();});
   server->begin();
@@ -110,35 +113,58 @@ void WebModule::onLoginHandler() {
 }
 
 void WebModule::onNotFoundHandler() {
-  if (_isSerial) {
-    Serial.println("redirect from " + server->uri() + " to /main");
+  if (!onFileHandler(server->uri())) {
+    redirectToMain();
   }
-  server->sendHeader("Location", "/main");
-  server->send(303);
 }
 
 void WebModule::onMainHandler() {
   if (_isSerial) {
     Serial.print("request");
   }
-  if (_isAP == true) {
-    sendFile((char*)LOGIN_PAGE_PATH);
+  if (_isWS == true) {
+    String response = getFileAsString(WS_PAGE_PATH);
+    response.replace("{{ssid}}", _networkSsid);
+    server->send(200, HTML_CONTENT_TYPE, response);
   } else {
-    server->send(404, "text/plain");
-    if (_isSerial) {
-      Serial.println("sever sent 404");
+    if (_isAP == true) {
+      sendFile(AP_PAGE_PATH, HTML_CONTENT_TYPE);
+    } else {
+      server->send(404, "text/plain");
+      if (_isSerial) {
+        Serial.println("sever sent 404");
+      }
     }
   }
 }
 
-void WebModule::handleServer() {
-    server->handleClient();
+bool WebModule::onFileHandler(String url) {
+  String contentType = getContentType(url);
+  if (contentType != "") {
+    sendFile(url, contentType);
+  } else {
+    return false;
+  }
 }
 
-void WebModule::sendFile(String path) {
+void WebModule::onDisconnect() {
+  if (_isSerial) {
+    Serial.println("disconnect from wifi");
+  }
+  WiFi.disconnect ();
+  _isWS = false;
+  _networkSsid="";
+  redirectToMain();
+}
+
+void WebModule::handleServer() {
+  server->handleClient();
+}
+
+void WebModule::sendFile(String path, String contentType) {
   if (SPIFFS.exists(path)) {
     File file = SPIFFS.open(path, "r");                 // Open it
-    size_t sent = server->streamFile(file, HTML_CONTENT_TYPE); // And send it to the client
+    size_t sent = server->streamFile(file, contentType); // And send it to the client
     file.close();
     if (_isSerial) {
       Serial.print("file returned: ");
@@ -161,4 +187,19 @@ String WebModule::getFileAsString(String path) {
       Serial.println("file not found in " + path);
     }
   }
+}
+
+void WebModule::redirectToMain() {
+  if (_isSerial) {
+    Serial.println("redirect from " + server->uri() + " to /main");
+  }
+  server->sendHeader("Location", "/main");
+  server->send(303);
+}
+
+String WebModule::getContentType(String filename) {
+  if (filename.endsWith(".html")) return HTML_CONTENT_TYPE;
+  else if (filename.endsWith(".css")) return CSS_CONTENT_TYPE;
+  else if (filename.endsWith(".js")) return JS_CONTENT_TYPE;
+  return "";
 }

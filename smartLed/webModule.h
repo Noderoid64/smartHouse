@@ -20,13 +20,18 @@ class WebModule {
     void onNotFoundHandler();
     void onMainHandler();
     void onLoginHandler();
+    void onDisconnect();
     void handleServer();
   private:
-    void sendFile(String path);
+    void sendFile(String path, String contentType);
     String getFileAsString(String path);
+    bool onFileHandler(String url);
+    void redirectToMain();
+    String getContentType(String filename);
     bool _isSerial;
     bool _isAP;
     bool _isWS;
+    String _networkSsid;
 
 };
 #endif
