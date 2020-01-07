@@ -1,15 +1,16 @@
-
-<div class="main" id="main-content">
-    <div class="lds-ellipsis" id="main-loader"><div></div><div></div><div></div><div></div></div>
-    <div id="main-content">
-
+<div class="main">
+    <div class="main">
+        <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+            <h1>Message</h1>
+        </span>
+        <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+            <h3>{{message}}</h3>
+        </span>
+        <button onclick="location.href = '/main';"
+            style="height: 6vh; width: 100%; font-size: x-large; color: #ffffff; border-radius: 10px; padding:10px; background-color: #007ad9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Back
+            to menu</button>
     </div>
-    <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><h1>Message</h1></span>
-    <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><h3>{{message}}</h3></span>
-    <button onclick="location.href = '/main';"
-        style="height: 6vh; width: 100%; font-size: x-large; color: #ffffff; border-radius: 10px; padding:10px; background-color: #007ad9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Back
-        to menu</button>
+
 </div>
-<options timeout="{{timeout}}"></options>
+
 <link rel="stylesheet" type="text/css" href="message.css">
-<script type="text/javascript" src="message.js"></script>

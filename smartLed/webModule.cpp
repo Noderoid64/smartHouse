@@ -8,6 +8,7 @@
 #define WS_PAGE_PATH "/ws.html"
 #define MESSAGE_PAGE_PATH "/message.html"
 #define ERROR_PAGE_PATH "/error.html"
+#define LOADING_PAGE_PATH "/loading.html"
 #define HTML_CONTENT_TYPE "text/html"
 #define CSS_CONTENT_TYPE "text/css"
 #define JS_CONTENT_TYPE "application/javascript"
@@ -91,10 +92,7 @@ void WebModule::onLoginHandler() {
   String response;
   if (server->hasArg("ssid") && server->arg("ssid") != "") {
     if (server->hasArg("pass") && server->arg("pass") != "") {
-      response = getFileAsString(MESSAGE_PAGE_PATH);
-      response.replace("{{message}}", "Connecting... press back to check connection");
-      response.replace("{{timeout}}", "5000");
-      server->send(200, HTML_CONTENT_TYPE, response);
+      sendFile(LOADING_PAGE_PATH, HTML_CONTENT_TYPE);
       createWorkStation(server->arg("ssid"), server->arg("pass"));
     } else {
       if (_isSerial) {
