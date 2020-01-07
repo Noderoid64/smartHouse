@@ -11,6 +11,11 @@
     padding: 10px;
 }
 
+.field-error {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e91224;
+}
+
 .field-input {
     font-size: x-large;
     padding: 10px;

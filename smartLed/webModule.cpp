@@ -11,6 +11,7 @@
 #define HTML_CONTENT_TYPE "text/html"
 #define CSS_CONTENT_TYPE "text/css"
 #define JS_CONTENT_TYPE "application/javascript"
+#define ICON_CONTENT_TYPE "image/x-icon"
 #define CONNECTION_TIMEOUT 10000
 
 // Funciton implementation
@@ -44,10 +45,11 @@ void WebModule::createWorkStation(String ssid, String password) {
   while (WiFi.status() != WL_CONNECTED) {
     delay(200);
     if (millis() - startTime >= CONNECTION_TIMEOUT) {
-      if (_isSerial) {
+      _errorMessage = "Can't connect to network";
+      if (_isSerial) {       
         Serial.println("connection timeout");
-        return;
       }
+      return;
     }
   }
   _isWS = true;
@@ -90,7 +92,8 @@ void WebModule::onLoginHandler() {
   if (server->hasArg("ssid") && server->arg("ssid") != "") {
     if (server->hasArg("pass") && server->arg("pass") != "") {
       response = getFileAsString(MESSAGE_PAGE_PATH);
-      response.replace("{{message}}", "Connecting... press 'Back to menu' after a few seconds ");
+      response.replace("{{message}}", "Connecting... press back to check connection");
+      response.replace("{{timeout}}", "5000");
       server->send(200, HTML_CONTENT_TYPE, response);
       createWorkStation(server->arg("ssid"), server->arg("pass"));
     } else {
@@ -120,15 +123,29 @@ void WebModule::onNotFoundHandler() {
 
 void WebModule::onMainHandler() {
   if (_isSerial) {
-    Serial.print("request");
+    Serial.println("onMainHandler");
   }
   if (_isWS == true) {
+    if(_isSerial) {
+      Serial.println("isWS = true");
+    }
     String response = getFileAsString(WS_PAGE_PATH);
     response.replace("{{ssid}}", _networkSsid);
     server->send(200, HTML_CONTENT_TYPE, response);
   } else {
     if (_isAP == true) {
-      sendFile(AP_PAGE_PATH, HTML_CONTENT_TYPE);
+      if(_isSerial) {
+        Serial.println("isAP = true");
+        Serial.println("errorMessage " + _errorMessage);
+      }
+      String response = getFileAsString(AP_PAGE_PATH);
+      if(_errorMessage != "") {
+        response.replace("{{error}}", _errorMessage);
+        _errorMessage = "";
+      } else {
+        response.replace("{{error}}", "");
+      }
+      server->send(200, HTML_CONTENT_TYPE, response);
     } else {
       server->send(404, "text/plain");
       if (_isSerial) {
@@ -201,5 +218,6 @@ String WebModule::getContentType(String filename) {
   if (filename.endsWith(".html")) return HTML_CONTENT_TYPE;
   else if (filename.endsWith(".css")) return CSS_CONTENT_TYPE;
   else if (filename.endsWith(".js")) return JS_CONTENT_TYPE;
+  else if (filename.endsWith(".ico")) return ICON_CONTENT_TYPE;
   return "";
 }

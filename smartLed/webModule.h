@@ -32,6 +32,7 @@ class WebModule {
     bool _isAP;
     bool _isWS;
     String _networkSsid;
+    String _errorMessage;
 
 };
 #endif
