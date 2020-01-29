@@ -1,0 +1,964 @@
+2020-01-26 19:14:34.753 +03:00 [INF] Starting web host
+2020-01-26 19:14:38.177 +03:00 [DBG] Hosting starting
+2020-01-26 19:14:39.128 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-26 19:14:39.580 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-26 19:14:39.642 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-26 19:14:39.679 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-26 19:14:39.689 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-26 19:14:39.697 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-26 19:14:39.788 +03:00 [INF] Hosting environment: Development
+2020-01-26 19:14:39.793 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-26 19:14:39.794 +03:00 [DBG] Hosting started
+2020-01-26 19:19:27.018 +03:00 [INF] Application is shutting down...
+2020-01-26 19:19:27.021 +03:00 [DBG] Hosting stopping
+2020-01-26 19:19:27.148 +03:00 [DBG] Hosting stopped
+2020-01-26 19:19:33.173 +03:00 [INF] Starting web host
+2020-01-26 19:19:33.440 +03:00 [DBG] Hosting starting
+2020-01-26 19:19:33.561 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-26 19:19:33.624 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-26 19:19:33.672 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-26 19:19:33.673 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-26 19:19:33.675 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-26 19:19:33.677 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-26 19:19:33.679 +03:00 [INF] Hosting environment: Development
+2020-01-26 19:19:33.680 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-26 19:19:33.746 +03:00 [DBG] Hosting started
+2020-01-26 19:20:22.639 +03:00 [INF] Application is shutting down...
+2020-01-26 19:20:22.640 +03:00 [DBG] Hosting stopping
+2020-01-26 19:20:22.653 +03:00 [DBG] Hosting stopped
+2020-01-26 19:20:28.914 +03:00 [INF] Starting web host
+2020-01-26 19:20:29.171 +03:00 [DBG] Hosting starting
+2020-01-26 19:20:29.288 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-26 19:20:29.358 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-26 19:20:29.404 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-26 19:20:29.406 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-26 19:20:29.408 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-26 19:20:29.410 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-26 19:20:29.412 +03:00 [INF] Hosting environment: Development
+2020-01-26 19:20:29.473 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-26 19:20:29.476 +03:00 [DBG] Hosting started
+2020-01-26 19:21:54.139 +03:00 [INF] Application is shutting down...
+2020-01-26 19:21:54.140 +03:00 [DBG] Hosting stopping
+2020-01-26 19:21:54.168 +03:00 [DBG] Hosting stopped
+2020-01-26 19:21:59.724 +03:00 [INF] Starting web host
+2020-01-26 19:22:00.003 +03:00 [DBG] Hosting starting
+2020-01-26 19:22:00.135 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-26 19:22:00.219 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-26 19:22:00.251 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-26 19:22:00.324 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-26 19:22:00.326 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-26 19:22:00.327 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-26 19:22:00.329 +03:00 [INF] Hosting environment: Development
+2020-01-26 19:22:00.404 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-26 19:22:00.406 +03:00 [DBG] Hosting started
+2020-01-26 19:22:23.528 +03:00 [INF] Application is shutting down...
+2020-01-26 19:22:23.529 +03:00 [DBG] Hosting stopping
+2020-01-26 19:22:23.546 +03:00 [DBG] Hosting stopped
+2020-01-26 19:22:35.780 +03:00 [INF] Starting web host
+2020-01-26 19:22:36.065 +03:00 [DBG] Hosting starting
+2020-01-26 19:22:36.210 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-26 19:22:36.298 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-26 19:22:36.353 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-26 19:22:36.426 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-26 19:22:36.440 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-26 19:22:36.441 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-26 19:22:36.443 +03:00 [INF] Hosting environment: Development
+2020-01-26 19:22:36.444 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-26 19:22:36.445 +03:00 [DBG] Hosting started
+2020-01-26 19:27:06.676 +03:00 [INF] Application is shutting down...
+2020-01-26 19:27:06.677 +03:00 [DBG] Hosting stopping
+2020-01-26 19:27:06.697 +03:00 [DBG] Hosting stopped
+2020-01-26 19:27:13.265 +03:00 [INF] Starting web host
+2020-01-26 19:27:13.556 +03:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Server.Domain.Services.IUdpClient Lifetime: Scoped ImplementationType: Server.Services.UdpClient': Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'Server.Services.UdpClient'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Server.Domain.Services.IUdpClient Lifetime: Scoped ImplementationType: Server.Services.UdpClient': Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'Server.Services.UdpClient'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'Server.Services.UdpClient'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Server.Program.Main(String[] args) in C:\Repos\smartHouse\Server\Program.cs:line 27
+2020-01-26 19:28:23.241 +03:00 [INF] Starting web host
+2020-01-26 19:28:23.650 +03:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Server.Domain.Services.IUdpClient Lifetime: Scoped ImplementationType: Server.Services.UdpClient': Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'Server.Services.UdpClient'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Server.Domain.Services.IUdpClient Lifetime: Scoped ImplementationType: Server.Services.UdpClient': Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'Server.Services.UdpClient'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'Server.Services.UdpClient'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Server.Program.Main(String[] args) in C:\Repos\smartHouse\Server\Program.cs:line 27
+2020-01-26 19:29:50.893 +03:00 [INF] Starting web host
+2020-01-26 19:29:51.253 +03:00 [DBG] Hosting starting
+2020-01-26 19:29:51.428 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-26 19:29:51.515 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-26 19:29:51.606 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-26 19:29:51.771 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-26 19:29:51.775 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-26 19:29:51.779 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-26 19:29:52.008 +03:00 [INF] Hosting environment: Development
+2020-01-26 19:29:52.081 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-26 19:29:52.096 +03:00 [DBG] Hosting started
+2020-01-26 19:31:01.601 +03:00 [INF] Application is shutting down...
+2020-01-26 19:31:01.602 +03:00 [DBG] Hosting stopping
+2020-01-26 19:31:01.614 +03:00 [DBG] Hosting stopped
+2020-01-26 19:31:08.467 +03:00 [INF] Starting web host
+2020-01-26 19:31:08.744 +03:00 [DBG] Hosting starting
+2020-01-26 19:31:08.891 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-26 19:31:08.957 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-26 19:31:09.024 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-26 19:31:09.026 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-26 19:31:09.028 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-26 19:31:09.030 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-26 19:31:09.119 +03:00 [INF] Hosting environment: Development
+2020-01-26 19:31:09.124 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-26 19:31:09.127 +03:00 [DBG] Hosting started
+2020-01-26 19:32:13.826 +03:00 [INF] Application is shutting down...
+2020-01-26 19:32:13.828 +03:00 [DBG] Hosting stopping
+2020-01-26 19:32:13.847 +03:00 [DBG] Hosting stopped
+2020-01-29 19:20:25.568 +03:00 [INF] Starting web host
+2020-01-29 19:20:27.798 +03:00 [DBG] Hosting starting
+2020-01-29 19:20:28.433 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 19:20:28.604 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 19:20:28.655 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 19:20:28.657 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 19:20:28.658 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 19:20:28.659 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 19:20:28.660 +03:00 [INF] Hosting environment: Development
+2020-01-29 19:20:28.664 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 19:20:28.667 +03:00 [DBG] Hosting started
+2020-01-29 19:21:21.304 +03:00 [INF] Application is shutting down...
+2020-01-29 19:21:21.307 +03:00 [DBG] Hosting stopping
+2020-01-29 19:21:21.362 +03:00 [DBG] Hosting stopped
+2020-01-29 19:21:35.457 +03:00 [INF] Starting web host
+2020-01-29 19:21:35.722 +03:00 [DBG] Hosting starting
+2020-01-29 19:21:35.832 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 19:21:35.881 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 19:21:35.933 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 19:21:35.934 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 19:21:35.936 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 19:21:35.938 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 19:21:35.939 +03:00 [INF] Hosting environment: Development
+2020-01-29 19:21:35.941 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 19:21:35.942 +03:00 [DBG] Hosting started
+2020-01-29 19:21:44.296 +03:00 [DBG] Connection id "0HLT4QTABSSIO" accepted.
+2020-01-29 19:21:44.300 +03:00 [DBG] Connection id "0HLT4QTABSSIO" started.
+2020-01-29 19:21:44.404 +03:00 [DBG] Connection id "0HLT4QTABSSIO" received FIN.
+2020-01-29 19:21:44.405 +03:00 [DBG] Connection id "0HLT4QTABSSIP" accepted.
+2020-01-29 19:21:44.409 +03:00 [DBG] Connection id "0HLT4QTABSSIP" started.
+2020-01-29 19:21:44.482 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-01-29 19:21:44.616 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/device  
+2020-01-29 19:21:44.809 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-01-29 19:21:44.821 +03:00 [DBG] Connection id "0HLT4QTABSSIO" stopped.
+2020-01-29 19:21:44.873 +03:00 [DBG] 1 candidate(s) found for the request path '/api/device'
+2020-01-29 19:21:44.908 +03:00 [DBG] Connection id "0HLT4QTABSSIO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-01-29 19:21:44.913 +03:00 [DBG] Endpoint 'Server.Controllers.DeviceController.GetAllAsync (server)' with route pattern 'api/device' is valid for the request path '/api/device'
+2020-01-29 19:21:45.076 +03:00 [DBG] Request matched endpoint 'Server.Controllers.DeviceController.GetAllAsync (server)'
+2020-01-29 19:21:45.165 +03:00 [INF] Executing endpoint 'Server.Controllers.DeviceController.GetAllAsync (server)'
+2020-01-29 19:21:45.192 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-01-29 19:21:45.480 +03:00 [INF] Route matched with {action = "GetAll", controller = "Device"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Server.Domain.Model.Entity.DeviceEntity]] GetAllAsync() on controller Server.Controllers.DeviceController (server).
+2020-01-29 19:21:45.557 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-01-29 19:21:45.559 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-01-29 19:21:45.706 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-01-29 19:21:45.711 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-01-29 19:21:46.016 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-01-29 19:21:46.200 +03:00 [DBG] Executing controller factory for controller Server.Controllers.DeviceController (server)
+2020-01-29 19:21:46.563 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2020-01-29 19:21:46.590 +03:00 [DBG] Executed controller factory for controller Server.Controllers.DeviceController (server)
+2020-01-29 19:21:46.595 +03:00 [DBG] asdfff
+2020-01-29 19:21:47.735 +03:00 [DBG] The property 'DeviceEntityid' on entity type 'DeviceVersion' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-01-29 19:21:47.819 +03:00 [INF] Entity Framework Core 3.1.1 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-01-29 19:21:48.156 +03:00 [DBG] queryContext => new QueryingEnumerable<DeviceEntity>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, DeviceEntity>, 
+    Server.Persistance.Contexts.AppDbContext, 
+    DiagnosticsLogger<Query>
+)
+2020-01-29 19:21:48.215 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-01-29 19:21:48.289 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (71ms).
+2020-01-29 19:21:48.326 +03:00 [DBG] Opening connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-01-29 19:21:49.105 +03:00 [DBG] Opened connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-01-29 19:21:49.128 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d.id, d."IP", d."MAC", d."TYPE", t.id, t."MAJOR_VERSION", t."MINOR_VERSION", t."PATCH_VERSION"
+FROM "DEVICE" AS d
+LEFT JOIN (
+    SELECT d0.id, d0."MAJOR_VERSION", d0."MINOR_VERSION", d0."PATCH_VERSION", d1.id AS id0
+    FROM "DEVICE" AS d0
+    INNER JOIN "DEVICE" AS d1 ON d0.id = d1.id
+    WHERE (d0."PATCH_VERSION" IS NOT NULL) AND ((d0."MINOR_VERSION" IS NOT NULL) AND (d0."MAJOR_VERSION" IS NOT NULL))
+) AS t ON d.id = t.id
+2020-01-29 19:21:49.213 +03:00 [INF] Executed DbCommand (96ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d.id, d."IP", d."MAC", d."TYPE", t.id, t."MAJOR_VERSION", t."MINOR_VERSION", t."PATCH_VERSION"
+FROM "DEVICE" AS d
+LEFT JOIN (
+    SELECT d0.id, d0."MAJOR_VERSION", d0."MINOR_VERSION", d0."PATCH_VERSION", d1.id AS id0
+    FROM "DEVICE" AS d0
+    INNER JOIN "DEVICE" AS d1 ON d0.id = d1.id
+    WHERE (d0."PATCH_VERSION" IS NOT NULL) AND ((d0."MINOR_VERSION" IS NOT NULL) AND (d0."MAJOR_VERSION" IS NOT NULL))
+) AS t ON d.id = t.id
+2020-01-29 19:21:49.286 +03:00 [DBG] Context 'AppDbContext' started tracking 'DeviceEntity' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-01-29 19:21:49.413 +03:00 [DBG] Context 'AppDbContext' started tracking 'DeviceVersion' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-01-29 19:21:49.489 +03:00 [DBG] A data reader was disposed.
+2020-01-29 19:21:49.496 +03:00 [DBG] Closing connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-01-29 19:21:49.576 +03:00 [DBG] Closed connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-01-29 19:21:49.659 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-01-29 19:21:49.681 +03:00 [DBG] No information found on request to perform content negotiation.
+2020-01-29 19:21:49.762 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-01-29 19:21:50.091 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-01-29 19:21:50.157 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-01-29 19:21:50.260 +03:00 [INF] Executing ObjectResult, writing value of type 'Server.Domain.Model.Entity.DeviceEntity[]'.
+2020-01-29 19:21:50.420 +03:00 [INF] Executed action Server.Controllers.DeviceController.GetAllAsync (server) in 4214.1985ms
+2020-01-29 19:21:50.578 +03:00 [INF] Executed endpoint 'Server.Controllers.DeviceController.GetAllAsync (server)'
+2020-01-29 19:21:50.740 +03:00 [DBG] 'AppDbContext' disposed.
+2020-01-29 19:21:50.745 +03:00 [INF] Request finished in 6133.622ms 200 application/json; charset=utf-8
+2020-01-29 19:21:50.929 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2020-01-29 19:21:51.001 +03:00 [DBG] No candidates found for the request path '/favicon.ico'
+2020-01-29 19:21:51.002 +03:00 [DBG] Request did not match any endpoints
+2020-01-29 19:21:51.004 +03:00 [INF] Request finished in 74.9782ms 404 
+2020-01-29 19:23:21.150 +03:00 [INF] Application is shutting down...
+2020-01-29 19:23:21.151 +03:00 [DBG] Hosting stopping
+2020-01-29 19:23:21.160 +03:00 [DBG] Connection id "0HLT4QTABSSIP" is closing.
+2020-01-29 19:23:21.290 +03:00 [DBG] Connection id "0HLT4QTABSSIP" is closed. The last processed stream ID was 3.
+2020-01-29 19:23:21.424 +03:00 [DBG] Connection id "0HLT4QTABSSIP" received FIN.
+2020-01-29 19:23:21.433 +03:00 [DBG] Connection id "0HLT4QTABSSIP" stopped.
+2020-01-29 19:23:21.659 +03:00 [DBG] Connection id "0HLT4QTABSSIP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-01-29 19:23:21.732 +03:00 [DBG] Hosting stopped
+2020-01-29 19:23:26.112 +03:00 [INF] Starting web host
+2020-01-29 19:23:26.374 +03:00 [DBG] Hosting starting
+2020-01-29 19:23:26.510 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 19:23:26.569 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 19:23:26.627 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 19:23:26.692 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 19:23:26.694 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 19:23:26.711 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 19:23:26.806 +03:00 [INF] Hosting environment: Development
+2020-01-29 19:23:26.888 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 19:23:26.890 +03:00 [DBG] Hosting started
+2020-01-29 19:25:16.284 +03:00 [INF] Application is shutting down...
+2020-01-29 19:25:16.285 +03:00 [DBG] Hosting stopping
+2020-01-29 19:25:16.295 +03:00 [DBG] Hosting stopped
+2020-01-29 19:25:21.548 +03:00 [INF] Starting web host
+2020-01-29 19:25:21.820 +03:00 [DBG] Hosting starting
+2020-01-29 19:25:21.951 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 19:25:22.008 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 19:25:22.068 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 19:25:22.071 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 19:25:22.072 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 19:25:22.074 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 19:25:22.075 +03:00 [INF] Hosting environment: Development
+2020-01-29 19:25:22.077 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 19:25:22.209 +03:00 [DBG] Hosting started
+2020-01-29 19:28:09.784 +03:00 [INF] Application is shutting down...
+2020-01-29 19:28:09.785 +03:00 [DBG] Hosting stopping
+2020-01-29 19:28:09.798 +03:00 [DBG] Hosting stopped
+2020-01-29 19:28:14.568 +03:00 [INF] Starting web host
+2020-01-29 19:28:14.824 +03:00 [DBG] Hosting starting
+2020-01-29 19:28:14.939 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 19:28:14.999 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 19:28:15.052 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 19:28:15.137 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 19:28:15.139 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 19:28:15.140 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 19:28:15.142 +03:00 [INF] Hosting environment: Development
+2020-01-29 19:28:15.143 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 19:28:15.209 +03:00 [DBG] Hosting started
+2020-01-29 19:34:00.088 +03:00 [INF] Application is shutting down...
+2020-01-29 19:34:00.090 +03:00 [DBG] Hosting stopping
+2020-01-29 19:34:00.100 +03:00 [DBG] Hosting stopped
+2020-01-29 19:34:05.036 +03:00 [INF] Starting web host
+2020-01-29 19:34:05.306 +03:00 [DBG] Hosting starting
+2020-01-29 19:34:05.424 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 19:34:05.482 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 19:34:05.531 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 19:34:05.589 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 19:34:05.591 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 19:34:05.592 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 19:34:05.594 +03:00 [INF] Hosting environment: Development
+2020-01-29 19:34:05.595 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 19:34:05.666 +03:00 [DBG] Hosting started
+2020-01-29 19:34:33.853 +03:00 [INF] Application is shutting down...
+2020-01-29 19:34:33.854 +03:00 [DBG] Hosting stopping
+2020-01-29 19:34:33.878 +03:00 [DBG] Hosting stopped
+2020-01-29 19:34:38.684 +03:00 [INF] Starting web host
+2020-01-29 19:34:38.939 +03:00 [DBG] Hosting starting
+2020-01-29 19:34:39.067 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 19:34:39.125 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 19:34:39.167 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 19:34:39.224 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 19:34:39.225 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 19:34:39.227 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 19:34:39.228 +03:00 [INF] Hosting environment: Development
+2020-01-29 19:34:39.342 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 19:34:39.358 +03:00 [DBG] Hosting started
+2020-01-29 19:35:38.306 +03:00 [INF] Application is shutting down...
+2020-01-29 19:35:38.307 +03:00 [DBG] Hosting stopping
+2020-01-29 19:35:38.319 +03:00 [DBG] Hosting stopped
+2020-01-29 19:35:43.118 +03:00 [INF] Starting web host
+2020-01-29 19:35:43.394 +03:00 [INF] add udpClient
+2020-01-29 19:35:43.403 +03:00 [DBG] asdf
+2020-01-29 19:35:43.406 +03:00 [INF] hello udp
+2020-01-29 19:35:43.446 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:35:43.521 +03:00 [DBG] Hosting starting
+2020-01-29 19:35:43.779 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 19:35:43.840 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 19:35:43.862 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 19:35:43.911 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 19:35:43.913 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 19:35:43.982 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 19:35:43.984 +03:00 [INF] Hosting environment: Development
+2020-01-29 19:35:43.985 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 19:35:43.986 +03:00 [DBG] Hosting started
+2020-01-29 19:35:46.573 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:36:12.008 +03:00 [INF] Starting web host
+2020-01-29 19:36:12.241 +03:00 [DBG] asdf
+2020-01-29 19:36:12.242 +03:00 [INF] hello udp
+2020-01-29 19:36:12.265 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:36:12.312 +03:00 [DBG] Hosting starting
+2020-01-29 19:36:12.447 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 19:36:12.504 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 19:36:12.556 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 19:36:12.558 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 19:36:12.561 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 19:36:12.643 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 19:36:12.644 +03:00 [INF] Hosting environment: Development
+2020-01-29 19:36:12.733 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 19:36:12.816 +03:00 [DBG] Hosting started
+2020-01-29 19:36:16.577 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:37:03.455 +03:00 [INF] Starting web host
+2020-01-29 19:37:03.670 +03:00 [DBG] asdf
+2020-01-29 19:37:03.672 +03:00 [INF] hello udp
+2020-01-29 19:37:03.691 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:37:03.737 +03:00 [DBG] Hosting starting
+2020-01-29 19:37:03.997 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 19:37:04.059 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 19:37:04.139 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 19:37:04.210 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 19:37:04.225 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 19:37:04.227 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 19:37:04.228 +03:00 [INF] Hosting environment: Development
+2020-01-29 19:37:04.305 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 19:37:04.319 +03:00 [DBG] Hosting started
+2020-01-29 19:37:06.586 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:40:54.197 +03:00 [INF] Starting web host
+2020-01-29 19:40:54.412 +03:00 [INF] hello udp
+2020-01-29 19:40:54.434 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:40:54.466 +03:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Server.Domain.Services.IUdpDeviceService Lifetime: Singleton ImplementationType: Server.Services.UdpDeviceService': Cannot consume scoped service 'Server.Domain.Services.IDeviceService' from singleton 'Server.Domain.Services.IUdpDeviceService'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Server.Domain.Services.IUdpDeviceService Lifetime: Singleton ImplementationType: Server.Services.UdpDeviceService': Cannot consume scoped service 'Server.Domain.Services.IDeviceService' from singleton 'Server.Domain.Services.IUdpDeviceService'.
+ ---> System.InvalidOperationException: Cannot consume scoped service 'Server.Domain.Services.IDeviceService' from singleton 'Server.Domain.Services.IUdpDeviceService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.VisitScopeCache(ServiceCallSite scopedCallSite, CallSiteValidatorState state)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.VisitConstructor(ConstructorCallSite constructorCallSite, CallSiteValidatorState state)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.VisitRootCache(ServiceCallSite singletonCallSite, CallSiteValidatorState state)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateCallSite(ServiceCallSite callSite)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.Microsoft.Extensions.DependencyInjection.ServiceLookup.IServiceProviderEngineCallback.OnCreate(ServiceCallSite callSite)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Server.Program.Main(String[] args) in C:\Repos\smartHouse\Server\Program.cs:line 27
+2020-01-29 19:51:55.915 +03:00 [INF] Starting web host
+2020-01-29 19:51:56.170 +03:00 [INF] hello udp
+2020-01-29 19:51:56.201 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:51:56.482 +03:00 [DBG] Hosting starting
+2020-01-29 19:51:56.604 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 19:51:56.696 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 19:51:56.760 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:51:56.780 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 19:51:57.017 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 19:51:57.069 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 19:51:57.296 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 19:51:57.299 +03:00 [INF] Hosting environment: Development
+2020-01-29 19:51:57.384 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 19:51:57.470 +03:00 [DBG] Hosting started
+2020-01-29 19:51:57.786 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:52:01.751 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:52:01.756 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:52:06.752 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:52:06.758 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:52:11.753 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:52:11.756 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:52:16.762 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:52:16.766 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:52:21.755 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:52:21.758 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:52:26.761 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:52:26.764 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:52:31.764 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:52:31.767 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:52:36.760 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:52:36.762 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:52:41.759 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:52:41.762 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:52:46.763 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:52:46.767 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:52:49.440 +03:00 [INF] Application is shutting down...
+2020-01-29 19:52:49.442 +03:00 [DBG] Hosting stopping
+2020-01-29 19:52:49.470 +03:00 [DBG] Hosting stopped
+2020-01-29 19:56:50.609 +03:00 [INF] Starting web host
+2020-01-29 19:56:50.840 +03:00 [INF] hello udp
+2020-01-29 19:56:50.872 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:56:51.118 +03:00 [DBG] Hosting starting
+2020-01-29 19:56:51.234 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 19:56:51.283 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 19:56:51.339 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 19:56:51.351 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 19:56:51.352 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 19:56:51.354 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 19:56:51.355 +03:00 [INF] Hosting environment: Development
+2020-01-29 19:56:51.357 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 19:56:51.358 +03:00 [DBG] Hosting started
+2020-01-29 19:56:51.807 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:56:51.809 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:56:52.806 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:56:56.806 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:56:56.807 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:56:56.830 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:57:01.807 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:57:01.809 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:57:01.847 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:57:06.808 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:57:06.810 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:57:06.824 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:57:11.808 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:57:11.810 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:57:11.844 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:57:16.814 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:57:16.815 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:57:16.836 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:57:21.812 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:57:21.825 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:57:21.940 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:57:26.812 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:57:26.813 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:57:26.816 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:57:31.815 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:57:31.830 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:57:31.833 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:57:36.814 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:57:36.816 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:57:36.818 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:57:41.823 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:57:41.842 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:57:41.855 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:57:46.816 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:57:46.858 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:57:46.860 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:57:51.816 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:57:51.819 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:57:51.822 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:57:56.818 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:57:56.820 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:57:56.822 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:58:01.818 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:58:01.819 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:58:01.843 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:58:06.210 +03:00 [INF] Application is shutting down...
+2020-01-29 19:58:06.210 +03:00 [DBG] Hosting stopping
+2020-01-29 19:58:06.220 +03:00 [DBG] Hosting stopped
+2020-01-29 19:59:22.183 +03:00 [INF] Starting web host
+2020-01-29 19:59:22.410 +03:00 [INF] hello udp
+2020-01-29 19:59:22.431 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:59:22.653 +03:00 [DBG] Hosting starting
+2020-01-29 19:59:22.746 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 19:59:22.827 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 19:59:22.883 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 19:59:22.944 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 19:59:22.945 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 19:59:22.947 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 19:59:22.948 +03:00 [INF] Hosting environment: Development
+2020-01-29 19:59:23.011 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 19:59:23.013 +03:00 [DBG] Hosting started
+2020-01-29 19:59:26.839 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:59:26.841 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:59:26.845 +03:00 [DBG] BaseRepository: Server.Domain.Model.Entity.DeviceEntity
+2020-01-29 19:59:27.764 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:59:31.835 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:59:31.837 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:59:31.848 +03:00 [DBG] BaseRepository: Server.Domain.Model.Entity.DeviceEntity
+2020-01-29 19:59:31.855 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:59:36.836 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:59:36.838 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:59:36.861 +03:00 [DBG] BaseRepository: Server.Domain.Model.Entity.DeviceEntity
+2020-01-29 19:59:36.868 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:59:41.837 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:59:41.838 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:59:41.867 +03:00 [DBG] BaseRepository: Server.Domain.Model.Entity.DeviceEntity
+2020-01-29 19:59:41.951 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:59:46.840 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 19:59:46.842 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 19:59:46.843 +03:00 [DBG] BaseRepository: Server.Domain.Model.Entity.DeviceEntity
+2020-01-29 19:59:46.867 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 19:59:47.329 +03:00 [INF] Application is shutting down...
+2020-01-29 19:59:47.330 +03:00 [DBG] Hosting stopping
+2020-01-29 19:59:47.352 +03:00 [DBG] Hosting stopped
+2020-01-29 20:00:31.013 +03:00 [INF] Starting web host
+2020-01-29 20:00:31.259 +03:00 [INF] hello udp
+2020-01-29 20:00:31.280 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 20:00:31.504 +03:00 [DBG] Hosting starting
+2020-01-29 20:00:31.612 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 20:00:31.689 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 20:00:31.769 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 20:00:31.847 +03:00 [INF] UdpClient | receive message from 192.168.0.108:64250: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 20:00:31.863 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 20:00:31.865 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.108:64250
+2020-01-29 20:00:31.866 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 20:00:31.967 +03:00 [DBG] BaseRepository: Server.Domain.Model.Entity.DeviceEntity
+2020-01-29 20:00:32.161 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 20:00:32.349 +03:00 [INF] Hosting environment: Development
+2020-01-29 20:00:32.474 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 20:00:32.477 +03:00 [DBG] Hosting started
+2020-01-29 20:45:50.542 +03:00 [INF] Starting web host
+2020-01-29 20:45:50.751 +03:00 [INF] hello udp
+2020-01-29 20:45:50.789 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 20:45:51.042 +03:00 [DBG] Hosting starting
+2020-01-29 20:45:51.180 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 20:45:51.245 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 20:45:51.302 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 20:45:51.403 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 20:45:51.497 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 20:45:51.515 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 20:45:51.524 +03:00 [INF] Hosting environment: Development
+2020-01-29 20:45:51.760 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 20:45:51.858 +03:00 [DBG] Hosting started
+2020-01-29 20:48:01.125 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 20:48:01.127 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 20:48:02.580 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 20:48:08.400 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 20:48:22.111 +03:00 [INF] Starting web host
+2020-01-29 20:48:22.310 +03:00 [INF] hello udp
+2020-01-29 20:48:22.332 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 20:48:22.581 +03:00 [DBG] Hosting starting
+2020-01-29 20:48:22.701 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 20:48:22.772 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 20:48:22.785 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 20:48:22.788 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 20:48:22.789 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 20:48:22.791 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 20:48:22.810 +03:00 [INF] Hosting environment: Development
+2020-01-29 20:48:22.813 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 20:48:22.814 +03:00 [DBG] Hosting started
+2020-01-29 20:48:26.128 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 20:48:26.130 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 20:48:27.413 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 20:48:31.616 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 20:53:09.909 +03:00 [INF] Starting web host
+2020-01-29 20:53:10.182 +03:00 [INF] hello udp
+2020-01-29 20:53:10.207 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 20:53:10.442 +03:00 [DBG] Hosting starting
+2020-01-29 20:53:10.545 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 20:53:10.604 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 20:53:10.641 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 20:53:10.712 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 20:53:10.714 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 20:53:10.716 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 20:53:10.718 +03:00 [INF] Hosting environment: Development
+2020-01-29 20:53:10.719 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 20:53:10.721 +03:00 [DBG] Hosting started
+2020-01-29 20:53:11.183 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 20:53:11.187 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 20:53:12.524 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 20:55:05.031 +03:00 [INF] Starting web host
+2020-01-29 20:55:07.366 +03:00 [INF] hello udp
+2020-01-29 20:55:07.662 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 20:55:08.951 +03:00 [DBG] Hosting starting
+2020-01-29 20:55:09.470 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 20:55:09.717 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 20:55:09.736 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 20:55:09.747 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 20:55:09.747 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 20:55:09.747 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 20:55:09.748 +03:00 [INF] Hosting environment: Development
+2020-01-29 20:55:09.748 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 20:55:09.748 +03:00 [DBG] Hosting started
+2020-01-29 20:55:11.204 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 20:55:11.205 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 20:57:31.389 +03:00 [INF] Starting web host
+2020-01-29 20:57:32.345 +03:00 [INF] hello udp
+2020-01-29 20:57:32.408 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 20:57:32.833 +03:00 [DBG] Hosting starting
+2020-01-29 20:57:33.068 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 20:57:33.199 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 20:57:33.220 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 20:57:33.220 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 20:57:33.220 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 20:57:33.220 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 20:57:33.220 +03:00 [INF] Hosting environment: Development
+2020-01-29 20:57:33.221 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 20:57:33.221 +03:00 [DBG] Hosting started
+2020-01-29 20:57:36.230 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 20:57:36.231 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 20:57:37.569 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 20:57:58.462 +03:00 [INF] Starting web host
+2020-01-29 20:57:59.489 +03:00 [INF] hello udp
+2020-01-29 20:57:59.528 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 20:57:59.942 +03:00 [DBG] Hosting starting
+2020-01-29 20:58:00.187 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 20:58:00.282 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 20:58:00.302 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 20:58:00.302 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 20:58:00.302 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 20:58:00.303 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 20:58:00.303 +03:00 [INF] Hosting environment: Development
+2020-01-29 20:58:00.303 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 20:58:00.303 +03:00 [DBG] Hosting started
+2020-01-29 20:58:01.235 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 20:58:01.235 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:00:02.219 +03:00 [INF] Starting web host
+2020-01-29 21:00:03.062 +03:00 [INF] hello udp
+2020-01-29 21:00:03.100 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:00:03.490 +03:00 [DBG] Hosting starting
+2020-01-29 21:00:03.749 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 21:00:03.838 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 21:00:03.861 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 21:00:03.866 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 21:00:03.866 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 21:00:03.867 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 21:00:03.867 +03:00 [INF] Hosting environment: Development
+2020-01-29 21:00:03.867 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 21:00:03.867 +03:00 [DBG] Hosting started
+2020-01-29 21:00:06.259 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:00:06.259 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:00:24.350 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:00:24.351 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:00:24.351 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:03:03.575 +03:00 [INF] Starting web host
+2020-01-29 21:03:04.412 +03:00 [INF] hello udp
+2020-01-29 21:03:04.465 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:03:05.014 +03:00 [DBG] Hosting starting
+2020-01-29 21:03:05.303 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 21:03:05.405 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 21:03:05.429 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 21:03:05.429 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 21:03:05.430 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 21:03:05.430 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 21:03:05.430 +03:00 [INF] Hosting environment: Development
+2020-01-29 21:03:05.430 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 21:03:05.430 +03:00 [DBG] Hosting started
+2020-01-29 21:03:06.291 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:03:06.292 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:03:30.053 +03:00 [INF] Starting web host
+2020-01-29 21:03:30.382 +03:00 [INF] hello udp
+2020-01-29 21:03:30.412 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:03:30.693 +03:00 [DBG] Hosting starting
+2020-01-29 21:03:30.829 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 21:03:30.937 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 21:03:31.017 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 21:03:31.122 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 21:03:31.206 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 21:03:31.209 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 21:03:31.282 +03:00 [INF] Hosting environment: Development
+2020-01-29 21:03:31.285 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 21:03:31.286 +03:00 [DBG] Hosting started
+2020-01-29 21:03:31.300 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:03:31.351 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:08:26.014 +03:00 [INF] Starting web host
+2020-01-29 21:08:26.265 +03:00 [INF] hello udp
+2020-01-29 21:08:26.295 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:08:26.377 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:08:26.392 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:08:26.567 +03:00 [DBG] Hosting starting
+2020-01-29 21:08:26.752 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 21:08:26.804 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 21:08:26.862 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 21:08:26.878 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 21:08:26.879 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 21:08:26.881 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 21:08:26.882 +03:00 [INF] Hosting environment: Development
+2020-01-29 21:08:26.883 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 21:08:26.885 +03:00 [DBG] Hosting started
+2020-01-29 21:08:31.355 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:08:31.357 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:08:32.580 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:08:36.351 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:08:36.353 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:08:36.378 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:08:36.381 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:08:41.352 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:08:41.356 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:08:41.362 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:08:41.365 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:08:46.353 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:08:46.355 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:08:46.380 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:08:46.383 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:08:51.356 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:08:51.358 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:08:51.391 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:08:51.394 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:08:56.355 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:08:56.356 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:08:56.379 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:08:56.381 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:09:01.356 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:09:01.358 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:09:01.361 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:09:01.363 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:09:06.360 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:09:06.362 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:09:06.367 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:09:06.390 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:09:11.359 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:09:11.369 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:09:11.388 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:09:11.390 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:09:16.359 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:09:16.361 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:09:16.366 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:09:16.387 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:09:21.360 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:09:21.362 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:09:21.385 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:09:21.387 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:09:26.360 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:09:26.361 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:09:26.365 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:09:26.366 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:09:31.363 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:09:31.364 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:09:31.367 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:09:31.369 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:09:36.362 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:09:36.363 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:09:36.367 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:09:36.369 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:09:41.363 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:09:41.364 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:09:41.367 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:09:41.369 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:09:46.364 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:09:46.365 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:09:46.387 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:09:46.389 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:09:51.370 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:09:51.371 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:09:51.374 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:09:51.375 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:09:56.374 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:09:56.376 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:09:56.378 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:09:56.380 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:10:01.373 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:10:01.375 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:10:01.378 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:10:01.380 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:10:06.370 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:10:06.371 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:10:06.374 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:10:06.375 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:10:11.375 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:10:11.376 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:10:11.378 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:10:11.380 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:10:16.370 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:10:16.372 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:10:16.374 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:10:16.376 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:10:21.370 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:10:21.371 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:10:21.374 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:10:21.375 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:10:26.371 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:10:26.372 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:10:26.375 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:10:26.376 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:10:31.374 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:10:31.376 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:10:31.378 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:10:31.379 +03:00 [DBG] entity from db.id = 2
+2020-01-29 21:10:31.672 +03:00 [INF] Application is shutting down...
+2020-01-29 21:10:31.673 +03:00 [DBG] Hosting stopping
+2020-01-29 21:10:31.693 +03:00 [DBG] Hosting stopped
+2020-01-29 21:52:13.540 +03:00 [INF] Starting web host
+2020-01-29 21:52:16.736 +03:00 [INF] hello udp
+2020-01-29 21:52:16.767 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:52:16.867 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:52:16.869 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:52:17.682 +03:00 [DBG] Hosting starting
+2020-01-29 21:52:18.359 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-01-29 21:52:18.704 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-01-29 21:52:18.720 +03:00 [INF] Now listening on: https://localhost:5001
+2020-01-29 21:52:18.822 +03:00 [INF] Now listening on: http://localhost:5000
+2020-01-29 21:52:18.875 +03:00 [DBG] Loaded hosting startup assembly server
+2020-01-29 21:52:19.009 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-01-29 21:52:19.088 +03:00 [INF] Hosting environment: Development
+2020-01-29 21:52:19.098 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-01-29 21:52:19.099 +03:00 [DBG] Hosting started
+2020-01-29 21:52:21.842 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:52:21.845 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:52:23.552 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:52:26.842 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:52:26.845 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:52:26.867 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:52:31.842 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:52:31.843 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:52:31.849 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:52:36.843 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:52:36.845 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:52:36.868 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:52:41.846 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:52:41.847 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:52:41.851 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:52:46.847 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:52:46.849 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:52:46.854 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:52:50.479 +03:00 [DBG] Connection id "0HLT4THO84R69" accepted.
+2020-01-29 21:52:50.485 +03:00 [DBG] Connection id "0HLT4THO84R69" started.
+2020-01-29 21:52:50.720 +03:00 [DBG] Connection id "0HLT4THO84R69" received FIN.
+2020-01-29 21:52:50.721 +03:00 [DBG] Connection id "0HLT4THO84R6A" accepted.
+2020-01-29 21:52:50.741 +03:00 [DBG] Connection id "0HLT4THO84R6A" started.
+2020-01-29 21:52:50.927 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-01-29 21:52:51.151 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/device  
+2020-01-29 21:52:51.574 +03:00 [DBG] Connection id "0HLT4THO84R69" stopped.
+2020-01-29 21:52:51.653 +03:00 [DBG] Connection id "0HLT4THO84R69" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-01-29 21:52:51.655 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-01-29 21:52:51.838 +03:00 [DBG] 1 candidate(s) found for the request path '/api/device'
+2020-01-29 21:52:51.845 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:52:51.876 +03:00 [DBG] Endpoint 'Server.Controllers.DeviceController.GetAllAsync (server)' with route pattern 'api/device' is valid for the request path '/api/device'
+2020-01-29 21:52:51.968 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:52:52.067 +03:00 [DBG] Request matched endpoint 'Server.Controllers.DeviceController.GetAllAsync (server)'
+2020-01-29 21:52:52.072 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:52:52.211 +03:00 [INF] Executing endpoint 'Server.Controllers.DeviceController.GetAllAsync (server)'
+2020-01-29 21:52:52.371 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-01-29 21:52:52.932 +03:00 [INF] Route matched with {action = "GetAll", controller = "Device"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Server.Domain.Model.Entity.DeviceEntity]] GetAllAsync() on controller Server.Controllers.DeviceController (server).
+2020-01-29 21:52:53.040 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-01-29 21:52:53.042 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-01-29 21:52:53.044 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-01-29 21:52:53.047 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-01-29 21:52:53.048 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-01-29 21:52:53.051 +03:00 [DBG] Executing controller factory for controller Server.Controllers.DeviceController (server)
+2020-01-29 21:52:53.067 +03:00 [DBG] Executed controller factory for controller Server.Controllers.DeviceController (server)
+2020-01-29 21:52:53.226 +03:00 [DBG] asdfff
+2020-01-29 21:52:53.407 +03:00 [INF] Entity Framework Core 3.1.1 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-01-29 21:52:53.491 +03:00 [DBG] queryContext => new QueryingEnumerable<DeviceEntity>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, DeviceEntity>, 
+    Server.Persistance.Contexts.AppDbContext, 
+    DiagnosticsLogger<Query>
+)
+2020-01-29 21:52:53.597 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-01-29 21:52:53.606 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2020-01-29 21:52:53.669 +03:00 [DBG] Opening connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-01-29 21:52:53.724 +03:00 [DBG] Opened connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-01-29 21:52:53.758 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d.id, d."IP", d."MAC", d."TYPE", t.id, t."MAJOR_VERSION", t."MINOR_VERSION", t."PATCH_VERSION"
+FROM "DEVICE" AS d
+LEFT JOIN (
+    SELECT d0.id, d0."MAJOR_VERSION", d0."MINOR_VERSION", d0."PATCH_VERSION", d1.id AS id0
+    FROM "DEVICE" AS d0
+    INNER JOIN "DEVICE" AS d1 ON d0.id = d1.id
+    WHERE (d0."PATCH_VERSION" IS NOT NULL) AND ((d0."MINOR_VERSION" IS NOT NULL) AND (d0."MAJOR_VERSION" IS NOT NULL))
+) AS t ON d.id = t.id
+2020-01-29 21:52:53.806 +03:00 [INF] Executed DbCommand (72ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d.id, d."IP", d."MAC", d."TYPE", t.id, t."MAJOR_VERSION", t."MINOR_VERSION", t."PATCH_VERSION"
+FROM "DEVICE" AS d
+LEFT JOIN (
+    SELECT d0.id, d0."MAJOR_VERSION", d0."MINOR_VERSION", d0."PATCH_VERSION", d1.id AS id0
+    FROM "DEVICE" AS d0
+    INNER JOIN "DEVICE" AS d1 ON d0.id = d1.id
+    WHERE (d0."PATCH_VERSION" IS NOT NULL) AND ((d0."MINOR_VERSION" IS NOT NULL) AND (d0."MAJOR_VERSION" IS NOT NULL))
+) AS t ON d.id = t.id
+2020-01-29 21:52:54.038 +03:00 [DBG] Context 'AppDbContext' started tracking 'DeviceEntity' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-01-29 21:52:54.171 +03:00 [DBG] Context 'AppDbContext' started tracking 'DeviceVersion' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-01-29 21:52:54.247 +03:00 [DBG] Context 'AppDbContext' started tracking 'DeviceEntity' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-01-29 21:52:54.276 +03:00 [DBG] Context 'AppDbContext' started tracking 'DeviceVersion' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-01-29 21:52:54.279 +03:00 [DBG] A data reader was disposed.
+2020-01-29 21:52:54.280 +03:00 [DBG] Closing connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-01-29 21:52:54.282 +03:00 [DBG] Closed connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-01-29 21:52:54.293 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-01-29 21:52:54.381 +03:00 [DBG] No information found on request to perform content negotiation.
+2020-01-29 21:52:54.383 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-01-29 21:52:54.385 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-01-29 21:52:54.387 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-01-29 21:52:54.494 +03:00 [INF] Executing ObjectResult, writing value of type 'Server.Domain.Model.Entity.DeviceEntity[]'.
+2020-01-29 21:52:54.568 +03:00 [INF] Executed action Server.Controllers.DeviceController.GetAllAsync (server) in 1509.8179ms
+2020-01-29 21:52:54.649 +03:00 [INF] Executed endpoint 'Server.Controllers.DeviceController.GetAllAsync (server)'
+2020-01-29 21:52:54.656 +03:00 [DBG] 'AppDbContext' disposed.
+2020-01-29 21:52:54.800 +03:00 [INF] Request finished in 3654.9068ms 200 application/json; charset=utf-8
+2020-01-29 21:52:56.847 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:52:56.848 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:52:56.874 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:53:01.848 +03:00 [INF] UdpClient | receive message from 192.168.0.106:64672: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1
+2020-01-29 21:53:01.850 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|rozetkaProstaya|0.0.1 192.168.0.106:64672
+2020-01-29 21:53:01.853 +03:00 [INF] UdpClient | wait for message to receive
+2020-01-29 21:53:03.090 +03:00 [INF] Application is shutting down...
+2020-01-29 21:53:03.091 +03:00 [DBG] Hosting stopping
+2020-01-29 21:53:03.097 +03:00 [DBG] Connection id "0HLT4THO84R6A" is closing.
+2020-01-29 21:53:03.110 +03:00 [DBG] Connection id "0HLT4THO84R6A" is closed. The last processed stream ID was 1.
+2020-01-29 21:53:03.119 +03:00 [DBG] Connection id "0HLT4THO84R6A" received FIN.
+2020-01-29 21:53:03.219 +03:00 [DBG] Connection id "0HLT4THO84R6A" sending FIN because: "The client closed the connection."
+2020-01-29 21:53:03.301 +03:00 [DBG] Connection id "0HLT4THO84R6A" stopped.
+2020-01-29 21:53:03.305 +03:00 [DBG] Hosting stopped
