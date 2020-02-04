@@ -1,0 +1,20 @@
+.device-category-root {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.device-category-head {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+        margin-bottom: 0px;
+    }
+}
+
+.device-category-content {
+    justify-content: space-between;
+}

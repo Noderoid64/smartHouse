@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'device-group-list',
+  selector: 'app-device-group-list',
   templateUrl: './device-group-list.component.html',
   styleUrls: ['./device-group-list.component.scss']
 })

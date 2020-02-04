@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { DeviceDto } from 'src/app/model/dto/device-dto.model';
+import { Observable } from 'rxjs';
 
 @Injectable({
     providedIn: 'root'
@@ -12,7 +13,7 @@ export class DeviceWebService {
 
     }
 
-    public getDevices(): Promise<DeviceDto> {
-        return 
+    public getDevices(): Observable<DeviceDto> | null {
+        return null;
     }
 }
