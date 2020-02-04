@@ -41,6 +41,7 @@ namespace Server
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                }).UseSerilog();
+                });
+                // .UseSerilog();
     }
 }

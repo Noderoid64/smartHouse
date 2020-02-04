@@ -1,1 +1,3 @@
-<p>add-device-dialog works!</p>
+<div *ngFor="let device of newDevices$ | async">
+    -{{device.ip}}
+</div>

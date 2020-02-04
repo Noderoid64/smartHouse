@@ -1,4 +1,4 @@
-namespace Server.Domain.Model.Value
+namespace Server.Model.Value
 {
     public class DeviceVersion
     {

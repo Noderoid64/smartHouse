@@ -962,3 +962,959 @@ LEFT JOIN (
 2020-01-29 21:53:03.219 +03:00 [DBG] Connection id "0HLT4THO84R6A" sending FIN because: "The client closed the connection."
 2020-01-29 21:53:03.301 +03:00 [DBG] Connection id "0HLT4THO84R6A" stopped.
 2020-01-29 21:53:03.305 +03:00 [DBG] Hosting stopped
+2020-02-04 20:30:05.916 +03:00 [INF] Starting web host
+2020-02-04 20:30:06.175 +03:00 [INF] hello udp
+2020-02-04 20:30:06.209 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-04 20:30:06.482 +03:00 [DBG] Hosting starting
+2020-02-04 20:30:07.145 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-02-04 20:30:07.542 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-02-04 20:30:07.581 +03:00 [INF] Now listening on: https://localhost:5001
+2020-02-04 20:30:07.595 +03:00 [INF] Now listening on: http://localhost:5000
+2020-02-04 20:30:07.596 +03:00 [DBG] Loaded hosting startup assembly server
+2020-02-04 20:30:07.597 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-02-04 20:30:07.598 +03:00 [INF] Hosting environment: Development
+2020-02-04 20:30:07.599 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-02-04 20:30:07.600 +03:00 [DBG] Hosting started
+2020-02-04 20:55:34.329 +03:00 [INF] Application is shutting down...
+2020-02-04 20:55:34.330 +03:00 [DBG] Hosting stopping
+2020-02-04 20:55:34.401 +03:00 [DBG] Hosting stopped
+2020-02-04 20:55:44.608 +03:00 [INF] Starting web host
+2020-02-04 20:55:44.833 +03:00 [INF] hello udp
+2020-02-04 20:55:44.857 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-04 20:55:45.096 +03:00 [DBG] Hosting starting
+2020-02-04 20:55:45.196 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-02-04 20:55:45.255 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-02-04 20:55:45.271 +03:00 [INF] Now listening on: https://localhost:5001
+2020-02-04 20:55:45.272 +03:00 [INF] Now listening on: http://localhost:5000
+2020-02-04 20:55:45.274 +03:00 [DBG] Loaded hosting startup assembly server
+2020-02-04 20:55:45.276 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-02-04 20:55:45.332 +03:00 [INF] Hosting environment: Development
+2020-02-04 20:55:45.334 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-02-04 20:55:45.335 +03:00 [DBG] Hosting started
+2020-02-04 20:56:07.369 +03:00 [DBG] Connection id "0HLT9JE1AMBKI" accepted.
+2020-02-04 20:56:07.395 +03:00 [DBG] Connection id "0HLT9JE1AMBKI" started.
+2020-02-04 20:56:08.522 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/devices/new  
+2020-02-04 20:56:08.532 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-02-04 20:56:08.608 +03:00 [DBG] Https port '5001' discovered from server endpoints.
+2020-02-04 20:56:08.919 +03:00 [DBG] Redirecting to 'https://localhost:5001/api/devices/new'.
+2020-02-04 20:56:09.169 +03:00 [DBG] Connection id "0HLT9JE1AMBKI" completed keep alive response.
+2020-02-04 20:56:09.173 +03:00 [INF] Request finished in 653.26ms 307 
+2020-02-04 20:56:09.216 +03:00 [DBG] Connection id "0HLT9JE1AMBKJ" accepted.
+2020-02-04 20:56:09.250 +03:00 [DBG] Connection id "0HLT9JE1AMBKJ" started.
+2020-02-04 20:56:09.977 +03:00 [DBG] Connection id "0HLT9JE1AMBKJ" received FIN.
+2020-02-04 20:56:10.822 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-02-04 20:56:13.107 +03:00 [DBG] Connection id "0HLT9JE1AMBKJ" stopped.
+2020-02-04 20:56:13.173 +03:00 [DBG] Connection id "0HLT9JE1AMBKJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-02-04 20:56:13.261 +03:00 [DBG] Connection id "0HLT9JE1AMBKK" accepted.
+2020-02-04 20:56:13.302 +03:00 [DBG] Connection id "0HLT9JE1AMBKK" started.
+2020-02-04 20:56:13.313 +03:00 [DBG] Connection id "0HLT9JE1AMBKK" received FIN.
+2020-02-04 20:56:13.327 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-02-04 20:56:14.266 +03:00 [DBG] Connection id "0HLT9JE1AMBKK" stopped.
+2020-02-04 20:56:14.357 +03:00 [DBG] Connection id "0HLT9JE1AMBKK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-02-04 20:56:21.354 +03:00 [DBG] Connection id "0HLT9JE1AMBKL" accepted.
+2020-02-04 20:56:21.373 +03:00 [DBG] Connection id "0HLT9JE1AMBKL" started.
+2020-02-04 20:56:21.382 +03:00 [DBG] Connection id "0HLT9JE1AMBKL" received FIN.
+2020-02-04 20:56:21.395 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-02-04 20:56:21.681 +03:00 [DBG] Connection id "0HLT9JE1AMBKL" stopped.
+2020-02-04 20:56:21.692 +03:00 [DBG] Connection id "0HLT9JE1AMBKL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-02-04 20:56:23.317 +03:00 [INF] Application is shutting down...
+2020-02-04 20:56:23.318 +03:00 [DBG] Hosting stopping
+2020-02-04 20:56:23.328 +03:00 [DBG] Connection id "0HLT9JE1AMBKI" disconnecting.
+2020-02-04 20:56:23.336 +03:00 [DBG] Connection id "0HLT9JE1AMBKI" stopped.
+2020-02-04 20:56:23.338 +03:00 [DBG] Connection id "0HLT9JE1AMBKI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-02-04 20:56:23.342 +03:00 [DBG] Hosting stopped
+2020-02-04 20:56:29.017 +03:00 [INF] Starting web host
+2020-02-04 20:56:29.245 +03:00 [INF] hello udp
+2020-02-04 20:56:29.276 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-04 20:56:29.480 +03:00 [DBG] Hosting starting
+2020-02-04 20:56:29.577 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-02-04 20:56:29.628 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-02-04 20:56:29.637 +03:00 [INF] Now listening on: https://localhost:5001
+2020-02-04 20:56:29.639 +03:00 [INF] Now listening on: http://localhost:5000
+2020-02-04 20:56:29.640 +03:00 [DBG] Loaded hosting startup assembly server
+2020-02-04 20:56:29.641 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-02-04 20:56:29.643 +03:00 [INF] Hosting environment: Development
+2020-02-04 20:56:29.644 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-02-04 20:56:29.737 +03:00 [DBG] Hosting started
+2020-02-04 20:56:33.984 +03:00 [DBG] Connection id "0HLT9JE98KRF9" accepted.
+2020-02-04 20:56:33.988 +03:00 [DBG] Connection id "0HLT9JE98KRF9" started.
+2020-02-04 20:56:34.064 +03:00 [DBG] Connection id "0HLT9JE98KRF9" received FIN.
+2020-02-04 20:56:34.086 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-02-04 20:56:34.262 +03:00 [DBG] Connection id "0HLT9JE98KRF9" stopped.
+2020-02-04 20:56:34.420 +03:00 [DBG] Connection id "0HLT9JE98KRF9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-02-04 20:56:38.879 +03:00 [DBG] Connection id "0HLT9JE98KRFA" accepted.
+2020-02-04 20:56:38.900 +03:00 [DBG] Connection id "0HLT9JE98KRFA" started.
+2020-02-04 20:56:38.908 +03:00 [DBG] Connection id "0HLT9JE98KRFA" received FIN.
+2020-02-04 20:56:38.910 +03:00 [DBG] Connection id "0HLT9JE98KRFB" accepted.
+2020-02-04 20:56:38.920 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-02-04 20:56:39.049 +03:00 [DBG] Connection id "0HLT9JE98KRFB" started.
+2020-02-04 20:56:39.475 +03:00 [DBG] Connection id "0HLT9JE98KRFA" stopped.
+2020-02-04 20:56:39.477 +03:00 [DBG] Connection id "0HLT9JE98KRFA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-02-04 20:56:39.952 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/devices/new  
+2020-02-04 20:56:39.960 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-02-04 20:56:40.634 +03:00 [DBG] No candidates found for the request path '/api/devices/new'
+2020-02-04 20:56:40.639 +03:00 [DBG] Request did not match any endpoints
+2020-02-04 20:56:40.792 +03:00 [INF] Request finished in 842.7352ms 404 
+2020-02-04 20:57:57.796 +03:00 [INF] Application is shutting down...
+2020-02-04 20:57:57.798 +03:00 [DBG] Hosting stopping
+2020-02-04 20:57:57.821 +03:00 [DBG] Connection id "0HLT9JE98KRFB" is closing.
+2020-02-04 20:57:57.830 +03:00 [DBG] Connection id "0HLT9JE98KRFB" is closed. The last processed stream ID was 1.
+2020-02-04 20:57:58.031 +03:00 [DBG] Connection id "0HLT9JE98KRFB" received FIN.
+2020-02-04 20:57:58.042 +03:00 [DBG] Connection id "0HLT9JE98KRFB" sending FIN because: "The client closed the connection."
+2020-02-04 20:57:58.047 +03:00 [DBG] Connection id "0HLT9JE98KRFB" stopped.
+2020-02-04 20:57:58.207 +03:00 [DBG] Hosting stopped
+2020-02-04 20:58:03.700 +03:00 [INF] Starting web host
+2020-02-04 20:58:04.008 +03:00 [INF] hello udp
+2020-02-04 20:58:04.034 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-04 20:58:04.330 +03:00 [DBG] Hosting starting
+2020-02-04 20:58:04.475 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-02-04 20:58:04.552 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-02-04 20:58:04.637 +03:00 [INF] Now listening on: https://localhost:5001
+2020-02-04 20:58:04.739 +03:00 [INF] Now listening on: http://localhost:5000
+2020-02-04 20:58:04.743 +03:00 [DBG] Loaded hosting startup assembly server
+2020-02-04 20:58:04.848 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-02-04 20:58:04.955 +03:00 [INF] Hosting environment: Development
+2020-02-04 20:58:05.054 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-02-04 20:58:05.056 +03:00 [DBG] Hosting started
+2020-02-04 20:58:08.230 +03:00 [DBG] Connection id "0HLT9JF5BEI11" accepted.
+2020-02-04 20:58:08.233 +03:00 [DBG] Connection id "0HLT9JF5BEI11" started.
+2020-02-04 20:58:08.301 +03:00 [DBG] Connection id "0HLT9JF5BEI11" received FIN.
+2020-02-04 20:58:08.302 +03:00 [DBG] Connection id "0HLT9JF5BEI12" accepted.
+2020-02-04 20:58:08.318 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-02-04 20:58:08.353 +03:00 [DBG] Connection id "0HLT9JF5BEI12" started.
+2020-02-04 20:58:08.939 +03:00 [DBG] Connection id "0HLT9JF5BEI11" stopped.
+2020-02-04 20:58:08.942 +03:00 [DBG] Connection id "0HLT9JF5BEI11" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-02-04 20:58:09.011 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/devices/new  
+2020-02-04 20:58:09.219 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-02-04 20:58:09.256 +03:00 [DBG] 1 candidate(s) found for the request path '/api/devices/new'
+2020-02-04 20:58:09.485 +03:00 [DBG] Endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)' with route pattern 'api/devices/new' is valid for the request path '/api/devices/new'
+2020-02-04 20:58:09.488 +03:00 [DBG] Request matched endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 20:58:09.531 +03:00 [INF] Executing endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 20:58:09.714 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-02-04 20:58:10.259 +03:00 [INF] Route matched with {action = "GetNew", controller = "Device"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Server.Domain.Model.Entity.DeviceEntity]] GetNewAsync() on controller Server.Controllers.DeviceController (server).
+2020-02-04 20:58:10.321 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-02-04 20:58:10.323 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-02-04 20:58:10.326 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-02-04 20:58:10.529 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-02-04 20:58:10.713 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-02-04 20:58:10.742 +03:00 [DBG] Executing controller factory for controller Server.Controllers.DeviceController (server)
+2020-02-04 20:58:10.804 +03:00 [DBG] Executed controller factory for controller Server.Controllers.DeviceController (server)
+2020-02-04 20:58:13.810 +03:00 [DBG] The property 'DeviceEntityid' on entity type 'DeviceVersion' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-02-04 20:58:14.006 +03:00 [INF] Entity Framework Core 3.1.1 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-04 20:58:14.129 +03:00 [DBG] Buffering IAsyncEnumerable instance of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[Server.Domain.Model.Entity.DeviceEntity, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-02-04 20:58:14.922 +03:00 [DBG] queryContext => new QueryingEnumerable<DeviceEntity>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, DeviceEntity>, 
+    Server.Persistance.Contexts.AppDbContext, 
+    DiagnosticsLogger<Query>
+)
+2020-02-04 20:58:15.019 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-02-04 20:58:15.192 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (169ms).
+2020-02-04 20:58:15.410 +03:00 [DBG] Opening connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 20:58:18.572 +03:00 [DBG] Opened connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 20:58:18.607 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d.id, d."IP", d."IS_NEW", d."MAC", d."TYPE", t.id, t."MAJOR_VERSION", t."MINOR_VERSION", t."PATCH_VERSION"
+FROM "DEVICE" AS d
+LEFT JOIN (
+    SELECT d0.id, d0."MAJOR_VERSION", d0."MINOR_VERSION", d0."PATCH_VERSION", d1.id AS id0
+    FROM "DEVICE" AS d0
+    INNER JOIN "DEVICE" AS d1 ON d0.id = d1.id
+    WHERE (d0."PATCH_VERSION" IS NOT NULL) AND ((d0."MINOR_VERSION" IS NOT NULL) AND (d0."MAJOR_VERSION" IS NOT NULL))
+) AS t ON d.id = t.id
+WHERE d."IS_NEW" = TRUE
+ORDER BY d.id
+2020-02-04 20:58:19.332 +03:00 [INF] Executed DbCommand (722ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d.id, d."IP", d."IS_NEW", d."MAC", d."TYPE", t.id, t."MAJOR_VERSION", t."MINOR_VERSION", t."PATCH_VERSION"
+FROM "DEVICE" AS d
+LEFT JOIN (
+    SELECT d0.id, d0."MAJOR_VERSION", d0."MINOR_VERSION", d0."PATCH_VERSION", d1.id AS id0
+    FROM "DEVICE" AS d0
+    INNER JOIN "DEVICE" AS d1 ON d0.id = d1.id
+    WHERE (d0."PATCH_VERSION" IS NOT NULL) AND ((d0."MINOR_VERSION" IS NOT NULL) AND (d0."MAJOR_VERSION" IS NOT NULL))
+) AS t ON d.id = t.id
+WHERE d."IS_NEW" = TRUE
+ORDER BY d.id
+2020-02-04 20:58:19.370 +03:00 [DBG] A data reader was disposed.
+2020-02-04 20:58:19.586 +03:00 [DBG] Closing connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 20:58:19.743 +03:00 [DBG] Closed connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 20:58:19.812 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-02-04 20:58:19.874 +03:00 [DBG] No information found on request to perform content negotiation.
+2020-02-04 20:58:19.960 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-02-04 20:58:19.982 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-02-04 20:58:19.989 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-02-04 20:58:19.991 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Server.Domain.Model.Entity.DeviceEntity, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-02-04 20:58:20.079 +03:00 [INF] Executed action Server.Controllers.DeviceController.GetNewAsync (server) in 9330.7164ms
+2020-02-04 20:58:20.137 +03:00 [INF] Executed endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 20:58:20.143 +03:00 [DBG] 'AppDbContext' disposed.
+2020-02-04 20:58:20.161 +03:00 [INF] Request finished in 11154.9176ms 200 application/json; charset=utf-8
+2020-02-04 20:58:20.594 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2020-02-04 20:58:20.602 +03:00 [DBG] No candidates found for the request path '/favicon.ico'
+2020-02-04 20:58:20.618 +03:00 [DBG] Request did not match any endpoints
+2020-02-04 20:58:20.621 +03:00 [INF] Request finished in 26.5109ms 404 
+2020-02-04 20:59:07.284 +03:00 [INF] Application is shutting down...
+2020-02-04 20:59:07.285 +03:00 [DBG] Hosting stopping
+2020-02-04 20:59:07.292 +03:00 [DBG] Connection id "0HLT9JF5BEI12" is closing.
+2020-02-04 20:59:07.294 +03:00 [DBG] Connection id "0HLT9JF5BEI12" is closed. The last processed stream ID was 3.
+2020-02-04 20:59:07.442 +03:00 [DBG] Connection id "0HLT9JF5BEI12" received FIN.
+2020-02-04 20:59:07.446 +03:00 [DBG] Connection id "0HLT9JF5BEI12" sending FIN because: "The client closed the connection."
+2020-02-04 20:59:08.215 +03:00 [DBG] Connection id "0HLT9JF5BEI12" stopped.
+2020-02-04 20:59:08.220 +03:00 [DBG] Hosting stopped
+2020-02-04 20:59:16.336 +03:00 [INF] Starting web host
+2020-02-04 20:59:16.693 +03:00 [INF] hello udp
+2020-02-04 20:59:16.719 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-04 20:59:16.969 +03:00 [DBG] Hosting starting
+2020-02-04 20:59:17.074 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-02-04 20:59:17.173 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-02-04 20:59:17.252 +03:00 [INF] Now listening on: https://localhost:5001
+2020-02-04 20:59:17.268 +03:00 [INF] Now listening on: http://localhost:5000
+2020-02-04 20:59:17.270 +03:00 [DBG] Loaded hosting startup assembly server
+2020-02-04 20:59:17.271 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-02-04 20:59:17.273 +03:00 [INF] Hosting environment: Development
+2020-02-04 20:59:17.275 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-02-04 20:59:17.276 +03:00 [DBG] Hosting started
+2020-02-04 20:59:24.259 +03:00 [DBG] Connection id "0HLT9JFS0GQ98" accepted.
+2020-02-04 20:59:24.262 +03:00 [DBG] Connection id "0HLT9JFS0GQ98" started.
+2020-02-04 20:59:24.331 +03:00 [DBG] Connection id "0HLT9JFS0GQ98" received FIN.
+2020-02-04 20:59:24.332 +03:00 [DBG] Connection id "0HLT9JFS0GQ99" accepted.
+2020-02-04 20:59:24.348 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-02-04 20:59:24.391 +03:00 [DBG] Connection id "0HLT9JFS0GQ99" started.
+2020-02-04 20:59:24.769 +03:00 [DBG] Connection id "0HLT9JFS0GQ98" stopped.
+2020-02-04 20:59:24.982 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/devices/new  
+2020-02-04 20:59:25.177 +03:00 [DBG] Connection id "0HLT9JFS0GQ98" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-02-04 20:59:25.199 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-02-04 20:59:25.520 +03:00 [DBG] 1 candidate(s) found for the request path '/api/devices/new'
+2020-02-04 20:59:25.636 +03:00 [DBG] Endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)' with route pattern 'api/devices/new' is valid for the request path '/api/devices/new'
+2020-02-04 20:59:25.639 +03:00 [DBG] Request matched endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 20:59:25.642 +03:00 [INF] Executing endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 20:59:25.656 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-02-04 20:59:26.009 +03:00 [INF] Route matched with {action = "GetNew", controller = "Device"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Server.Domain.Model.Entity.DeviceEntity]] GetNewAsync() on controller Server.Controllers.DeviceController (server).
+2020-02-04 20:59:26.151 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-02-04 20:59:26.153 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-02-04 20:59:26.157 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-02-04 20:59:26.160 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-02-04 20:59:26.357 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-02-04 20:59:26.650 +03:00 [DBG] Executing controller factory for controller Server.Controllers.DeviceController (server)
+2020-02-04 20:59:26.879 +03:00 [DBG] Executed controller factory for controller Server.Controllers.DeviceController (server)
+2020-02-04 20:59:27.801 +03:00 [DBG] The property 'DeviceEntityid' on entity type 'DeviceVersion' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-02-04 20:59:27.882 +03:00 [WRN] The 'bool' property 'isNew' on entity type 'DeviceEntity' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2020-02-04 20:59:28.110 +03:00 [INF] Entity Framework Core 3.1.1 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-04 20:59:28.343 +03:00 [DBG] Buffering IAsyncEnumerable instance of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[Server.Domain.Model.Entity.DeviceEntity, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-02-04 20:59:29.078 +03:00 [DBG] queryContext => new QueryingEnumerable<DeviceEntity>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, DeviceEntity>, 
+    Server.Persistance.Contexts.AppDbContext, 
+    DiagnosticsLogger<Query>
+)
+2020-02-04 20:59:29.130 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-02-04 20:59:29.255 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (118ms).
+2020-02-04 20:59:29.376 +03:00 [DBG] Opening connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 20:59:30.074 +03:00 [DBG] Opened connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 20:59:30.087 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d.id, d."IP", d."IS_NEW", d."MAC", d."TYPE", t.id, t."MAJOR_VERSION", t."MINOR_VERSION", t."PATCH_VERSION"
+FROM "DEVICE" AS d
+LEFT JOIN (
+    SELECT d0.id, d0."MAJOR_VERSION", d0."MINOR_VERSION", d0."PATCH_VERSION", d1.id AS id0
+    FROM "DEVICE" AS d0
+    INNER JOIN "DEVICE" AS d1 ON d0.id = d1.id
+    WHERE (d0."PATCH_VERSION" IS NOT NULL) AND ((d0."MINOR_VERSION" IS NOT NULL) AND (d0."MAJOR_VERSION" IS NOT NULL))
+) AS t ON d.id = t.id
+WHERE d."IS_NEW" = TRUE
+ORDER BY d.id
+2020-02-04 20:59:30.106 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d.id, d."IP", d."IS_NEW", d."MAC", d."TYPE", t.id, t."MAJOR_VERSION", t."MINOR_VERSION", t."PATCH_VERSION"
+FROM "DEVICE" AS d
+LEFT JOIN (
+    SELECT d0.id, d0."MAJOR_VERSION", d0."MINOR_VERSION", d0."PATCH_VERSION", d1.id AS id0
+    FROM "DEVICE" AS d0
+    INNER JOIN "DEVICE" AS d1 ON d0.id = d1.id
+    WHERE (d0."PATCH_VERSION" IS NOT NULL) AND ((d0."MINOR_VERSION" IS NOT NULL) AND (d0."MAJOR_VERSION" IS NOT NULL))
+) AS t ON d.id = t.id
+WHERE d."IS_NEW" = TRUE
+ORDER BY d.id
+2020-02-04 20:59:30.476 +03:00 [DBG] A data reader was disposed.
+2020-02-04 20:59:30.483 +03:00 [DBG] Closing connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 20:59:30.570 +03:00 [DBG] Closed connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 20:59:30.644 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-02-04 20:59:30.731 +03:00 [DBG] No information found on request to perform content negotiation.
+2020-02-04 20:59:30.818 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-02-04 20:59:30.821 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-02-04 20:59:30.824 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-02-04 20:59:30.826 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Server.Domain.Model.Entity.DeviceEntity, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-02-04 20:59:31.117 +03:00 [INF] Executed action Server.Controllers.DeviceController.GetNewAsync (server) in 4455.721ms
+2020-02-04 20:59:31.253 +03:00 [INF] Executed endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 20:59:31.259 +03:00 [DBG] 'AppDbContext' disposed.
+2020-02-04 20:59:31.266 +03:00 [INF] Request finished in 6289.0036ms 200 application/json; charset=utf-8
+2020-02-04 21:00:59.773 +03:00 [INF] Application is shutting down...
+2020-02-04 21:00:59.774 +03:00 [DBG] Hosting stopping
+2020-02-04 21:00:59.781 +03:00 [DBG] Connection id "0HLT9JFS0GQ99" is closing.
+2020-02-04 21:00:59.921 +03:00 [DBG] Connection id "0HLT9JFS0GQ99" is closed. The last processed stream ID was 1.
+2020-02-04 21:00:59.924 +03:00 [DBG] Connection id "0HLT9JFS0GQ99" received FIN.
+2020-02-04 21:00:59.926 +03:00 [DBG] Connection id "0HLT9JFS0GQ99" sending FIN because: "The client closed the connection."
+2020-02-04 21:01:00.086 +03:00 [DBG] Connection id "0HLT9JFS0GQ99" stopped.
+2020-02-04 21:01:00.096 +03:00 [DBG] Hosting stopped
+2020-02-04 21:01:06.658 +03:00 [INF] Starting web host
+2020-02-04 21:01:07.105 +03:00 [INF] hello udp
+2020-02-04 21:01:07.154 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-04 21:01:07.522 +03:00 [DBG] Hosting starting
+2020-02-04 21:01:07.717 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-02-04 21:01:07.891 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-02-04 21:01:08.005 +03:00 [INF] Now listening on: https://localhost:5001
+2020-02-04 21:01:08.153 +03:00 [INF] Now listening on: http://localhost:5000
+2020-02-04 21:01:08.156 +03:00 [DBG] Loaded hosting startup assembly server
+2020-02-04 21:01:08.158 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-02-04 21:01:08.160 +03:00 [INF] Hosting environment: Development
+2020-02-04 21:01:08.164 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-02-04 21:01:08.411 +03:00 [DBG] Hosting started
+2020-02-04 21:01:28.710 +03:00 [DBG] Connection id "0HLT9JH13C80U" accepted.
+2020-02-04 21:01:28.713 +03:00 [DBG] Connection id "0HLT9JH13C80U" started.
+2020-02-04 21:01:28.798 +03:00 [DBG] Connection id "0HLT9JH13C80U" received FIN.
+2020-02-04 21:01:28.799 +03:00 [DBG] Connection id "0HLT9JH13C80V" accepted.
+2020-02-04 21:01:28.817 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-02-04 21:01:28.868 +03:00 [DBG] Connection id "0HLT9JH13C80V" started.
+2020-02-04 21:01:28.995 +03:00 [DBG] Connection id "0HLT9JH13C80U" stopped.
+2020-02-04 21:01:29.082 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/devices/new  
+2020-02-04 21:01:29.165 +03:00 [DBG] Connection id "0HLT9JH13C80U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-02-04 21:01:29.311 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-02-04 21:01:29.488 +03:00 [DBG] 1 candidate(s) found for the request path '/api/devices/new'
+2020-02-04 21:01:29.633 +03:00 [DBG] Endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)' with route pattern 'api/devices/new' is valid for the request path '/api/devices/new'
+2020-02-04 21:01:29.671 +03:00 [DBG] Request matched endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 21:01:29.831 +03:00 [INF] Executing endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 21:01:29.999 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-02-04 21:01:30.209 +03:00 [INF] Route matched with {action = "GetNew", controller = "Device"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Server.Domain.Model.Entity.DeviceEntity]] GetNewAsync() on controller Server.Controllers.DeviceController (server).
+2020-02-04 21:01:30.371 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-02-04 21:01:30.374 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-02-04 21:01:30.378 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-02-04 21:01:30.807 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-02-04 21:01:30.810 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-02-04 21:01:31.010 +03:00 [DBG] Executing controller factory for controller Server.Controllers.DeviceController (server)
+2020-02-04 21:01:31.014 +03:00 [DBG] Executed controller factory for controller Server.Controllers.DeviceController (server)
+2020-02-04 21:01:32.091 +03:00 [DBG] The property 'DeviceEntityid' on entity type 'DeviceVersion' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-02-04 21:01:32.126 +03:00 [WRN] The 'bool' property 'isNew' on entity type 'DeviceEntity' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2020-02-04 21:01:32.360 +03:00 [INF] Entity Framework Core 3.1.1 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-04 21:01:32.557 +03:00 [DBG] Buffering IAsyncEnumerable instance of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[Server.Domain.Model.Entity.DeviceEntity, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-02-04 21:01:33.295 +03:00 [DBG] queryContext => new QueryingEnumerable<DeviceEntity>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, DeviceEntity>, 
+    Server.Persistance.Contexts.AppDbContext, 
+    DiagnosticsLogger<Query>
+)
+2020-02-04 21:01:33.486 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-02-04 21:01:33.617 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (124ms).
+2020-02-04 21:01:33.737 +03:00 [DBG] Opening connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 21:01:34.563 +03:00 [DBG] Opened connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 21:01:34.579 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d.id, d."IP", d."IS_NEW", d."MAC", d."TYPE", t.id, t."MAJOR_VERSION", t."MINOR_VERSION", t."PATCH_VERSION"
+FROM "DEVICE" AS d
+LEFT JOIN (
+    SELECT d0.id, d0."MAJOR_VERSION", d0."MINOR_VERSION", d0."PATCH_VERSION", d1.id AS id0
+    FROM "DEVICE" AS d0
+    INNER JOIN "DEVICE" AS d1 ON d0.id = d1.id
+    WHERE (d0."PATCH_VERSION" IS NOT NULL) AND ((d0."MINOR_VERSION" IS NOT NULL) AND (d0."MAJOR_VERSION" IS NOT NULL))
+) AS t ON d.id = t.id
+WHERE d."IS_NEW" = TRUE
+ORDER BY d.id
+2020-02-04 21:01:34.605 +03:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d.id, d."IP", d."IS_NEW", d."MAC", d."TYPE", t.id, t."MAJOR_VERSION", t."MINOR_VERSION", t."PATCH_VERSION"
+FROM "DEVICE" AS d
+LEFT JOIN (
+    SELECT d0.id, d0."MAJOR_VERSION", d0."MINOR_VERSION", d0."PATCH_VERSION", d1.id AS id0
+    FROM "DEVICE" AS d0
+    INNER JOIN "DEVICE" AS d1 ON d0.id = d1.id
+    WHERE (d0."PATCH_VERSION" IS NOT NULL) AND ((d0."MINOR_VERSION" IS NOT NULL) AND (d0."MAJOR_VERSION" IS NOT NULL))
+) AS t ON d.id = t.id
+WHERE d."IS_NEW" = TRUE
+ORDER BY d.id
+2020-02-04 21:01:34.767 +03:00 [DBG] A data reader was disposed.
+2020-02-04 21:01:34.841 +03:00 [DBG] Closing connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 21:01:34.850 +03:00 [DBG] Closed connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 21:01:34.930 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-02-04 21:01:35.040 +03:00 [DBG] No information found on request to perform content negotiation.
+2020-02-04 21:01:35.041 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-02-04 21:01:35.043 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-02-04 21:01:35.046 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-02-04 21:01:35.144 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Server.Domain.Model.Entity.DeviceEntity, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-02-04 21:01:35.313 +03:00 [INF] Executed action Server.Controllers.DeviceController.GetNewAsync (server) in 4297.7574ms
+2020-02-04 21:01:35.562 +03:00 [INF] Executed endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 21:01:35.608 +03:00 [DBG] 'AppDbContext' disposed.
+2020-02-04 21:01:35.615 +03:00 [INF] Request finished in 6536.2118ms 200 application/json; charset=utf-8
+2020-02-04 21:02:14.939 +03:00 [INF] Application is shutting down...
+2020-02-04 21:02:14.939 +03:00 [DBG] Hosting stopping
+2020-02-04 21:02:14.963 +03:00 [DBG] Connection id "0HLT9JH13C80V" is closing.
+2020-02-04 21:02:15.091 +03:00 [DBG] Connection id "0HLT9JH13C80V" is closed. The last processed stream ID was 1.
+2020-02-04 21:02:15.224 +03:00 [DBG] Connection id "0HLT9JH13C80V" received FIN.
+2020-02-04 21:02:15.226 +03:00 [DBG] Connection id "0HLT9JH13C80V" sending FIN because: "The client closed the connection."
+2020-02-04 21:02:15.230 +03:00 [DBG] Connection id "0HLT9JH13C80V" stopped.
+2020-02-04 21:02:15.368 +03:00 [DBG] Hosting stopped
+2020-02-04 21:02:41.055 +03:00 [INF] Starting web host
+2020-02-04 21:02:41.327 +03:00 [INF] hello udp
+2020-02-04 21:02:41.348 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-04 21:02:41.574 +03:00 [DBG] Hosting starting
+2020-02-04 21:02:41.715 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-02-04 21:02:41.789 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-02-04 21:02:41.863 +03:00 [INF] Now listening on: https://localhost:5001
+2020-02-04 21:02:41.879 +03:00 [INF] Now listening on: http://localhost:5000
+2020-02-04 21:02:41.969 +03:00 [DBG] Loaded hosting startup assembly server
+2020-02-04 21:02:42.070 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-02-04 21:02:42.071 +03:00 [INF] Hosting environment: Development
+2020-02-04 21:02:42.072 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-02-04 21:02:42.073 +03:00 [DBG] Hosting started
+2020-02-04 21:04:24.780 +03:00 [DBG] Connection id "0HLT9JILIG8TF" accepted.
+2020-02-04 21:04:24.784 +03:00 [DBG] Connection id "0HLT9JILIG8TF" started.
+2020-02-04 21:04:24.856 +03:00 [DBG] Connection id "0HLT9JILIG8TF" received FIN.
+2020-02-04 21:04:24.857 +03:00 [DBG] Connection id "0HLT9JILIG8TG" accepted.
+2020-02-04 21:04:24.873 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-02-04 21:04:24.908 +03:00 [DBG] Connection id "0HLT9JILIG8TG" started.
+2020-02-04 21:04:25.460 +03:00 [DBG] Connection id "0HLT9JILIG8TF" stopped.
+2020-02-04 21:04:25.463 +03:00 [DBG] Connection id "0HLT9JILIG8TF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-02-04 21:04:25.549 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/devices/new  
+2020-02-04 21:04:25.781 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-02-04 21:04:25.957 +03:00 [DBG] 1 candidate(s) found for the request path '/api/devices/new'
+2020-02-04 21:04:26.069 +03:00 [DBG] Endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)' with route pattern 'api/devices/new' is valid for the request path '/api/devices/new'
+2020-02-04 21:04:26.071 +03:00 [DBG] Request matched endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 21:04:26.074 +03:00 [INF] Executing endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 21:04:26.087 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-02-04 21:04:26.694 +03:00 [INF] Route matched with {action = "GetNew", controller = "Device"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Server.Domain.Model.Entity.DeviceEntity]] GetNewAsync() on controller Server.Controllers.DeviceController (server).
+2020-02-04 21:04:27.037 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-02-04 21:04:27.039 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-02-04 21:04:27.041 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-02-04 21:04:27.457 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-02-04 21:04:27.460 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-02-04 21:04:27.651 +03:00 [DBG] Executing controller factory for controller Server.Controllers.DeviceController (server)
+2020-02-04 21:04:27.655 +03:00 [DBG] Executed controller factory for controller Server.Controllers.DeviceController (server)
+2020-02-04 21:04:28.497 +03:00 [DBG] The property 'DeviceEntityid' on entity type 'DeviceVersion' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-02-04 21:04:28.535 +03:00 [WRN] The 'bool' property 'isNew' on entity type 'DeviceEntity' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2020-02-04 21:04:28.777 +03:00 [INF] Entity Framework Core 3.1.1 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-04 21:04:28.963 +03:00 [DBG] Buffering IAsyncEnumerable instance of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[Server.Domain.Model.Entity.DeviceEntity, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-02-04 21:04:29.487 +03:00 [DBG] queryContext => new QueryingEnumerable<DeviceEntity>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, DeviceEntity>, 
+    Server.Persistance.Contexts.AppDbContext, 
+    DiagnosticsLogger<Query>
+)
+2020-02-04 21:04:29.874 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-02-04 21:04:30.295 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (416ms).
+2020-02-04 21:04:30.417 +03:00 [DBG] Opening connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 21:04:31.240 +03:00 [DBG] Opened connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 21:04:31.255 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d.id, d."IP", d."IS_NEW", d."MAC", d."TYPE", t.id, t."MAJOR_VERSION", t."MINOR_VERSION", t."PATCH_VERSION"
+FROM "DEVICE" AS d
+LEFT JOIN (
+    SELECT d0.id, d0."MAJOR_VERSION", d0."MINOR_VERSION", d0."PATCH_VERSION", d1.id AS id0
+    FROM "DEVICE" AS d0
+    INNER JOIN "DEVICE" AS d1 ON d0.id = d1.id
+    WHERE (d0."PATCH_VERSION" IS NOT NULL) AND ((d0."MINOR_VERSION" IS NOT NULL) AND (d0."MAJOR_VERSION" IS NOT NULL))
+) AS t ON d.id = t.id
+WHERE d."IS_NEW" = TRUE
+ORDER BY d.id
+2020-02-04 21:04:31.278 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d.id, d."IP", d."IS_NEW", d."MAC", d."TYPE", t.id, t."MAJOR_VERSION", t."MINOR_VERSION", t."PATCH_VERSION"
+FROM "DEVICE" AS d
+LEFT JOIN (
+    SELECT d0.id, d0."MAJOR_VERSION", d0."MINOR_VERSION", d0."PATCH_VERSION", d1.id AS id0
+    FROM "DEVICE" AS d0
+    INNER JOIN "DEVICE" AS d1 ON d0.id = d1.id
+    WHERE (d0."PATCH_VERSION" IS NOT NULL) AND ((d0."MINOR_VERSION" IS NOT NULL) AND (d0."MAJOR_VERSION" IS NOT NULL))
+) AS t ON d.id = t.id
+WHERE d."IS_NEW" = TRUE
+ORDER BY d.id
+2020-02-04 21:04:31.386 +03:00 [DBG] Context 'AppDbContext' started tracking 'DeviceEntity' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-02-04 21:04:31.476 +03:00 [DBG] Context 'AppDbContext' started tracking 'DeviceVersion' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2020-02-04 21:04:31.610 +03:00 [DBG] A data reader was disposed.
+2020-02-04 21:04:31.728 +03:00 [DBG] Closing connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 21:04:31.837 +03:00 [DBG] Closed connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 21:04:31.840 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-02-04 21:04:31.845 +03:00 [DBG] No information found on request to perform content negotiation.
+2020-02-04 21:04:31.951 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-02-04 21:04:31.953 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-02-04 21:04:31.955 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-02-04 21:04:31.956 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Server.Domain.Model.Entity.DeviceEntity, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-02-04 21:04:32.051 +03:00 [INF] Executed action Server.Controllers.DeviceController.GetNewAsync (server) in 4393.4118ms
+2020-02-04 21:04:32.111 +03:00 [INF] Executed endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 21:04:32.280 +03:00 [DBG] 'AppDbContext' disposed.
+2020-02-04 21:04:32.449 +03:00 [INF] Request finished in 6902.733ms 200 application/json; charset=utf-8
+2020-02-04 21:06:34.745 +03:00 [DBG] Connection id "0HLT9JILIG8TG" is closing.
+2020-02-04 21:06:34.748 +03:00 [DBG] Connection id "0HLT9JILIG8TG" is closed. The last processed stream ID was 1.
+2020-02-04 21:06:34.766 +03:00 [DBG] Connection id "0HLT9JILIG8TG" received FIN.
+2020-02-04 21:06:34.768 +03:00 [DBG] Connection id "0HLT9JILIG8TG" sending FIN because: "The client closed the connection."
+2020-02-04 21:06:34.771 +03:00 [DBG] Connection id "0HLT9JILIG8TG" stopped.
+2020-02-04 21:06:45.628 +03:00 [INF] Application is shutting down...
+2020-02-04 21:06:45.629 +03:00 [DBG] Hosting stopping
+2020-02-04 21:06:45.654 +03:00 [DBG] Hosting stopped
+2020-02-04 21:09:03.481 +03:00 [INF] Starting web host
+2020-02-04 21:09:03.832 +03:00 [INF] hello udp
+2020-02-04 21:09:03.855 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-04 21:09:04.122 +03:00 [DBG] Hosting starting
+2020-02-04 21:09:04.285 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-02-04 21:09:04.402 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-02-04 21:09:04.513 +03:00 [INF] Now listening on: https://localhost:5001
+2020-02-04 21:09:04.612 +03:00 [INF] Now listening on: http://localhost:5000
+2020-02-04 21:09:04.616 +03:00 [DBG] Loaded hosting startup assembly server
+2020-02-04 21:09:04.618 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-02-04 21:09:04.619 +03:00 [INF] Hosting environment: Development
+2020-02-04 21:09:04.621 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-02-04 21:09:04.624 +03:00 [DBG] Hosting started
+2020-02-04 21:09:09.789 +03:00 [DBG] Connection id "0HLT9JLAGI369" accepted.
+2020-02-04 21:09:09.792 +03:00 [DBG] Connection id "0HLT9JLAGI369" started.
+2020-02-04 21:09:09.862 +03:00 [DBG] Connection id "0HLT9JLAGI369" received FIN.
+2020-02-04 21:09:09.862 +03:00 [DBG] Connection id "0HLT9JLAGI36A" accepted.
+2020-02-04 21:09:09.884 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-02-04 21:09:09.919 +03:00 [DBG] Connection id "0HLT9JLAGI36A" started.
+2020-02-04 21:09:10.286 +03:00 [DBG] Connection id "0HLT9JLAGI369" stopped.
+2020-02-04 21:09:10.408 +03:00 [DBG] Connection id "0HLT9JLAGI369" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-02-04 21:09:10.476 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/devices/new  
+2020-02-04 21:09:10.555 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-02-04 21:09:10.593 +03:00 [DBG] 1 candidate(s) found for the request path '/api/devices/new'
+2020-02-04 21:09:10.736 +03:00 [DBG] Endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)' with route pattern 'api/devices/new' is valid for the request path '/api/devices/new'
+2020-02-04 21:09:10.885 +03:00 [DBG] Request matched endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 21:09:10.888 +03:00 [INF] Executing endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 21:09:10.904 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-02-04 21:09:11.246 +03:00 [INF] Route matched with {action = "GetNew", controller = "Device"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Server.Domain.Model.Entity.DeviceEntity]] GetNewAsync() on controller Server.Controllers.DeviceController (server).
+2020-02-04 21:09:11.392 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-02-04 21:09:11.394 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-02-04 21:09:11.588 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-02-04 21:09:11.807 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-02-04 21:09:11.810 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-02-04 21:09:11.814 +03:00 [DBG] Executing controller factory for controller Server.Controllers.DeviceController (server)
+2020-02-04 21:09:12.018 +03:00 [DBG] Executed controller factory for controller Server.Controllers.DeviceController (server)
+2020-02-04 21:09:13.096 +03:00 [DBG] The property 'DeviceEntityid' on entity type 'DeviceVersion' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-02-04 21:09:13.150 +03:00 [WRN] The 'bool' property 'isNew' on entity type 'DeviceEntity' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2020-02-04 21:09:13.450 +03:00 [INF] Entity Framework Core 3.1.1 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-04 21:09:13.637 +03:00 [DBG] Buffering IAsyncEnumerable instance of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[Server.Domain.Model.Entity.DeviceEntity, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-02-04 21:09:14.003 +03:00 [DBG] queryContext => new QueryingEnumerable<DeviceEntity>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, DeviceEntity>, 
+    Server.Persistance.Contexts.AppDbContext, 
+    DiagnosticsLogger<Query>
+)
+2020-02-04 21:09:14.165 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-02-04 21:09:14.320 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (149ms).
+2020-02-04 21:09:14.424 +03:00 [DBG] Opening connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 21:09:14.974 +03:00 [ERR] An error occurred using the connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 21:09:15.316 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Server.Persistance.Contexts.AppDbContext'.
+Npgsql.PostgresException (0x80004005): 3D000: ���� ������ "smartDb" �� ����������
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: �����
+    SqlState: 3D000
+    MessageText: ���� ������ "smartDb" �� ����������
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\utils\init\postinit.c
+    Line: 890
+    Routine: InitPostgres
+Npgsql.PostgresException (0x80004005): 3D000: ���� ������ "smartDb" �� ����������
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+  Exception data:
+    Severity: �����
+    SqlState: 3D000
+    MessageText: ���� ������ "smartDb" �� ����������
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\utils\init\postinit.c
+    Line: 890
+    Routine: InitPostgres
+2020-02-04 21:09:15.772 +03:00 [INF] Executed action Server.Controllers.DeviceController.GetNewAsync (server) in 3953.4534ms
+2020-02-04 21:09:15.944 +03:00 [INF] Executed endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 21:09:16.101 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 3D000: ���� ������ "smartDb" �� ����������
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.AsyncEnumerableReader.ReadInternal[T](IAsyncEnumerable`1 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.AsyncEnumerableReader.ReadInternal[T](IAsyncEnumerable`1 value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncEnumerable(ActionContext context, ObjectResult result, IAsyncEnumerable`1 asyncEnumerable)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|27_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+  Exception data:
+    Severity: �����
+    SqlState: 3D000
+    MessageText: ���� ������ "smartDb" �� ����������
+    File: d:\pginstaller_12.auto\postgres.windows-x64\src\backend\utils\init\postinit.c
+    Line: 890
+    Routine: InitPostgres
+2020-02-04 21:09:17.192 +03:00 [DBG] 'AppDbContext' disposed.
+2020-02-04 21:09:17.205 +03:00 [INF] Request finished in 6732.594ms 500 text/html; charset=utf-8
+2020-02-04 21:09:23.878 +03:00 [INF] Application is shutting down...
+2020-02-04 21:09:23.880 +03:00 [DBG] Hosting stopping
+2020-02-04 21:09:23.886 +03:00 [DBG] Connection id "0HLT9JLAGI36A" is closing.
+2020-02-04 21:09:23.899 +03:00 [DBG] Connection id "0HLT9JLAGI36A" is closed. The last processed stream ID was 1.
+2020-02-04 21:09:23.902 +03:00 [DBG] Connection id "0HLT9JLAGI36A" received FIN.
+2020-02-04 21:09:23.904 +03:00 [DBG] Connection id "0HLT9JLAGI36A" sending FIN because: "The client closed the connection."
+2020-02-04 21:09:23.908 +03:00 [DBG] Connection id "0HLT9JLAGI36A" stopped.
+2020-02-04 21:09:23.911 +03:00 [DBG] Hosting stopped
+2020-02-04 21:10:01.578 +03:00 [INF] Starting web host
+2020-02-04 21:10:01.841 +03:00 [INF] hello udp
+2020-02-04 21:10:01.863 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-04 21:10:02.125 +03:00 [DBG] Hosting starting
+2020-02-04 21:10:02.244 +03:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-02-04 21:10:02.335 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0684607D0ACF20EE22EB29A21CC32829FC7E19C0)
+2020-02-04 21:10:02.404 +03:00 [INF] Now listening on: https://localhost:5001
+2020-02-04 21:10:02.422 +03:00 [INF] Now listening on: http://localhost:5000
+2020-02-04 21:10:02.426 +03:00 [DBG] Loaded hosting startup assembly server
+2020-02-04 21:10:02.430 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-02-04 21:10:02.570 +03:00 [INF] Hosting environment: Development
+2020-02-04 21:10:02.666 +03:00 [INF] Content root path: C:\Repos\smartHouse\Server
+2020-02-04 21:10:02.752 +03:00 [DBG] Hosting started
+2020-02-04 21:10:10.163 +03:00 [DBG] Connection id "0HLT9JLSGB5R4" accepted.
+2020-02-04 21:10:10.167 +03:00 [DBG] Connection id "0HLT9JLSGB5R4" started.
+2020-02-04 21:10:10.230 +03:00 [DBG] Connection id "0HLT9JLSGB5R4" received FIN.
+2020-02-04 21:10:10.231 +03:00 [DBG] Connection id "0HLT9JLSGB5R5" accepted.
+2020-02-04 21:10:10.248 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> System.ComponentModel.Win32Exception (0x80090327): An unknown error occurred while processing the certificate.
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslStream.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Net.Security.SslStream.ThrowIfExceptional()
+   at System.Net.Security.SslStream.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.Security.SslStream.EndProcessAuthentication(IAsyncResult result)
+   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
+   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__69_1(IAsyncResult iar)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.InnerOnConnectionAsync(ConnectionContext context)
+2020-02-04 21:10:10.271 +03:00 [DBG] Connection id "0HLT9JLSGB5R5" started.
+2020-02-04 21:10:10.393 +03:00 [DBG] Connection id "0HLT9JLSGB5R4" stopped.
+2020-02-04 21:10:10.396 +03:00 [DBG] Connection id "0HLT9JLSGB5R4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2020-02-04 21:10:10.465 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/devices/new  
+2020-02-04 21:10:10.671 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-02-04 21:10:10.888 +03:00 [DBG] 1 candidate(s) found for the request path '/api/devices/new'
+2020-02-04 21:10:11.021 +03:00 [DBG] Endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)' with route pattern 'api/devices/new' is valid for the request path '/api/devices/new'
+2020-02-04 21:10:11.024 +03:00 [DBG] Request matched endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 21:10:11.028 +03:00 [INF] Executing endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 21:10:11.042 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-02-04 21:10:11.789 +03:00 [INF] Route matched with {action = "GetNew", controller = "Device"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Server.Domain.Model.Entity.DeviceEntity]] GetNewAsync() on controller Server.Controllers.DeviceController (server).
+2020-02-04 21:10:11.938 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-02-04 21:10:11.940 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-02-04 21:10:11.942 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-02-04 21:10:11.946 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-02-04 21:10:12.317 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-02-04 21:10:12.512 +03:00 [DBG] Executing controller factory for controller Server.Controllers.DeviceController (server)
+2020-02-04 21:10:12.568 +03:00 [DBG] Executed controller factory for controller Server.Controllers.DeviceController (server)
+2020-02-04 21:10:13.575 +03:00 [DBG] The property 'DeviceEntityid' on entity type 'DeviceVersion' was created in shadow state because there are no eligible CLR members with a matching name.
+2020-02-04 21:10:13.616 +03:00 [WRN] The 'bool' property 'isNew' on entity type 'DeviceEntity' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+2020-02-04 21:10:13.870 +03:00 [INF] Entity Framework Core 3.1.1 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-04 21:10:14.052 +03:00 [DBG] Buffering IAsyncEnumerable instance of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[Server.Domain.Model.Entity.DeviceEntity, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-02-04 21:10:14.852 +03:00 [DBG] queryContext => new QueryingEnumerable<DeviceEntity>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, DeviceEntity>, 
+    Server.Persistance.Contexts.AppDbContext, 
+    DiagnosticsLogger<Query>
+)
+2020-02-04 21:10:15.050 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2020-02-04 21:10:15.179 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (123ms).
+2020-02-04 21:10:15.289 +03:00 [DBG] Opening connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 21:10:16.073 +03:00 [DBG] Opened connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 21:10:16.086 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d.id, d."IP", d."IS_NEW", d."MAC", d."TYPE", t.id, t."MAJOR_VERSION", t."MINOR_VERSION", t."PATCH_VERSION"
+FROM "DEVICE" AS d
+LEFT JOIN (
+    SELECT d0.id, d0."MAJOR_VERSION", d0."MINOR_VERSION", d0."PATCH_VERSION", d1.id AS id0
+    FROM "DEVICE" AS d0
+    INNER JOIN "DEVICE" AS d1 ON d0.id = d1.id
+    WHERE (d0."PATCH_VERSION" IS NOT NULL) AND ((d0."MINOR_VERSION" IS NOT NULL) AND (d0."MAJOR_VERSION" IS NOT NULL))
+) AS t ON d.id = t.id
+WHERE d."IS_NEW" = TRUE
+ORDER BY d.id
+2020-02-04 21:10:16.108 +03:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT d.id, d."IP", d."IS_NEW", d."MAC", d."TYPE", t.id, t."MAJOR_VERSION", t."MINOR_VERSION", t."PATCH_VERSION"
+FROM "DEVICE" AS d
+LEFT JOIN (
+    SELECT d0.id, d0."MAJOR_VERSION", d0."MINOR_VERSION", d0."PATCH_VERSION", d1.id AS id0
+    FROM "DEVICE" AS d0
+    INNER JOIN "DEVICE" AS d1 ON d0.id = d1.id
+    WHERE (d0."PATCH_VERSION" IS NOT NULL) AND ((d0."MINOR_VERSION" IS NOT NULL) AND (d0."MAJOR_VERSION" IS NOT NULL))
+) AS t ON d.id = t.id
+WHERE d."IS_NEW" = TRUE
+ORDER BY d.id
+2020-02-04 21:10:16.264 +03:00 [DBG] A data reader was disposed.
+2020-02-04 21:10:16.340 +03:00 [DBG] Closing connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 21:10:16.349 +03:00 [DBG] Closed connection to database 'smartDb' on server 'tcp://localhost:5432'.
+2020-02-04 21:10:16.415 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-02-04 21:10:16.585 +03:00 [DBG] No information found on request to perform content negotiation.
+2020-02-04 21:10:16.674 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-02-04 21:10:16.676 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-02-04 21:10:16.678 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-02-04 21:10:16.781 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Server.Domain.Model.Entity.DeviceEntity, server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2020-02-04 21:10:16.933 +03:00 [INF] Executed action Server.Controllers.DeviceController.GetNewAsync (server) in 4409.2521ms
+2020-02-04 21:10:17.043 +03:00 [INF] Executed endpoint 'Server.Controllers.DeviceController.GetNewAsync (server)'
+2020-02-04 21:10:17.052 +03:00 [DBG] 'AppDbContext' disposed.
+2020-02-04 21:10:17.184 +03:00 [INF] Request finished in 6722.8636ms 200 application/json; charset=utf-8
+2020-02-04 21:12:19.287 +03:00 [DBG] Connection id "0HLT9JLSGB5R5" is closing.
+2020-02-04 21:12:19.290 +03:00 [DBG] Connection id "0HLT9JLSGB5R5" is closed. The last processed stream ID was 1.
+2020-02-04 21:12:19.309 +03:00 [DBG] Connection id "0HLT9JLSGB5R5" received FIN.
+2020-02-04 21:12:19.312 +03:00 [DBG] Connection id "0HLT9JLSGB5R5" sending FIN because: "The client closed the connection."
+2020-02-04 21:12:19.438 +03:00 [DBG] Connection id "0HLT9JLSGB5R5" stopped.
+2020-02-04 21:12:50.046 +03:00 [INF] Application is shutting down...
+2020-02-04 21:12:50.047 +03:00 [DBG] Hosting stopping
+2020-02-04 21:12:50.077 +03:00 [DBG] Hosting stopped
+2020-02-04 21:12:56.047 +03:00 [INF] Starting web host
+2020-02-04 21:12:56.394 +03:00 [INF] hello udp
+2020-02-04 21:12:56.418 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-04 21:14:33.970 +03:00 [INF] Starting web host
+2020-02-04 21:14:34.258 +03:00 [INF] hello udp
+2020-02-04 21:14:34.292 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-04 21:17:00.278 +03:00 [INF] Starting web host
+2020-02-04 21:17:00.513 +03:00 [INF] hello udp
+2020-02-04 21:17:00.546 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-04 21:18:31.150 +03:00 [INF] Starting web host
+2020-02-04 21:18:31.395 +03:00 [INF] hello udp
+2020-02-04 21:18:31.430 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-04 21:35:12.869 +03:00 [INF] Starting web host
+2020-02-04 21:35:13.172 +03:00 [INF] hello udp
+2020-02-04 21:35:13.198 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-04 21:36:41.643 +03:00 [INF] Starting web host
+2020-02-04 21:36:41.885 +03:00 [INF] hello udp
+2020-02-04 21:36:41.917 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-04 21:38:52.229 +03:00 [INF] Starting web host
+2020-02-04 21:38:52.491 +03:00 [INF] hello udp
+2020-02-04 21:38:52.523 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-04 22:28:38.392 +03:00 [INF] Starting web host
+2020-02-04 22:28:38.673 +03:00 [INF] hello udp
+2020-02-04 22:28:38.703 +03:00 [INF] UdpClient | wait for message to receive

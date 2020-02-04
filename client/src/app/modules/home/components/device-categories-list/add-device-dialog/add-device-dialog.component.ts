@@ -1,5 +1,8 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
+import { DeviceWebService } from 'src/app/services/web/device-web.service';
+import { Observable } from 'rxjs';
+import { DeviceEntity } from 'src/app/model/entities/device-entity.model';
 
 @Component({
   selector: 'app-add-device-dialog',
@@ -8,7 +11,18 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 })
 export class AddDeviceDialogComponent implements OnInit {
 
-  constructor(public dialogRef: MatDialogRef<AddDeviceDialogComponent>, @Inject(MAT_DIALOG_DATA) public data: any) {}
+
+  // public newDevices$: Observable<DeviceEntity[]>;
+
+  constructor(
+    public dialogRef: MatDialogRef<AddDeviceDialogComponent>,
+    @Inject(MAT_DIALOG_DATA) public data: any,
+    private deviceWebService: DeviceWebService
+  ) {
+    this.deviceWebService.getDevices().subscribe(e => {
+      console.log(e);
+    });
+  }
 
   ngOnInit() {
   }

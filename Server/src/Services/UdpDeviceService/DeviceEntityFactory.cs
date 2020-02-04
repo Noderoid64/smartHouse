@@ -1,7 +1,7 @@
 using System;
 using System.Net;
-using Server.Domain.Model.Entity;
-using Server.Domain.Model.Value;
+using Server.Model.Entity;
+using Server.Model.Value;
 
 namespace Server.Services.UdpDeviceServices {
     public class DeviceEntityFactory {

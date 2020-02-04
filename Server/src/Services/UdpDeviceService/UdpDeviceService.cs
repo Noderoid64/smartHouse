@@ -1,20 +1,20 @@
 using System.Net;
-using Server.Domain.Model.Entity;
-using Server.Domain.Services;
-using Server.Domain.Repositories;
+using Server.Model.Entity;
+using Server.Services;
+using Server.Persistance.Repositories;
 using Server.Services.UdpDeviceServices;
 
 using Serilog;
 using Serilog.Events;
 
 namespace Server.Services {
-    public class UdpDeviceService : IUdpDeviceService
+    public class UdpDeviceService
     {
-        private IUdpClient client;
-        private IDeviceRepository deviceRepository;
+        private UdpClient client;
+        private DeviceRepository deviceRepository;
         private DeviceEntityFactory factory;
 
-        public UdpDeviceService (IUdpClient client, IDeviceRepository deviceRepository) {
+        public UdpDeviceService (UdpClient client, DeviceRepository deviceRepository) {
             this.client = client;
             this.deviceRepository = deviceRepository;
             this.factory = new DeviceEntityFactory();

@@ -1,25 +1,29 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Server.Domain.Services;
-using Server.Domain.Model.Entity;
+using Server.Services;
+using Server.Model.Entity;
 
 using Serilog;
 
 namespace Server.Controllers {
     [ApiController]
-    [Route("api/device")]
+    [Route("api/devices")]
     public class DeviceController : Controller {
-        private IDeviceService deviceService;
+        private DeviceService deviceService;
 
-        public DeviceController(IDeviceService deviceService) {
+        public DeviceController(DeviceService deviceService) {
             this.deviceService = deviceService;
         }
 
         [HttpGet]
         public async Task<IEnumerable<DeviceEntity>> GetAllAsync() {
-            Log.Debug("asdfff");
             return await this.deviceService.asyncList();
+        }
+
+        [HttpGet("new")]
+        public async Task<IEnumerable<DeviceEntity>> GetNewAsync() {
+            return await this.deviceService.getNewDevices();
         }
     }
 }

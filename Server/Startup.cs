@@ -16,8 +16,6 @@ using Serilog;
 using Server.Persistance.Contexts;
 using Server.Persistance.Repositories;
 using Server.Services;
-using Server.Domain.Repositories;
-using Server.Domain.Services;
 
 namespace Server
 {
@@ -33,14 +31,16 @@ namespace Server
         public void ConfigureServices(IServiceCollection services) {
             services.AddControllers();
             services.AddDbContext<AppDbContext>(options => options.UseNpgsql("Host=localhost;Database=smartDb;Username=postgres;Password=qwertyui"));
-            services.AddScoped<IDeviceRepository, DeviceRepository>();
-            services.AddScoped<IDeviceService, DeviceService>();
-            IUdpClient udpClient = new UdpClient();
-            services.AddSingleton<IUdpDeviceService>(new UdpDeviceService(udpClient, services.BuildServiceProvider().GetRequiredService<IDeviceRepository>()));
+            services.AddScoped<DeviceRepository>();
+            services.AddScoped<DeviceService>();
+            UdpClient udpClient = new UdpClient();
+            services.AddSingleton<UdpDeviceService>(new UdpDeviceService(udpClient, services.BuildServiceProvider().GetRequiredService<DeviceRepository>()));
+            services.AddCors();
         }
 
         // Configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory) {
+            app.UseCors(e => e.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -48,6 +48,7 @@ namespace Server
             app.UseHttpsRedirection();
             app.UseRouting();
             app.UseAuthorization();
+            
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

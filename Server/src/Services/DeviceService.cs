@@ -1,20 +1,20 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Server.Domain.Model.Entity;
-using Server.Domain.Services;
-using Server.Domain.Repositories;
+using Server.Model.Entity;
+using Server.Services;
+using Server.Persistance.Repositories;
 
 using Serilog;
 using Serilog.Events;
 
 namespace Server.Services
 {
-    public class DeviceService : IDeviceService
+    public class DeviceService
     {
-        private IDeviceRepository deviceRepository;
+        private DeviceRepository deviceRepository;
 
-        public DeviceService(IDeviceRepository deviceRepository)
+        public DeviceService(DeviceRepository deviceRepository)
         {
             this.deviceRepository = deviceRepository;
         }
@@ -39,6 +39,10 @@ namespace Server.Services
                     Log.Debug("entity from db.id = " + entityFromDb.id);
                 }
             }
+        }
+
+        public async Task<IEnumerable<DeviceEntity>> getNewDevices() {
+            return await this.deviceRepository.getNewDevices();
         }
     }
 }

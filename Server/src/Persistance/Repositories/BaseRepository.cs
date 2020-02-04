@@ -5,14 +5,13 @@ using System.Linq;
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 
-using Server.Domain.Repositories;
 using Server.Persistance.Contexts;
 using Serilog;
 using Serilog.Events;
 
 namespace Server.Persistance.Repositories
 {
-    public abstract class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
+    public abstract class BaseRepository<TEntity> where TEntity : class
     {
         protected AppDbContext context;
         private DbSet<TEntity> dbSet;

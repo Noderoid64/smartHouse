@@ -5,11 +5,9 @@ using System.Net;
 using System.Threading.Tasks;
 using Serilog;
 
-using Server.Domain.Services;
-
 namespace Server.Services
 {
-    public class UdpClient : IUdpClient
+    public class UdpClient
     {
 
         public event Action<string, IPEndPoint> receive;
