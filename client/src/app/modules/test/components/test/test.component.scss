@@ -2,3 +2,8 @@
     display: flex;
     flex-flow: column nowrap;
 }
+
+.row-test {
+    display: flex;
+    flex-flow: row wrap;
+}

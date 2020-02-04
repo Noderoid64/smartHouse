@@ -1,5 +1,10 @@
+@import "variables";
+
 .device-category-root {
     width: 100%;
+}
+
+.device-category-root-card {
     display: flex;
     flex-flow: column nowrap;
 }
@@ -16,5 +21,10 @@
 }
 
 .device-category-content {
-    justify-content: space-between;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.device-category-content-item {
+    padding: $padding-large;
 }

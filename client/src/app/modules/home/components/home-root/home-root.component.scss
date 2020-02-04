@@ -1,12 +1,11 @@
-$size-low: 4px;
-$size-medium: 8px;
-
 .root-home {
-    background-color: royalblue;
     width: 100vw;
-    max-width: 1024px;
+    max-width: 1040px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: stretch;
-    padding: $size-medium;
+}
+
+.home-item {
+    padding-bottom: 8px;
 }
