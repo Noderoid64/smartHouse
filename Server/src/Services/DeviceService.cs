@@ -44,5 +44,17 @@ namespace Server.Services
         public async Task<IEnumerable<DeviceEntity>> getNewDevices() {
             return await this.deviceRepository.getNewDevices();
         }
+
+        public async Task<bool> registerDevice(string mac) {
+            DeviceEntity entity = await this.deviceRepository.GetByMac(mac);
+            bool result = false;
+            if (entity != null && entity.isNew != true) {
+                entity.isNew = true;
+                this.deviceRepository.Insert(entity);
+                this.deviceRepository.Save();
+                result = true;
+            }
+            return result;
+        }
     }
 }

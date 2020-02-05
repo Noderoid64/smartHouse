@@ -1930,3 +1930,6 @@ ORDER BY d.id
 2020-02-05 08:12:56.520 +03:00 [INF] Starting web host
 2020-02-05 08:12:56.779 +03:00 [INF] hello udp
 2020-02-05 08:12:56.810 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-05 08:36:32.143 +03:00 [INF] Starting web host
+2020-02-05 08:36:32.381 +03:00 [INF] hello udp
+2020-02-05 08:36:32.419 +03:00 [INF] UdpClient | wait for message to receive

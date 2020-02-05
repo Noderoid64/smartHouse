@@ -29,5 +29,10 @@ namespace Server.Controllers {
         public async Task<IEnumerable<DeviceDto>> GetNewAsync() {
             return mapper.Map<IEnumerable<DeviceEntity>,IEnumerable<DeviceDto>>(await this.deviceService.getNewDevices());
         }
+
+        [HttpPost("register/{mac}")]
+        public async Task<bool> registerDevice(string mac) {
+            return await this.deviceService.registerDevice(mac);
+        }
     }
 }
