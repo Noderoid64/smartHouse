@@ -14,7 +14,7 @@ namespace Server.Persistance.Contexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql(@"Host=localhost;Database=smartDb;Username=postgres;Password=qwertyui");
+            optionsBuilder.UseNpgsql(@"Host=10.98.3.188;Port=5432;Database=smartDb;Username=root;Password=qwertyui");
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
@@ -33,8 +33,12 @@ namespace Server.Persistance.Contexts
             builder.Entity<DeviceEntity>().OwnsOne(e => e.version).Property(p => p.patch).HasColumnName("PATCH_VERSION").HasDefaultValue(0);
 
             builder.Entity<DeviceEntity>(e => {
-                e.HasData( new DeviceEntity {id = 1, macAddress="12-12-12-12-12-12", ipAddress="192.168.0.1", isNew=true });
+                e.HasData( new DeviceEntity {id = 1, macAddress="12:12:12:12:12:12", ipAddress="192.168.0.124", isNew=true, type = DeviceType.SOCKET });
+                e.HasData( new DeviceEntity {id = 2, macAddress="15:15:15:15:15:15", ipAddress="192.168.0.125", isNew=true, type = DeviceType.SOCKET });
+                e.HasData( new DeviceEntity {id = 3, macAddress="16:16:16:16:16:16", ipAddress="192.168.0.126", isNew=false, type = DeviceType.LED });
                 e.OwnsOne(p => p.version).HasData(new { major = 1, minor = 0, patch = 0, DeviceEntityid = 1});
+                e.OwnsOne(p => p.version).HasData(new { major = 1, minor = 4, patch = 13, DeviceEntityid = 2});
+                e.OwnsOne(p => p.version).HasData(new { major = 2, minor = 1, patch = 5, DeviceEntityid = 3});
             });
 
         }

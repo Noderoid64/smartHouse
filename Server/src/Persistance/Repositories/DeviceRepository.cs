@@ -12,9 +12,15 @@ namespace Server.Persistance.Repositories
     {
         public DeviceRepository(AppDbContext context) : base(context, context.deviceEntities) { }
 
-        public async Task<IEnumerable<DeviceEntity>> listAsync()
+        public Task<IEnumerable<DeviceEntity>> listAsync()
         {
-            return await context.deviceEntities.ToArrayAsync();
+            return Task<IEnumerable<DeviceEntity>>.Run(() => {
+                IEnumerable<DeviceEntity> query = from device in context.deviceEntities
+                where device.isNew == false
+                orderby device.id ascending 
+                select device;
+                return query;
+            });
         }
 
         public Task<DeviceEntity> GetByMac(string mac)

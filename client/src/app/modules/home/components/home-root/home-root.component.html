@@ -4,7 +4,7 @@
             <app-header ></app-header>
         </div>
         <div class="home-item">
-            <app-device-categories-list ></app-device-categories-list>
+            <app-device-categories-list (addDevice)="onAddDevice($event)" [deviceCategories$]="deviceCategories$"></app-device-categories-list>
         </div>
         <div class="home-item">
             <app-device-group-list class="home-item"></app-device-group-list>

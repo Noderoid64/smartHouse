@@ -33,7 +33,7 @@ namespace Server
         // Add services to the container.
         public void ConfigureServices(IServiceCollection services) {
             services.AddControllers();
-            services.AddDbContext<AppDbContext>(options => options.UseNpgsql("Host=localhost;Database=smartDb;Username=postgres;Password=qwertyui"));
+            services.AddDbContext<AppDbContext>(options => options.UseNpgsql(Configuration.GetConnectionString("smartDb")));
             services.AddScoped<DeviceRepository>();
             services.AddScoped<DeviceService>();
             UdpClient udpClient = new UdpClient();

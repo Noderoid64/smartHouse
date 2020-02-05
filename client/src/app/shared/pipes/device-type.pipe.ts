@@ -7,10 +7,10 @@ import { DeviceType } from 'src/app/model/values/device-type.enum';
 export class DeviceTypePipe implements PipeTransform {
     transform(value: DeviceType): string {
         switch (value) {
-            case DeviceType.DIODE: return 'Diodes';
-            case DeviceType.SOCKET: return 'Sockets';
-            case DeviceType.LED: return 'Leds';
-            default: return 'other';
+            case DeviceType.DIODE: return 'Diode';
+            case DeviceType.SOCKET: return 'Socket';
+            case DeviceType.LED: return 'Led';
+            default: return 'Other';
         }
     }
 }

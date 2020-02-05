@@ -1,7 +1,8 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { DeviceType} from 'src/app/model/values/device-type.enum';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { MatDialog } from '@angular/material';
+import { DeviceCategory } from '../../model/device-category.model';
 import { AddDeviceDialogComponent } from './add-device-dialog/add-device-dialog.component';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-device-categories-list',
@@ -10,16 +11,17 @@ import { AddDeviceDialogComponent } from './add-device-dialog/add-device-dialog.
 })
 export class DeviceCategoriesListComponent implements OnInit {
 
-  @Input() public deviceCategories: Array<{type: DeviceType, count?: number}> | undefined =
-  [{type: DeviceType.SOCKET, count: 5}, {type: DeviceType.DIODE}];
+  @Input() public deviceCategories$: Observable<DeviceCategory[]> | undefined;
+  @Output() addDevice = new EventEmitter<string>();
 
   constructor(public dialog: MatDialog) { }
 
   ngOnInit() {}
 
   public onAddButtonClick() {
-    const dialogRef = this.dialog.open(AddDeviceDialogComponent, {
-      width: '250px'
+    const dialogRef = this.dialog.open(AddDeviceDialogComponent, {});
+    dialogRef.afterClosed().subscribe((result: string) => {
+      this.addDevice.emit(result);
     });
   }
 }

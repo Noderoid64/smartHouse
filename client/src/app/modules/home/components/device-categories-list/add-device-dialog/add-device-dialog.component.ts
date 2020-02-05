@@ -11,20 +11,19 @@ import { DeviceEntity } from 'src/app/model/entities/device-entity.model';
 })
 export class AddDeviceDialogComponent implements OnInit {
 
-
-  // public newDevices$: Observable<DeviceEntity[]>;
+  public newDevices$: Observable<DeviceEntity[]>;
 
   constructor(
     public dialogRef: MatDialogRef<AddDeviceDialogComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any,
     private deviceWebService: DeviceWebService
   ) {
-    this.deviceWebService.getDevices().subscribe(e => {
-      console.log(e);
-    });
+    this.newDevices$ = this.deviceWebService.getNewDevices();
   }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
+  public onDeviceClick(mac: string) {
+    this.dialogRef.close(mac);
+  }
 }

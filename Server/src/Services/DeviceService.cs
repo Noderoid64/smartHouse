@@ -48,9 +48,9 @@ namespace Server.Services
         public async Task<bool> registerDevice(string mac) {
             DeviceEntity entity = await this.deviceRepository.GetByMac(mac);
             bool result = false;
-            if (entity != null && entity.isNew != true) {
-                entity.isNew = true;
-                this.deviceRepository.Insert(entity);
+            if (entity != null && entity.isNew == true) {
+                entity.isNew = false;
+                this.deviceRepository.Update(entity);
                 this.deviceRepository.Save();
                 result = true;
             }
