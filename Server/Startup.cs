@@ -11,8 +11,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
-using Serilog;
 
+using Serilog;
+using AutoMapper;
+
+using Server.Application.Mappers;
 using Server.Persistance.Contexts;
 using Server.Persistance.Repositories;
 using Server.Services;
@@ -35,6 +38,7 @@ namespace Server
             services.AddScoped<DeviceService>();
             UdpClient udpClient = new UdpClient();
             services.AddSingleton<UdpDeviceService>(new UdpDeviceService(udpClient, services.BuildServiceProvider().GetRequiredService<DeviceRepository>()));
+            services.AddAutoMapper(typeof(DeviceMapper));
             services.AddCors();
         }
 

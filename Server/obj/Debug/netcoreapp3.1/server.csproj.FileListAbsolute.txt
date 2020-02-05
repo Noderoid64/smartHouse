@@ -49,3 +49,5 @@ C:\Repos\smartHouse\Server\bin\Debug\netcoreapp3.1\Serilog.Settings.Configuratio
 C:\Repos\smartHouse\Server\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
 C:\Repos\smartHouse\Server\bin\Debug\netcoreapp3.1\Serilog.Sinks.Debug.dll
 C:\Repos\smartHouse\Server\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+C:\Repos\smartHouse\Server\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Repos\smartHouse\Server\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
