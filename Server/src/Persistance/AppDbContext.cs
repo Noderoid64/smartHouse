@@ -14,7 +14,7 @@ namespace Server.Persistance.Contexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql(@"Host=10.98.3.188;Port=5432;Database=smartDb;Username=root;Password=qwertyui");
+            optionsBuilder.UseNpgsql(@"Host=localhost;Port=5432;Database=smartDb;Username=postgres;Password=qwertyui");
         }
 
         protected override void OnModelCreating(ModelBuilder builder)

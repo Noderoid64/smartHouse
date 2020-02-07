@@ -7,7 +7,8 @@ import {
   MatButtonModule,
   MatCardModule,
   MatDialogModule,
-  MatTableModule
+  MatTableModule,
+  MatSnackBarModule
 } from '@angular/material';
 
 import { DeviceItemComponent } from './components/device-item/device-item.component';
@@ -22,7 +23,8 @@ import { DeviceTypePipe} from './pipes/device-type.pipe';
     MatButtonModule,
     MatCardModule,
     MatDialogModule,
-    MatTableModule
+    MatTableModule,
+    MatSnackBarModule
   ],
   exports: [
     HeaderComponent,
@@ -34,7 +36,8 @@ import { DeviceTypePipe} from './pipes/device-type.pipe';
     MatButtonModule,
     MatCardModule,
     MatDialogModule,
-    MatTableModule
+    MatTableModule,
+    MatSnackBarModule
   ]
 })
 export class SharedModule { }

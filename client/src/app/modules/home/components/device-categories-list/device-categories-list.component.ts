@@ -11,7 +11,7 @@ import { Observable } from 'rxjs';
 })
 export class DeviceCategoriesListComponent implements OnInit {
 
-  @Input() public deviceCategories$: Observable<DeviceCategory[]> | undefined;
+  @Input() public deviceCategories: DeviceCategory[] = [];
   @Output() addDevice = new EventEmitter<string>();
 
   constructor(public dialog: MatDialog) { }
