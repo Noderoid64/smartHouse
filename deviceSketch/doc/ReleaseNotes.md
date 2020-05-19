@@ -1,5 +1,6 @@
 ## Device Rest
 ### 0.1.5
+#### Common
 | Url| Description |
 |--| -- |
 | /main | returns main page |
@@ -9,3 +10,11 @@
 |/ping/get|return _ping|
 |/ping/set| set _ping|
 |/server/get| return _networkSsid|
+
+#### Socket
+|Url|Description|
+|--|--|
+|/on|turn on the socket|
+|/off| turn off|
+|/status|get LOW or HIGHT|
+|/info| <device_version> \| <device_type>|
