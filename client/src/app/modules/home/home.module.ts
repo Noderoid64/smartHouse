@@ -1,16 +1,25 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DeviceGroupListComponent } from './components/device-group-list/device-group-list.component';
-import { HomeRootComponent } from './components/home-root/home-root.component';
-import { DeviceCategoriesListComponent } from './components/device-categories-list/device-categories-list.component';
-import { HomeRoutingModule} from './home-routing.module';
+import { NgModule } from '@angular/core';
 import { SharedModule } from '@shared/shared.module';
-import { AddDeviceDialogComponent } from './components/device-categories-list/add-device-dialog/add-device-dialog.component';
+import { HomeRoutingModule } from './home-routing.module';
+import { DeviceGroupListComponent } from './components/home/device-group-list/device-group-list.component';
+import { HomeRootComponent} from './components/home/home-root/home-root.component';
+import { DeviceListComponent } from './components/home/device-list/device-list.component';
+import { AddDeviceDialogComponent } from './components/home/device-list/add-device-dialog/add-device-dialog.component';
+import { SocketRootComponent } from './components/device-pages/socket/socket-root/socket-root.component';
 
 
 @NgModule({
-  declarations: [DeviceGroupListComponent, HomeRootComponent, DeviceCategoriesListComponent, AddDeviceDialogComponent],
-  entryComponents: [AddDeviceDialogComponent],
+  declarations: [
+    DeviceGroupListComponent,
+    HomeRootComponent,
+    DeviceListComponent,
+    AddDeviceDialogComponent,
+    SocketRootComponent
+  ],
+  entryComponents: [
+    AddDeviceDialogComponent
+  ],
   imports: [
     CommonModule,
     SharedModule,

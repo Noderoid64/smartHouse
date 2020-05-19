@@ -1,0 +1,13 @@
+<div class="root">
+    <div style="padding: 8px;">
+        <div class="home-item">
+            <app-header ></app-header>
+        </div>
+        <div class="home-item">
+            <app-device-list (addDevice)="onAddDevice($event)" [devices]="devices"></app-device-list>
+        </div>
+        <div class="home-item">
+            <app-device-group-list class="home-item"></app-device-group-list>
+        </div>
+    </div>
+</div>

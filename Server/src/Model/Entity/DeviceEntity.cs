@@ -9,6 +9,7 @@ namespace Server.Model.Entity {
         public String ipAddress {get; set;}
         public String macAddress {get; set;}
         public bool? isNew {get;set;}
+        public DateTime lastPing {get;set;}
     }
 
 }

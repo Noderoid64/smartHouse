@@ -3,6 +3,8 @@ namespace Server.Model.Value {
         SOCKET,
         DIODE,
         LED,
+        CLIENT,
+        MANAGED_SERVER,
         OTHER
     }
 }

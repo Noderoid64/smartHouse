@@ -32,10 +32,12 @@ namespace server.Migrations
                         .HasColumnType("text");
 
                     b.Property<bool?>("isNew")
-                        .ValueGeneratedOnAdd()
                         .HasColumnName("IS_NEW")
-                        .HasColumnType("boolean")
-                        .HasDefaultValue(true);
+                        .HasColumnType("boolean");
+
+                    b.Property<DateTime>("lastPing")
+                        .HasColumnName("LAST_PING")
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<string>("macAddress")
                         .IsRequired()
@@ -49,32 +51,6 @@ namespace server.Migrations
                     b.HasKey("id");
 
                     b.ToTable("DEVICE");
-
-                    b.HasData(
-                        new
-                        {
-                            id = 1,
-                            ipAddress = "192.168.0.124",
-                            isNew = true,
-                            macAddress = "12:12:12:12:12:12",
-                            type = 0
-                        },
-                        new
-                        {
-                            id = 2,
-                            ipAddress = "192.168.0.125",
-                            isNew = true,
-                            macAddress = "15:15:15:15:15:15",
-                            type = 0
-                        },
-                        new
-                        {
-                            id = 3,
-                            ipAddress = "192.168.0.126",
-                            isNew = false,
-                            macAddress = "16:16:16:16:16:16",
-                            type = 2
-                        });
                 });
 
             modelBuilder.Entity("Server.Model.Entity.DeviceEntity", b =>
@@ -108,29 +84,6 @@ namespace server.Migrations
 
                             b1.WithOwner()
                                 .HasForeignKey("DeviceEntityid");
-
-                            b1.HasData(
-                                new
-                                {
-                                    DeviceEntityid = 1,
-                                    major = 1,
-                                    minor = 0,
-                                    patch = 0
-                                },
-                                new
-                                {
-                                    DeviceEntityid = 2,
-                                    major = 1,
-                                    minor = 4,
-                                    patch = 13
-                                },
-                                new
-                                {
-                                    DeviceEntityid = 3,
-                                    major = 2,
-                                    minor = 1,
-                                    patch = 5
-                                });
                         });
                 });
 #pragma warning restore 612, 618

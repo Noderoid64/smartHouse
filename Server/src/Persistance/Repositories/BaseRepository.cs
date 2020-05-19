@@ -66,8 +66,7 @@ namespace Server.Persistance.Repositories
 
         public virtual void Update(TEntity entityToUpdate)
         {
-            dbSet.Attach(entityToUpdate);
-            context.Entry(entityToUpdate).State = EntityState.Modified;
+            dbSet.Update(entityToUpdate);
         }
 
         public virtual void Save() {
