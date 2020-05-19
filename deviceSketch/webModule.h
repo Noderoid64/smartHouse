@@ -15,7 +15,7 @@ class WebModule {
 
     WebModule(bool isSerial);
     void createAccessPoint(String ssid, String password);
-    void createWorkStation(String ssid, String password);
+    bool createWorkStation(String ssid, String password);
     void destroyAccessPoint();
     void createWebServer();
     void registerHandler(char* route, std::function<void(ESP8266WebServer*)> handler);
@@ -33,12 +33,17 @@ class WebModule {
     bool onFileHandler(String url);
     void redirectToMain();
     String getContentType(String filename);
+    void onGetNetworkInfo();
+    void onGetPingTime();
+    void onSetPingTime();
+    void onGetServerIp();
     bool _isSerial;
     bool _isAP;
     bool _isWS;
     String _networkSsid;
     String _errorMessage;
     long lastGreetingTime;
+    int _pingTime;
 
 };
 #endif
