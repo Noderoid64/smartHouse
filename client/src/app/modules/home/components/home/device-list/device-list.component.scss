@@ -1,0 +1,30 @@
+@import "variables";
+
+.device-category-root {
+    width: 100%;
+}
+
+.device-category-root-card {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.device-category-head {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+        margin-bottom: 0px;
+    }
+}
+
+.device-category-content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.device-category-content-item {
+    padding: $padding-large;
+}

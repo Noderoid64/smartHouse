@@ -1,0 +1,18 @@
+@import "variables";
+
+.dialog-header {
+    padding-bottom: $padding-large;
+}
+
+.dialog-item {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-bottom: $padding-large;
+    cursor: pointer;
+    span {
+        padding-left: $padding-medium;
+        padding-right: $padding-medium;
+    }
+    background-color: $background-light-color;
+}

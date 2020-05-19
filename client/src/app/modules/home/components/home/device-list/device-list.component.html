@@ -1,0 +1,13 @@
+<div class="device-category-root">
+    <mat-card class="device-category-root-card">
+        <div class="device-category-head">
+            <span class="mat-title">Categories</span>
+            <mat-icon class="g-mat-icon-middle" aria-hidden="false" (click)="onAddButtonClick()">add_circle_outline</mat-icon>
+        </div>
+        <div class="device-category-content">
+            <div class="device-category-content-item" *ngFor="let device of devices" [routerLink]="['device/socket/', device.ip]">
+                <app-device-item [type]="device.type" [label]="device?.name"></app-device-item>
+            </div>
+        </div>
+    </mat-card>
+</div>

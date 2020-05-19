@@ -1,0 +1,826 @@
+2020-02-17 21:06:41.047 +03:00 [INF] Starting web host
+2020-02-17 21:06:47.515 +03:00 [INF] hello udp
+2020-02-17 21:06:47.600 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 21:30:49.323 +03:00 [INF] Starting web host
+2020-02-17 21:30:49.613 +03:00 [INF] hello udp
+2020-02-17 21:30:49.640 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 21:30:52.098 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to resolve service for type 'Serilog.Extensions.Hosting.DiagnosticContext' while attempting to activate 'Serilog.AspNetCore.RequestLoggingMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Server.Program.Main(String[] args) in C:\Repos\smartHouse\Server\Program.cs:line 26
+2020-02-17 21:37:03.509 +03:00 [INF] Starting web host
+2020-02-17 21:37:03.870 +03:00 [INF] hello udp
+2020-02-17 21:37:03.910 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 21:40:43.293 +03:00 [INF] Starting web host
+2020-02-17 21:40:43.560 +03:00 [INF] hello udp
+2020-02-17 21:40:43.597 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 21:40:57.096 +03:00 [DBG] Request 25172106 finished in {2}
+2020-02-17 21:41:26.841 +03:00 [INF] Starting web host
+2020-02-17 21:41:27.133 +03:00 [INF] hello udp
+2020-02-17 21:41:27.180 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 21:41:32.560 +03:00 [DBG] Request /api/devices finished in 21875310
+2020-02-17 21:41:36.987 +03:00 [DBG] Request /api/devices finished in 22445575
+2020-02-17 21:41:51.614 +03:00 [INF] Starting web host
+2020-02-17 21:41:51.858 +03:00 [INF] hello udp
+2020-02-17 21:41:51.901 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 21:41:56.106 +03:00 [DBG] Request /api/devices finished in 2035
+2020-02-17 21:41:57.992 +03:00 [DBG] Request /api/devices finished in 2082
+2020-02-17 21:42:06.111 +03:00 [DBG] Request /api/devices finished in 2112
+2020-02-17 21:42:07.142 +03:00 [DBG] Request /api/devices finished in 2126
+2020-02-17 21:42:24.417 +03:00 [DBG] Request /api/devices/new finished in 2374
+2020-02-17 21:44:12.032 +03:00 [INF] Starting web host
+2020-02-17 21:44:12.275 +03:00 [INF] hello udp
+2020-02-17 21:44:12.297 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 21:44:22.341 +03:00 [DBG] Request /api/devices/test finished in 4305
+2020-02-17 22:09:15.921 +03:00 [INF] Starting web host
+2020-02-17 22:09:16.151 +03:00 [INF] hello udp
+2020-02-17 22:09:16.187 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:09:18.348 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:09:18.350 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:09:19.687 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:09:23.325 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:09:23.327 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:09:23.346 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:09:28.326 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:09:28.328 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:09:28.345 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:09:33.326 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:09:33.331 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:09:33.357 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:09:38.327 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:09:38.329 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:09:38.357 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:09:43.329 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:09:43.330 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:09:43.353 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:09:48.330 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:09:48.333 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:09:48.353 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:09:53.330 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:09:53.332 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:09:53.355 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:09:58.331 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:09:58.333 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:09:58.361 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:10:03.336 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:10:03.337 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:10:03.360 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:10:08.333 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:10:08.344 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:10:08.363 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:10:13.334 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:10:13.335 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:10:13.359 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:10:18.339 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:10:18.340 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:10:18.343 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:10:23.336 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:10:23.338 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:10:23.367 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:10:28.336 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:10:28.338 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:10:28.387 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:10:33.339 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:10:33.340 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:10:33.362 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:10:38.339 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:10:38.342 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:10:38.356 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:10:43.341 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:10:43.343 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:10:43.368 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:10:48.341 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:10:48.350 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:10:48.372 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:10:53.341 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:10:53.343 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:10:53.368 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:10:58.343 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:10:58.344 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:10:58.368 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:11:03.346 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:11:03.347 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:11:03.349 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:11:08.345 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:11:08.347 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:11:08.370 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:11:13.347 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:11:13.348 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:11:13.375 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:11:18.346 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:11:18.348 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:11:18.370 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:11:23.349 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:11:23.350 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:11:23.376 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:11:28.349 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:11:28.350 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:11:28.429 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:11:33.351 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:11:33.353 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:11:33.377 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:11:38.350 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:11:38.351 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:11:38.399 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:11:43.351 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:11:43.353 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:11:43.355 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:11:48.352 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:11:48.353 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:11:48.355 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:11:53.353 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:11:53.355 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:11:53.378 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:11:58.354 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:11:58.355 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:11:58.357 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:12:03.355 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:12:03.357 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:12:03.387 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:12:08.356 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:12:08.365 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:12:08.378 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:12:13.365 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:12:13.367 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:12:13.369 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:12:18.358 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:12:18.361 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:12:18.379 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:12:23.366 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:12:23.368 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:12:23.370 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:12:28.359 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:12:28.361 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:12:28.378 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:12:33.361 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:12:33.363 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:12:33.391 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:12:38.361 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:12:38.362 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:12:38.364 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:12:43.362 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:12:43.363 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:12:43.365 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:12:48.365 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:12:48.367 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:12:48.383 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:12:53.371 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:12:53.372 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:12:53.374 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:12:58.365 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:12:58.366 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:12:58.368 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:13:03.368 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:13:03.370 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:13:03.372 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:13:08.368 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:13:08.369 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:13:08.371 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:13:13.373 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:13:13.374 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:13:13.376 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:13:18.370 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:13:18.371 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:13:18.373 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:13:23.370 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:13:23.371 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:13:23.393 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:13:28.371 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:13:28.372 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:13:28.374 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:13:33.372 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:13:33.374 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:13:33.375 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:13:38.373 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:13:38.374 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:13:38.376 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:13:43.374 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:13:43.376 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:13:43.389 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:13:48.377 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:13:48.378 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:13:48.403 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:13:53.378 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:13:53.381 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:13:53.398 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:13:58.377 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:13:58.379 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:13:58.403 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:14:03.378 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:14:03.380 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:14:03.405 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:14:08.383 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:14:08.384 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:14:08.386 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:14:13.382 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:14:13.384 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:14:13.386 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:14:18.380 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:14:18.382 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:14:18.415 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:14:23.383 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:14:23.384 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:14:23.386 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:14:28.385 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:14:28.386 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:14:28.388 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:14:33.383 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:14:33.385 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:14:33.387 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:14:38.386 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:14:38.388 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:14:38.409 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:14:43.388 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:14:43.390 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:14:43.393 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:14:48.392 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:14:48.394 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:14:48.416 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:14:53.387 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:14:53.389 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:14:53.413 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:14:58.390 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:14:58.392 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:14:58.418 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:15:03.392 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:15:03.394 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:15:03.421 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:15:08.391 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:15:08.392 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:15:08.394 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:15:13.391 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:15:13.393 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:15:13.417 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:15:18.393 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:15:18.395 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:15:18.396 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:15:23.394 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:15:23.395 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:15:23.424 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:15:28.394 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:15:28.396 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:15:28.425 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:15:33.395 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:15:33.396 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:15:33.398 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:15:38.398 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:15:38.399 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:15:38.424 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:15:43.399 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:15:43.410 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:15:43.422 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:15:48.398 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:15:48.400 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:15:48.427 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:15:53.406 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:15:53.408 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:15:53.426 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:15:58.400 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:15:58.401 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:15:58.402 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:16:03.400 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:16:03.402 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:16:03.435 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:16:08.402 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:16:08.403 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:16:08.404 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:16:13.403 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:16:13.404 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:16:13.405 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:16:18.404 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:16:18.406 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:16:18.408 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:16:23.404 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:16:23.406 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:16:23.437 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:16:28.407 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:16:28.412 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:16:28.434 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:16:33.407 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:16:33.408 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:16:33.437 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:16:38.411 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:16:38.412 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:16:38.436 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:16:43.409 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:16:43.411 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:16:43.413 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:16:48.412 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:16:48.413 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:16:48.468 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:16:53.414 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:16:53.416 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:16:53.439 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:16:58.411 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:16:58.412 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:16:58.414 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:17:03.415 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:17:03.416 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:17:03.418 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:17:08.413 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:17:08.414 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:17:08.416 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:17:13.433 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:17:13.434 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:17:13.453 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:17:18.418 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:17:18.420 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:17:18.443 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:17:23.416 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:17:23.417 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:17:23.442 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:17:28.417 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:17:28.418 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:17:28.419 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:17:33.419 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:17:33.421 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:17:33.437 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:17:38.419 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:17:38.420 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:17:38.446 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:17:43.420 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:17:43.424 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:17:43.454 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:17:48.424 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:17:48.447 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:17:48.452 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:17:53.426 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:17:53.429 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:17:53.446 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:17:58.423 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:17:58.424 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:17:58.453 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:18:03.424 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:18:03.426 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:18:03.445 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:18:08.426 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:18:08.428 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:18:08.484 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:18:13.426 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:18:13.428 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:18:13.447 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:18:18.427 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:18:18.429 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:18:18.449 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:18:23.428 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:18:23.430 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:18:23.447 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:18:28.431 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:18:28.452 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:18:28.457 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:18:33.430 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:18:33.433 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:18:33.453 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:18:38.431 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:18:38.434 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:18:38.450 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:18:43.431 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:18:43.451 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:18:43.454 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:18:48.433 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:18:48.436 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:18:48.453 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:18:53.433 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:18:53.436 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:18:53.454 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:18:58.434 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:18:58.437 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:18:58.456 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:19:03.439 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:19:03.441 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:19:03.469 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:19:08.439 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:19:08.465 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:19:08.468 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:19:13.438 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:19:13.440 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:19:13.459 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:19:18.438 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:19:18.439 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:19:18.464 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:19:23.439 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:19:23.442 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:19:23.469 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:19:28.440 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:19:28.454 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:19:28.457 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:19:33.443 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:19:33.445 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:19:33.460 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:19:38.443 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:19:38.446 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:19:38.488 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:19:43.445 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:19:43.451 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:19:43.470 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:19:48.445 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:19:48.447 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:19:48.468 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:19:53.447 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:19:53.448 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:19:53.450 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:19:58.445 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:19:58.447 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:19:58.448 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:20:03.447 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:20:03.448 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:20:03.462 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:20:08.447 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:20:08.451 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:20:08.453 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:20:13.448 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:20:13.459 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:20:13.461 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:20:18.450 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:20:18.451 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:20:18.452 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:20:23.450 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:20:23.451 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:20:23.453 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:20:28.451 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:20:28.453 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:20:28.471 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:20:33.452 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:20:33.454 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:20:33.455 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:20:38.455 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:20:38.457 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:20:38.476 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:20:43.454 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:20:43.455 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:20:43.457 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:26:14.329 +03:00 [INF] Starting web host
+2020-02-17 22:26:14.602 +03:00 [INF] hello udp
+2020-02-17 22:26:14.635 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:26:18.521 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:26:18.524 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:26:19.792 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:26:23.524 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:26:23.526 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:26:23.544 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:26:28.521 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:26:28.523 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:26:28.553 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:26:33.524 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:26:33.526 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:26:33.538 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:26:38.531 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:26:38.533 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:26:38.539 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:26:43.525 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:26:43.526 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:26:43.552 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:26:48.527 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:26:48.530 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:26:48.552 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:26:53.526 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:26:53.528 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:26:53.537 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:26:58.526 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:26:58.528 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:26:58.551 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:27:03.532 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:27:03.534 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:27:03.556 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:27:08.532 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:27:08.534 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:27:08.537 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:27:13.547 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:27:13.548 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:27:13.551 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:27:18.530 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:27:18.532 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:27:18.556 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:27:23.532 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:27:23.534 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:27:23.537 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:27:28.531 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:27:28.533 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:27:28.536 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:27:33.535 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:27:33.537 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:27:33.540 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:27:38.534 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:27:38.602 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:27:38.607 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:27:43.536 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:27:43.538 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:27:43.561 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:27:48.542 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:27:48.543 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:27:48.575 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:27:53.537 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:27:53.539 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:27:53.566 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:27:58.548 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:27:58.550 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:27:58.552 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:28:03.538 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:28:03.540 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:28:03.542 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:28:08.540 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:28:08.542 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:28:08.558 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:28:13.541 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:28:13.542 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:28:13.545 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:28:18.543 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:28:18.544 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:28:18.577 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:28:23.547 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:28:23.549 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:28:23.579 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:28:28.551 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:28:28.553 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:28:28.584 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:28:33.547 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:28:33.549 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:28:33.551 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:28:38.545 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:28:38.547 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:28:38.571 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:28:43.547 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:28:43.549 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:28:43.574 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:28:48.551 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:28:48.552 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:28:48.574 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:28:53.548 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:28:53.549 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:28:53.585 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:28:58.549 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:28:58.550 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:28:58.552 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:29:03.550 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:29:03.552 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:29:03.554 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:29:08.552 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:29:08.554 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:29:08.556 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:29:13.552 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:29:13.554 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:29:13.576 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:29:18.555 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:29:18.569 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:29:18.571 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:29:23.554 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:29:23.555 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:29:23.575 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:29:28.556 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:29:28.558 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:29:28.583 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:29:33.561 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:29:33.578 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:29:33.727 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:29:38.557 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:29:38.595 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:29:38.724 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:29:43.557 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:29:43.559 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:29:43.580 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:29:48.560 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:29:48.563 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:29:48.579 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:29:53.561 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:29:53.563 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:29:53.575 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:29:58.560 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:29:58.563 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:29:58.565 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:30:08.316 +03:00 [INF] Starting web host
+2020-02-17 22:30:08.626 +03:00 [INF] hello udp
+2020-02-17 22:30:08.676 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:30:13.566 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:30:13.570 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:30:14.843 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:30:15.585 +03:00 [INF] 2/17/2020 10:30:15 PM
+2020-02-17 22:30:18.564 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:30:18.567 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:30:18.586 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:30:18.588 +03:00 [INF] 2/17/2020 10:30:18 PM
+2020-02-17 22:30:23.565 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:30:23.568 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:30:23.582 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:30:23.583 +03:00 [INF] 2/17/2020 10:30:23 PM
+2020-02-17 22:30:28.567 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:30:28.569 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:30:28.590 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:30:28.592 +03:00 [INF] 2/17/2020 10:30:28 PM
+2020-02-17 22:30:33.567 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:30:33.570 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:30:33.590 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:30:33.593 +03:00 [INF] 2/17/2020 10:30:33 PM
+2020-02-17 22:30:38.575 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:30:38.578 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:30:38.600 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:30:38.603 +03:00 [INF] 2/17/2020 10:30:38 PM
+2020-02-17 22:30:43.569 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:30:43.571 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:30:43.575 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:30:43.577 +03:00 [INF] 2/17/2020 10:30:43 PM
+2020-02-17 22:30:48.572 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:30:48.575 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:30:48.580 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:30:48.582 +03:00 [INF] 2/17/2020 10:30:48 PM
+2020-02-17 22:30:53.581 +03:00 [INF] UdpClient | receive message from 192.168.0.111:62240: DC:4F:22:78:39:10|SOCKET|0.1.5
+2020-02-17 22:30:53.697 +03:00 [INF] onReceive: DC:4F:22:78:39:10|SOCKET|0.1.5 192.168.0.111:62240
+2020-02-17 22:30:53.718 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-17 22:30:53.721 +03:00 [INF] 2/17/2020 10:30:53 PM
+2020-02-18 09:07:07.689 +03:00 [INF] Starting web host
+2020-02-18 09:07:10.149 +03:00 [INF] hello udp
+2020-02-18 09:07:10.181 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 09:14:49.887 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: TEST
+2020-02-18 09:14:49.890 +03:00 [INF] onReceive: TEST 192.168.0.101:4446
+2020-02-18 09:14:49.912 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 09:18:42.402 +03:00 [INF] Starting web host
+2020-02-18 09:18:42.735 +03:00 [INF] hello udp
+2020-02-18 09:18:42.764 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 09:19:38.006 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: TEST
+2020-02-18 09:19:38.011 +03:00 [INF] onReceive: TEST 192.168.0.101:4446
+2020-02-18 09:19:38.028 +03:00 [WRN] Message split not to 3 parts
+2020-02-18 09:19:38.035 +03:00 [WRN] The message is TEST
+2020-02-18 09:19:38.117 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 20:42:05.234 +03:00 [INF] Starting web host
+2020-02-18 20:42:09.485 +03:00 [INF] hello udp
+2020-02-18 20:42:09.521 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 20:59:05.197 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 20:59:05.200 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 20:59:07.527 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:01:06.552 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 21:01:06.554 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 21:01:06.585 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:02:49.182 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 21:02:49.184 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 21:02:49.190 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:04:00.803 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 21:04:00.804 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 21:04:00.809 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:11:21.397 +03:00 [INF] Starting web host
+2020-02-18 21:11:21.672 +03:00 [INF] hello udp
+2020-02-18 21:11:21.697 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:12:17.136 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 21:12:17.139 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 21:12:17.184 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:12:17.230 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: MANAGED_SERVER,|0.0.0
+2020-02-18 21:12:17.232 +03:00 [INF] onReceive: MANAGED_SERVER,|0.0.0 192.168.0.102:4446
+2020-02-18 21:12:17.234 +03:00 [WRN] Message split not to 3 parts
+2020-02-18 21:12:17.238 +03:00 [WRN] The message is MANAGED_SERVER,|0.0.0
+2020-02-18 21:12:17.327 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:13:30.952 +03:00 [INF] Starting web host
+2020-02-18 21:13:31.189 +03:00 [INF] hello udp
+2020-02-18 21:13:31.223 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:14:15.691 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 21:14:15.694 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 21:14:15.703 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:14:15.720 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER,|0.0.0
+2020-02-18 21:14:15.722 +03:00 [INF] onReceive: |MANAGED_SERVER,|0.0.0 192.168.0.102:4446
+2020-02-18 21:14:17.419 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:14:35.280 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 21:14:35.281 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 21:14:35.303 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:14:35.305 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER,|0.0.0
+2020-02-18 21:14:35.307 +03:00 [INF] onReceive: |MANAGED_SERVER,|0.0.0 192.168.0.102:4446
+2020-02-18 21:14:35.322 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:20:53.115 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 21:20:53.116 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 21:20:53.119 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:20:53.141 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER,|0.0.0
+2020-02-18 21:20:53.145 +03:00 [INF] onReceive: |MANAGED_SERVER,|0.0.0 192.168.0.102:4446
+2020-02-18 21:20:53.158 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:23:11.559 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 21:23:11.561 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 21:23:11.586 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:23:11.591 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER,|0.0.0
+2020-02-18 21:23:11.593 +03:00 [INF] onReceive: |MANAGED_SERVER,|0.0.0 192.168.0.102:4446
+2020-02-18 21:23:11.708 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:23:45.503 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 21:23:45.506 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 21:23:45.507 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:23:45.508 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER,|0.0.0
+2020-02-18 21:23:45.509 +03:00 [INF] onReceive: |MANAGED_SERVER,|0.0.0 192.168.0.102:4446
+2020-02-18 21:23:45.525 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:24:29.186 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 21:24:29.187 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 21:24:29.189 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:24:29.190 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER,|0.0.0
+2020-02-18 21:24:29.191 +03:00 [INF] onReceive: |MANAGED_SERVER,|0.0.0 192.168.0.102:4446
+2020-02-18 21:24:29.203 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:31:08.847 +03:00 [INF] Starting web host
+2020-02-18 21:31:09.094 +03:00 [INF] hello udp
+2020-02-18 21:31:09.125 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:32:23.766 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 21:32:23.768 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 21:32:23.795 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:32:23.859 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER|0.0.0
+2020-02-18 21:32:23.863 +03:00 [INF] onReceive: |MANAGED_SERVER|0.0.0 192.168.0.102:4446
+2020-02-18 21:32:25.471 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:39:43.547 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 21:39:43.549 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 21:39:43.561 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:39:43.563 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER|0.0.0
+2020-02-18 21:39:43.565 +03:00 [INF] onReceive: |MANAGED_SERVER|0.0.0 192.168.0.102:4446
+2020-02-18 21:39:43.679 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:44:54.787 +03:00 [INF] Starting web host
+2020-02-18 21:44:55.025 +03:00 [INF] hello udp
+2020-02-18 21:44:55.059 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:49:06.619 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 21:49:06.621 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 21:49:06.628 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:49:06.648 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER|0.0.0
+2020-02-18 21:49:06.650 +03:00 [INF] onReceive: |MANAGED_SERVER|0.0.0 192.168.0.102:4446
+2020-02-18 21:49:08.225 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:53:31.966 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 21:53:31.968 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 21:53:31.990 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:53:31.994 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER|0.0.0
+2020-02-18 21:53:31.996 +03:00 [INF] onReceive: |MANAGED_SERVER|0.0.0 192.168.0.102:4446
+2020-02-18 21:53:32.094 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:54:13.647 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 21:54:13.649 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 21:54:13.670 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 21:54:13.673 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER|0.0.0
+2020-02-18 21:54:13.677 +03:00 [INF] onReceive: |MANAGED_SERVER|0.0.0 192.168.0.102:4446
+2020-02-18 21:54:13.691 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 22:11:58.868 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 22:11:58.870 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 22:11:58.872 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 22:11:58.894 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER|0.0.0
+2020-02-18 22:11:58.897 +03:00 [INF] onReceive: |MANAGED_SERVER|0.0.0 192.168.0.102:4446
+2020-02-18 22:11:58.907 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 22:12:39.862 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 22:12:39.863 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 22:12:39.865 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 22:12:39.867 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER|0.0.0
+2020-02-18 22:12:39.868 +03:00 [INF] onReceive: |MANAGED_SERVER|0.0.0 192.168.0.102:4446
+2020-02-18 22:12:39.879 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 22:13:40.981 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-18 22:13:40.983 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-18 22:13:40.985 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-18 22:13:41.007 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER|0.0.0
+2020-02-18 22:13:41.010 +03:00 [INF] onReceive: |MANAGED_SERVER|0.0.0 192.168.0.102:4446
+2020-02-18 22:13:41.021 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 09:20:36.869 +03:00 [INF] Starting web host
+2020-02-19 09:20:39.311 +03:00 [INF] hello udp
+2020-02-19 09:20:39.356 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 09:20:53.737 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-19 09:20:53.739 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-19 09:20:53.768 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 09:20:53.845 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER|0.0.0
+2020-02-19 09:20:53.848 +03:00 [INF] onReceive: |MANAGED_SERVER|0.0.0 192.168.0.102:4446
+2020-02-19 09:20:57.738 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 09:22:10.651 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-19 09:22:10.653 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-19 09:22:10.667 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 09:22:10.670 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER|0.0.0
+2020-02-19 09:22:10.671 +03:00 [INF] onReceive: |MANAGED_SERVER|0.0.0 192.168.0.102:4446
+2020-02-19 09:22:10.689 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 09:23:24.859 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-19 09:23:24.860 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-19 09:23:24.862 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 09:23:24.865 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER|0.0.0
+2020-02-19 09:23:24.867 +03:00 [INF] onReceive: |MANAGED_SERVER|0.0.0 192.168.0.102:4446
+2020-02-19 09:23:24.894 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 09:26:03.820 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-19 09:26:03.821 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-19 09:26:03.823 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 09:26:03.844 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER|0.0.0
+2020-02-19 09:26:03.847 +03:00 [INF] onReceive: |MANAGED_SERVER|0.0.0 192.168.0.102:4446
+2020-02-19 09:26:03.855 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 09:26:50.407 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-19 09:26:50.409 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-19 09:26:50.411 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 09:26:50.413 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER|0.0.0
+2020-02-19 09:26:50.414 +03:00 [INF] onReceive: |MANAGED_SERVER|0.0.0 192.168.0.102:4446
+2020-02-19 09:26:50.426 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 09:27:40.160 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-19 09:27:40.165 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-19 09:27:40.167 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 09:27:40.168 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER|0.0.0
+2020-02-19 09:27:40.170 +03:00 [INF] onReceive: |MANAGED_SERVER|0.0.0 192.168.0.102:4446
+2020-02-19 09:27:40.180 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 21:19:20.589 +03:00 [INF] Starting web host
+2020-02-19 21:19:23.122 +03:00 [INF] hello udp
+2020-02-19 21:19:23.156 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 21:19:30.665 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-19 21:19:30.667 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-19 21:19:30.703 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 21:19:30.781 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER|0.0.0
+2020-02-19 21:19:30.784 +03:00 [INF] onReceive: |MANAGED_SERVER|0.0.0 192.168.0.102:4446
+2020-02-19 21:19:33.042 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 21:21:47.583 +03:00 [DBG] Request /api/device finished in 67
+2020-02-19 21:21:52.111 +03:00 [DBG] Request /api/devices finished in 887
+2020-02-19 21:21:52.390 +03:00 [DBG] Request /favicon.ico finished in 888
+2020-02-19 21:22:33.844 +03:00 [INF] UdpClient | receive message from 192.168.0.101:4446: 00:00:00:00:00:00|CLIENT|0.1.0
+2020-02-19 21:22:33.846 +03:00 [INF] onReceive: 00:00:00:00:00:00|CLIENT|0.1.0 192.168.0.101:4446
+2020-02-19 21:22:33.865 +03:00 [INF] UdpClient | wait for message to receive
+2020-02-19 21:22:33.869 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER|0.0.0
+2020-02-19 21:22:33.871 +03:00 [INF] onReceive: |MANAGED_SERVER|0.0.0 192.168.0.102:4446
+2020-02-19 21:22:33.889 +03:00 [INF] UdpClient | wait for message to receive

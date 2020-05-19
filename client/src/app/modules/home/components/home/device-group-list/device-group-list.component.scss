@@ -1,0 +1,23 @@
+.device-group-root {
+    width: 100%;
+}
+
+.device-group-root-card {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.device-group-head {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+        margin-bottom: 0px;
+    }
+}
+
+.device-group-content {
+    justify-content: space-between;
+}

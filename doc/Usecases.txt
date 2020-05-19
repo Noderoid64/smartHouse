@@ -1,0 +1,11 @@
+U1 User should connect device first time
+	Prerequisits:
+	1. Server shuld be avaliable
+	Scenario:
+	1. Plug in the device
+	2. Connect to device via WiFi
+	3. Go to 192.168.0.104 -> home page
+        4. Enter the SSID and Password
+	Expected result:
+	a) Connected page shown
+	b) Home page with error shown

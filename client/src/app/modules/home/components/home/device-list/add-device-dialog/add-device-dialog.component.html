@@ -1,0 +1,9 @@
+<div class="device-dialog-root">
+    <div class="dialog-header"><span class="mat-subheading-2">New devices</span></div>
+    <div class="dialog-content" *ngFor="let device of newDevices$ | async">
+        <mat-card class="dialog-item" (click)="onDeviceClick(device.mac)">
+            <app-device-item [type]="device.type"></app-device-item>
+            <span class="mat-subheading-2">{{device.ip}}</span>
+        </mat-card>
+    </div>
+</div>

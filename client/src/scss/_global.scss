@@ -1,0 +1,33 @@
+@import './variables';
+
+.g-mat-icon-middle {
+    font-size: $mat-icon-medium;
+    width: $mat-icon-medium !important;
+    height: $mat-icon-medium !important;
+    cursor: pointer;
+}
+
+.g-mat-icon-large {
+    font-size: $mat-icon-large;
+    width: $mat-icon-large !important;
+    height: $mat-icon-large !important;
+    cursor: pointer;
+}
+
+.root {
+    width: 100vw;
+    max-width: 1040px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: stretch;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+  }
