@@ -8,12 +8,14 @@
 #include <WiFiUdp.h>
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
+#include "commonModule.h"
 
 class WebModule {
   public:
     ESP8266WebServer *server;
 
-    WebModule(bool isSerial);
+    WebModule(bool isSerial, CommonModule *commonModule);
+    void init();
     void createAccessPoint(String ssid, String password);
     bool createWorkStation(String ssid, String password);
     void destroyAccessPoint();
@@ -27,6 +29,7 @@ class WebModule {
   private:
     WiFiUDP *udp;
     IPAddress *multicastAddress;
+    CommonModule *_commonModule;
     void sendFile(String path, String contentType);
     void sendGreeting(String mac, String type, String vers);
     String getFileAsString(String path);

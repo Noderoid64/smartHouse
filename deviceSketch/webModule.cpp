@@ -3,6 +3,7 @@
 #include <WiFiUdp.h>
 #include <FS.h>
 #include "webModule.h"
+#include "commonModule.h"
 
 // Constants
 #define AP_PAGE_PATH "/ap.html"
@@ -17,13 +18,29 @@
 #define ICON_CONTENT_TYPE "image/x-icon"
 #define CONNECTION_TIMEOUT 12000
 #define MULTICAST_PORT 4446
+#define AP_SSID "esp"
+#define AP_PSWD "qwertyui"
 
 // Funciton implementation
-WebModule::WebModule(bool isSerial) {
+
+void WebModule::init() {
+  String ssid = _commonModule->getSsid();
+  String pass = _commonModule->getPass();
+  bool result = false;
+  if (ssid.length() > 4 && pass.length() >= 8) {
+    result = createWorkStation(ssid, pass);
+  }
+  if (!result) {
+    createAccessPoint(AP_SSID, AP_PSWD);
+  }
+}
+
+WebModule::WebModule(bool isSerial, CommonModule *commonModule) {
   server = new ESP8266WebServer(80);
   multicastAddress = new IPAddress(230,0,0,0);
   udp = new WiFiUDP();
   _isSerial = isSerial;
+  _commonModule = commonModule;
   _pingTime = 5000;
   if (_isSerial) {
     Serial.println("webModule is initialized:");
@@ -61,6 +78,8 @@ bool WebModule::createWorkStation(String ssid, String password) {
   }
   _isWS = true;
   _networkSsid = ssid;
+  _commonModule->setSsid(ssid);
+  _commonModule->setPass(password);
   if (_isSerial) {
     Serial.println("connected");
     Serial.print("local ip address: ");
@@ -123,31 +142,6 @@ void WebModule::onLoginHandler() {
 
 }
 
-//void WebModule::onLoginHandler() {
-//  String response;
-//  if (server->hasArg("ssid") && server->arg("ssid") != "") {
-//    if (server->hasArg("pass") && server->arg("pass") != "") {
-//      sendFile(LOADING_PAGE_PATH, HTML_CONTENT_TYPE);
-//      createWorkStation(server->arg("ssid"), server->arg("pass"));
-//    } else {
-//      if (_isSerial) {
-//        Serial.println("onLoginHandler: pass not found");
-//      }
-//      response = getFileAsString(ERROR_PAGE_PATH);
-//      response.replace("{{error}}", "Password is empty");
-//      server->send(200, HTML_CONTENT_TYPE, response);
-//    }
-//  } else {
-//    if (_isSerial) {
-//      Serial.println("onLoginHandler: ssid not found");
-//    }
-//    response = getFileAsString(ERROR_PAGE_PATH);
-//    response.replace("{{error}}", "SSID is empty");
-//    server->send(200, HTML_CONTENT_TYPE, response);
-//  }
-//
-//}
-
 void WebModule::onNotFoundHandler() {
   if (!onFileHandler(server->uri())) {
     redirectToMain();
@@ -202,6 +196,8 @@ void WebModule::onDisconnect() {
     Serial.println("disconnect from wifi");
   }
   WiFi.disconnect ();
+  _commonModule->setSsid("");
+  _commonModule->setPass("");
   _isWS = false;
   _networkSsid="";
   redirectToMain();
