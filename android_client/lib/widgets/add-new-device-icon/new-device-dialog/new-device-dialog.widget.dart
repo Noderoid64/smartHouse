@@ -2,6 +2,8 @@ import 'package:android_client/widgets/add-new-device-icon/new-device-dialog/new
 import 'package:flutter/material.dart';
 import 'package:provider_architecture/provider_architecture.dart';
 
+import '../../ssid-dropdown.widget.dart';
+
 class NewDeviceDialogWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -16,6 +18,7 @@ class NewDeviceDialogWidget extends StatelessWidget {
                     child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
+                          SsidDropdownWidget(null, model.getSsid),
                           TextFormField(
                             decoration: const InputDecoration(
                               hintText: 'Password',

@@ -12,7 +12,7 @@ class NewDeviceIconWidget extends StatelessWidget {
               icon: Icon(Icons.add_circle),
               iconSize: 40.0,
               color: Colors.lightGreen[500],
-              onPressed: model.showDialog,
+              onPressed: (){ model.showSsidDialog(context);},
             ));
   }
 }

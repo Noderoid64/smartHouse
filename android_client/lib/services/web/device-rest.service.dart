@@ -27,7 +27,8 @@ class DeviceRestService {
 
   Future<bool> login(String ssid, String password, [String ip = "192.168.4.1"]) async {
     if (ssid != null && ssid.length >= 6 && password != null && password.length >=8) {
-      final response = await http.post(url + ip + '/login?ssid=' + ssid + "&pass=" + password, );
+      final response = await http.get(url + ip + '/login?ssid=' + ssid + "&pass=" + password, );
+      log(response.body);
       return response.statusCode == 200 ? true : false;
     }
     return null;

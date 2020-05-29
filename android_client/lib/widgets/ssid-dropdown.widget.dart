@@ -5,13 +5,15 @@ import 'package:wifi_iot/wifi_iot.dart';
 
 class SsidDropdownWidget extends StatefulWidget {
   Key key;
+  Function onSubmit;
 
-  SsidDropdownWidget(Key _key) {
+  SsidDropdownWidget(Key _key, Function onSubmit) {
     key = _key;
+    this.onSubmit = onSubmit;
   }
   @override
   State createState() {
-    return _SsidDropdownWidgetState(key);
+    return _SsidDropdownWidgetState(key, onSubmit);
   }
 }
 
@@ -19,9 +21,11 @@ class _SsidDropdownWidgetState extends State<SsidDropdownWidget> {
   GlobalKey<FormFieldState> key = GlobalKey<FormFieldState>();
   List<String> list = [];
   String _value;
+  Function onSubmit;
 
-  _SsidDropdownWidgetState(Key _key) {
+  _SsidDropdownWidgetState(Key _key, Function onSubmit) {
     key = _key;
+    this.onSubmit = onSubmit;
     loadWifis();
   }
 
@@ -57,6 +61,7 @@ class _SsidDropdownWidgetState extends State<SsidDropdownWidget> {
       onChanged: (value) {
         setState(() {
           _value = value;
+          onSubmit(_value);
         });
       },
       value: _value,
