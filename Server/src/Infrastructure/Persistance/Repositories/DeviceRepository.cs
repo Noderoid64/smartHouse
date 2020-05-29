@@ -4,9 +4,9 @@ using System.Linq;
 using Microsoft.EntityFrameworkCore;
 
 using Server.Persistance.Contexts;
-using Server.Model.Entity;
+using Server.Domain.Entity;
 
-namespace Server.Persistance.Repositories
+namespace Server.Infrastructure.Persistance
 {
     public class DeviceRepository : BaseRepository<DeviceEntity>
     {

@@ -824,3 +824,803 @@ System.InvalidOperationException: Unable to resolve service for type 'Serilog.Ex
 2020-02-19 21:22:33.869 +03:00 [INF] UdpClient | receive message from 192.168.0.102:4446: |MANAGED_SERVER|0.0.0
 2020-02-19 21:22:33.871 +03:00 [INF] onReceive: |MANAGED_SERVER|0.0.0 192.168.0.102:4446
 2020-02-19 21:22:33.889 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 17:55:47.049 +03:00 [INF] Starting web host
+2020-05-28 17:55:50.953 +03:00 [INF] hello udp
+2020-05-28 17:55:51.054 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 17:59:48.254 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 17:59:48.257 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 17:59:50.213 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 17:59:53.251 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 17:59:53.253 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 17:59:53.273 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 17:59:58.253 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 17:59:58.255 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 17:59:58.271 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:00:03.254 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:00:03.256 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:00:03.262 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:00:08.273 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:00:08.284 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:00:08.290 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:00:13.254 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:00:13.256 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:00:13.260 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:00:18.255 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:00:18.257 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:00:18.261 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:00:23.256 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:00:23.259 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:00:23.275 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:00:28.257 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:00:28.259 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:00:28.277 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:00:33.264 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:00:33.266 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:00:33.271 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:00:38.259 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:00:38.268 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:00:38.272 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:00:43.264 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:00:43.272 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:00:43.313 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:00:48.261 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:00:48.262 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:00:48.283 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:00:53.261 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:00:53.263 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:00:53.266 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:00:58.263 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:00:58.264 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:00:58.267 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:01:03.264 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:01:03.266 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:01:03.279 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:01:08.264 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:01:08.266 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:01:08.279 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:01:13.265 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:01:13.267 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:01:13.305 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:01:18.267 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:01:18.268 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:01:18.271 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:01:23.267 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:01:23.269 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:01:23.271 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:01:28.268 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:01:28.270 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:01:28.273 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:01:33.270 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:01:33.271 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:01:33.274 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:01:38.270 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:01:38.271 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:01:38.290 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:01:43.272 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:01:43.273 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:01:43.276 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:01:48.273 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:01:48.274 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:01:48.290 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:01:53.273 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:01:53.274 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:01:53.277 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:01:58.273 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:01:58.276 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:01:58.291 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:02:03.275 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:02:03.279 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:02:03.310 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:02:08.277 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:02:08.288 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:02:08.328 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:02:13.277 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:02:13.278 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:02:13.295 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:02:18.278 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:02:18.279 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:02:18.281 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:02:23.280 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:02:23.281 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:02:23.297 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:02:28.280 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:02:28.283 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:02:28.298 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:02:33.280 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:02:33.282 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:02:33.284 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:02:38.282 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:02:38.284 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:02:38.301 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:02:43.284 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:02:43.285 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:02:43.287 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:02:48.283 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:02:48.285 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:02:48.303 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:02:53.284 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:02:53.285 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:02:53.287 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:02:58.285 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:02:58.286 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:02:58.302 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:03:03.286 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:03:03.288 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:03:03.304 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:03:08.288 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:03:08.290 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:03:08.306 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:03:13.288 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:03:13.290 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:03:13.291 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:03:18.291 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:03:18.294 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:03:18.295 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:03:23.289 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:03:23.292 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:03:23.294 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:03:28.290 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:03:28.293 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:03:28.294 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:03:33.291 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:03:33.292 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:03:33.294 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:03:38.304 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:03:38.305 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:03:38.307 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:03:43.294 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:03:43.296 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:03:43.297 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:03:48.298 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:03:48.300 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:03:48.302 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:03:53.295 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:03:53.296 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:03:53.298 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:03:58.296 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:03:58.312 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:03:58.501 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:04:03.297 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:04:03.298 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:04:03.300 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:04:08.300 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:04:08.302 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:04:08.304 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:04:13.299 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:04:13.301 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:04:13.319 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:04:18.300 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:04:18.302 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:04:18.326 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:04:23.301 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:04:23.302 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:04:23.304 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:04:28.302 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:04:28.304 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:04:28.327 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:04:33.306 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:04:33.309 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:04:33.325 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:04:38.308 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:04:38.309 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:04:38.312 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:04:43.307 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:04:43.310 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:04:43.311 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:04:48.305 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:04:48.307 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:04:48.318 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:04:53.309 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:04:53.310 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:04:53.312 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:04:58.308 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:04:58.310 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:04:58.312 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:05:03.309 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:05:03.310 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:05:03.326 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:05:08.312 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:05:08.333 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:05:08.488 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:05:13.310 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:05:13.311 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:05:13.329 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:05:18.311 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:05:18.313 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:05:18.329 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:05:23.312 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:05:23.314 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:05:23.315 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:05:28.313 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:05:28.315 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:05:28.316 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:05:33.314 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:05:33.316 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:05:33.318 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:05:38.317 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:05:38.318 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:05:38.320 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:05:43.318 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:05:43.319 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:05:43.336 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:05:48.317 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:05:48.321 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:05:48.368 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:05:53.318 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:05:53.319 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:05:53.321 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:05:58.320 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:05:58.322 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:05:58.339 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:06:03.320 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:06:03.322 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:06:03.338 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:06:08.321 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:06:08.324 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:06:08.338 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:06:13.322 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:06:13.325 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:06:13.336 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:06:18.325 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:06:18.327 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:06:18.344 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:06:23.324 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:06:23.330 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:06:23.332 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:06:28.324 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:06:28.326 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:06:28.341 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:06:33.328 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:06:33.329 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:06:33.347 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:06:38.326 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:06:38.328 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:06:38.344 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:06:43.328 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:06:43.330 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:06:43.347 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:06:48.329 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:06:48.330 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:06:48.332 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:06:53.329 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:06:53.330 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:06:53.332 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:06:58.330 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:06:58.331 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:06:58.333 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:07:03.331 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:07:03.333 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:07:03.349 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:07:08.331 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:07:08.333 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:07:08.349 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:07:13.333 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:07:13.335 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:07:13.351 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:07:18.334 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:07:18.340 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:07:18.355 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:07:23.338 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:07:23.340 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:07:23.356 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:07:28.336 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:07:28.337 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:07:28.339 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:07:33.337 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:07:33.339 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:07:33.341 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:07:38.342 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:07:38.343 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:07:38.345 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:07:43.347 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:07:43.349 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:07:43.365 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:07:48.339 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:07:48.341 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:07:48.343 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:07:53.340 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:07:53.342 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:07:53.358 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:07:58.343 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:07:58.345 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:07:58.361 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:08:03.342 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:08:03.343 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:08:03.345 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:08:08.344 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:08:08.345 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:08:08.361 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:08:13.344 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:08:13.345 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:08:13.347 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:08:18.345 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:08:18.347 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:08:18.349 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:08:23.348 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:08:23.359 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:08:23.364 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:08:28.348 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:08:28.350 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:08:28.367 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:08:33.348 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:08:33.350 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:08:33.367 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:08:38.350 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:08:38.351 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:08:38.368 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:08:43.353 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:08:43.354 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:08:43.371 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:08:48.351 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:08:48.371 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:08:48.375 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:08:53.351 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:08:53.353 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:08:53.368 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:08:58.358 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:08:58.362 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:08:58.364 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:09:03.353 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:09:03.355 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:09:03.367 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:09:08.356 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:09:08.357 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:09:08.359 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:09:13.357 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:09:13.359 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:09:13.375 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:09:18.358 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:09:18.359 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:09:18.361 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:09:23.358 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:09:23.359 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:09:23.361 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:09:28.358 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:09:28.359 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:09:28.361 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:09:33.360 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:09:33.363 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:09:33.379 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:09:38.360 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:09:38.361 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:09:38.363 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:09:43.360 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:09:43.362 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:09:43.364 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:09:48.363 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:09:48.365 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:09:48.366 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:09:53.362 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:09:53.363 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:09:53.365 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:09:58.368 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:09:58.370 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:09:58.372 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:10:03.364 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:10:03.366 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:10:03.381 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:10:08.367 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:10:08.369 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:10:08.391 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:10:13.368 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:10:13.369 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:10:13.384 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:10:18.367 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:10:18.369 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:10:18.380 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:10:23.370 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:10:23.372 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:10:23.385 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:10:28.370 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:10:28.373 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:10:28.388 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:10:33.370 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:10:33.371 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:10:33.373 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:10:38.371 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:10:38.373 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:10:38.384 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:10:43.374 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:10:43.375 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:10:43.392 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:10:48.379 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:10:48.380 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:10:48.382 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:10:53.374 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:10:53.375 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:10:53.377 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:10:58.375 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:10:58.377 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:10:58.388 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:11:03.376 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:11:03.378 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:11:03.380 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:11:08.376 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:11:08.378 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:11:08.393 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:11:13.378 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:11:13.379 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:11:13.381 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:11:18.381 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:11:18.383 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:11:18.400 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:11:23.386 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:11:23.388 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:11:23.390 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:11:28.380 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:11:28.381 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:11:28.383 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:11:33.382 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:11:33.383 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:11:33.385 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:11:38.384 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:11:38.386 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:11:38.410 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:11:43.384 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:11:43.385 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:11:43.387 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:11:48.388 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:11:48.392 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:11:48.415 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:11:53.390 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:11:53.391 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:11:53.393 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:11:58.386 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:11:58.400 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:11:58.506 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:12:03.387 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:12:03.389 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:12:03.390 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:12:08.390 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:12:08.391 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:12:08.394 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:12:13.388 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:12:13.390 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:12:13.392 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:12:18.391 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:12:18.393 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:12:18.408 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:12:23.392 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:12:23.394 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:12:23.395 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:12:28.393 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:12:28.394 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:12:28.397 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:12:33.393 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:12:33.394 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:12:33.411 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:12:38.394 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:12:38.396 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:12:38.411 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:12:43.395 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:12:43.398 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:12:43.410 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:12:48.396 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:12:48.401 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:12:48.419 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:12:53.396 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:12:53.397 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:12:53.413 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:12:58.398 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:12:58.399 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:12:58.401 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:13:03.398 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:13:03.399 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:13:03.401 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:13:08.401 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:13:08.403 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:13:08.418 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:13:13.400 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:13:13.402 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:13:13.418 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:13:18.403 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:13:18.404 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:13:18.422 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:13:23.404 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:13:23.406 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:13:23.408 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:13:28.404 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:13:28.405 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:13:28.407 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:13:33.405 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:13:33.407 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:13:33.408 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:13:38.405 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:13:38.406 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:13:38.409 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:13:43.406 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:13:43.408 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:13:43.410 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:13:48.407 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:13:48.408 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:13:48.426 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:13:53.407 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:13:53.409 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:13:53.424 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:13:58.411 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:13:58.412 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:13:58.414 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:14:03.410 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:14:03.411 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:14:03.413 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:14:08.411 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:14:08.413 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:14:08.414 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:14:13.412 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:14:13.413 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:14:13.415 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:14:18.412 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:14:18.414 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:14:18.428 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:14:23.414 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:14:23.416 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:14:23.432 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:14:28.421 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:14:28.422 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:14:28.446 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:14:33.415 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:14:33.417 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:14:33.418 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:14:38.416 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:14:38.418 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:14:38.432 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:14:43.417 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:14:43.418 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:14:43.435 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:14:48.418 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:14:48.421 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:14:48.432 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:14:53.421 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:14:53.422 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:14:53.424 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:14:58.419 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:14:58.436 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:14:58.439 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:15:03.421 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:15:03.422 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:15:03.424 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:15:08.425 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:15:08.427 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:15:08.439 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:15:13.427 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:15:13.449 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:15:13.589 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:15:18.424 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:15:18.425 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:15:18.427 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:15:23.425 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:15:23.427 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:15:23.440 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:15:28.427 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:15:28.429 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:15:28.430 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:15:33.427 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:15:33.428 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:15:33.430 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:15:38.427 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:15:38.429 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:15:38.431 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:15:43.428 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:15:43.429 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:15:43.430 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:15:48.429 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:15:48.430 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:15:48.432 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:15:53.432 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:15:53.434 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:15:53.435 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:15:58.431 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:15:58.432 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:15:58.434 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:16:03.431 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:16:03.433 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:16:03.434 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:16:08.433 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:16:08.434 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:16:08.436 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:16:13.433 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:16:13.435 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:16:13.451 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:16:18.436 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:16:18.437 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:16:18.452 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:16:23.436 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:16:23.437 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:16:23.453 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:16:28.436 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:16:28.438 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:16:28.440 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:16:33.437 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:16:33.439 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:16:33.440 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:16:38.441 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:16:38.442 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:16:38.444 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:16:43.440 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:16:43.441 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:16:43.456 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:16:48.440 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:16:48.442 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:16:48.444 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:16:53.441 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:16:53.442 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:16:53.458 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:16:58.442 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:16:58.444 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:16:58.459 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:17:03.443 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:17:03.445 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:17:03.447 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:17:08.444 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:17:08.446 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:17:08.460 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:17:13.446 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:17:13.447 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:17:13.449 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:17:18.449 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:17:18.451 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:17:18.465 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:17:23.450 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:17:23.451 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:17:23.453 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:17:28.449 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:17:28.452 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:17:28.454 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:17:33.450 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:17:33.463 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:17:33.478 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:17:38.450 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:17:38.452 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:17:38.453 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:17:43.450 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:17:43.452 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:17:43.454 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:17:48.452 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:17:48.453 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:17:48.455 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:17:53.453 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:17:53.455 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:17:53.470 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:17:58.457 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:17:58.458 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:17:58.460 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:18:03.455 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:18:03.457 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:18:03.459 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:18:08.456 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:18:08.457 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:18:08.459 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:18:13.456 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:18:13.458 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:18:13.472 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:18:18.457 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:18:18.459 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:18:18.474 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:18:23.458 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:18:23.459 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:18:23.461 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:18:28.459 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:18:28.460 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:18:28.463 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:18:33.462 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:18:33.464 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:18:33.490 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:18:38.461 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:18:38.463 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:18:38.464 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:18:43.463 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:18:43.466 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:18:43.468 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:18:48.464 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:18:48.466 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:18:48.487 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-28 18:18:53.466 +03:00 [INF] UdpClient | receive message from 192.168.0.100:55501: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-28 18:18:53.469 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:55501
+2020-05-28 18:18:53.486 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-29 21:59:48.712 +03:00 [INF] Starting web host
+2020-05-29 21:59:52.798 +03:00 [INF] hello udp
+2020-05-29 21:59:52.826 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-29 21:59:52.962 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: No service for type 'Server.Application.UdpMessageInterpreter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Server.Services.Extensions.UdpDeviceServiceExtension.AddUdpDeviceService(IServiceCollection services) in C:\Repos\smartHouse\Server\src\Infrastructure\Extensions\UdpDeviceServiceExtension.cs:line 10
+   at Server.Startup.ConfigureServices(IServiceCollection services) in C:\Repos\smartHouse\Server\Startup.cs:line 46
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Server.Program.Main(String[] args) in C:\Repos\smartHouse\Server\Program.cs:line 27
+2020-05-29 22:02:01.016 +03:00 [INF] Starting web host
+2020-05-29 22:02:01.391 +03:00 [INF] hello udp
+2020-05-29 22:02:01.402 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-29 22:02:01.433 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: No service for type 'Server.Application.UdpMessageInterpreter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Server.Services.Extensions.UdpDeviceServiceExtension.AddUdpDeviceService(IServiceCollection services) in C:\Repos\smartHouse\Server\src\Infrastructure\Extensions\UdpDeviceServiceExtension.cs:line 10
+   at Server.Startup.ConfigureServices(IServiceCollection services) in C:\Repos\smartHouse\Server\Startup.cs:line 43
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Server.Program.Main(String[] args) in C:\Repos\smartHouse\Server\Program.cs:line 27
+2020-05-29 22:03:27.948 +03:00 [INF] Starting web host
+2020-05-29 22:03:28.589 +03:00 [INF] hello udp
+2020-05-29 22:03:28.843 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-29 22:03:28.905 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to resolve service for type 'Server.Application.DeviceService' while attempting to activate 'Server.Application.UdpMessageInterpreter'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.<>c__DisplayClass7_0.<GetCallSite>b__0(Type type)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(Type serviceType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Server.Services.Extensions.UdpDeviceServiceExtension.AddUdpDeviceService(IServiceCollection services) in C:\Repos\smartHouse\Server\src\Infrastructure\Extensions\UdpDeviceServiceExtension.cs:line 10
+   at Server.Startup.ConfigureServices(IServiceCollection services) in C:\Repos\smartHouse\Server\Startup.cs:line 44
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Server.Program.Main(String[] args) in C:\Repos\smartHouse\Server\Program.cs:line 27
+2020-05-29 22:05:24.954 +03:00 [INF] Starting web host
+2020-05-29 22:05:25.511 +03:00 [INF] hello udp
+2020-05-29 22:05:25.748 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-29 22:05:27.446 +03:00 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: Server.Application.UdpMessageInterpreter Lifetime: Singleton ImplementationType: Server.Application.UdpMessageInterpreter': Cannot consume scoped service 'Server.Application.DeviceService' from singleton 'Server.Application.UdpMessageInterpreter'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: Server.Application.UdpMessageInterpreter Lifetime: Singleton ImplementationType: Server.Application.UdpMessageInterpreter': Cannot consume scoped service 'Server.Application.DeviceService' from singleton 'Server.Application.UdpMessageInterpreter'.
+ ---> System.InvalidOperationException: Cannot consume scoped service 'Server.Application.DeviceService' from singleton 'Server.Application.UdpMessageInterpreter'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.VisitScopeCache(ServiceCallSite scopedCallSite, CallSiteValidatorState state)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.VisitConstructor(ConstructorCallSite constructorCallSite, CallSiteValidatorState state)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.VisitRootCache(ServiceCallSite singletonCallSite, CallSiteValidatorState state)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateCallSite(ServiceCallSite callSite)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.Microsoft.Extensions.DependencyInjection.ServiceLookup.IServiceProviderEngineCallback.OnCreate(ServiceCallSite callSite)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at Server.Program.Main(String[] args) in C:\Repos\smartHouse\Server\Program.cs:line 27
+2020-05-29 22:05:55.832 +03:00 [INF] Starting web host
+2020-05-29 22:05:56.536 +03:00 [INF] hello udp
+2020-05-29 22:05:56.756 +03:00 [INF] UdpClient | wait for message to receive
+2020-05-29 22:06:31.220 +03:00 [INF] UdpClient | receive message from 192.168.0.100:50902: BC:DD:C2:31:21:0F|SOCKET|0.1.5
+2020-05-29 22:06:31.229 +03:00 [INF] onReceive: BC:DD:C2:31:21:0F|SOCKET|0.1.5 192.168.0.100:50902
+2020-05-29 22:06:31.263 +03:00 [WRN] Message split not to 5 parts
+2020-05-29 22:06:31.608 +03:00 [WRN] The message is BC:DD:C2:31:21:0F|SOCKET|0.1.5

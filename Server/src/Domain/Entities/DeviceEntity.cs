@@ -1,7 +1,7 @@
 using System;
-using Server.Model.Value;
+using Server.Domain.Value;
 
-namespace Server.Model.Entity {
+namespace Server.Domain.Entity {
     public class DeviceEntity {
         public int id {get; set;}
         public DeviceType type {get; set;}

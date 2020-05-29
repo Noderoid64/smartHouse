@@ -1,4 +1,4 @@
-namespace Server.Model.Value {
+namespace Server.Domain.Value {
     public enum DeviceType {
         SOCKET,
         DIODE,

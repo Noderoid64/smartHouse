@@ -1,7 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using Server.Model.Entity;
-using Server.Model.Value;
+using Server.Domain.Entity;
 
 namespace Server.Persistance.Contexts
 {

@@ -5,24 +5,25 @@ using System.Net;
 using System.Threading.Tasks;
 using Serilog;
 
-namespace Server.Services
+namespace Server.Infrastructure.Services
 {
-    public class UdpClient
+    public class UdpService
     {
 
         public event Action<string, IPEndPoint> receive;
 
         private Object receiveLocker = new Object();
-        private System.Net.Sockets.UdpClient client;
+        private System.Net.Sockets.UdpClient client = new System.Net.Sockets.UdpClient(port);
         private const int port = 4446;
-        private readonly IPAddress multicastGroupIp;
-        public UdpClient()
-        {
-            Log.Information("hello udp");
-            this.client = new System.Net.Sockets.UdpClient(port);
-            // TODO read from config
-            this.multicastGroupIp = IPAddress.Parse("230.0.0.0");
+        private readonly IPAddress multicastGroupIp = IPAddress.Parse("230.0.0.0");
 
+        public UdpService()
+        {
+            initUdpClient();
+        }
+
+        private void initUdpClient() {
+            Log.Information("hello udp");
             try {
                 client.JoinMulticastGroup(multicastGroupIp);
             } catch (Exception ex) {

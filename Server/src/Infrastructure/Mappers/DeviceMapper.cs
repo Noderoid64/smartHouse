@@ -1,6 +1,6 @@
 using AutoMapper;
 
-using Server.Model.Entity;
+using Server.Domain.Entity;
 using Server.Application.Dto;
 
 namespace Server.Application.Mappers {

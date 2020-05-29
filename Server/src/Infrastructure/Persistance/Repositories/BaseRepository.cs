@@ -9,7 +9,8 @@ using Server.Persistance.Contexts;
 using Serilog;
 using Serilog.Events;
 
-namespace Server.Persistance.Repositories
+
+namespace Server.Infrastructure.Persistance
 {
     public abstract class BaseRepository<TEntity> where TEntity : class
     {

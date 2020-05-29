@@ -1,21 +1,26 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Server.Model.Entity;
-using Server.Services;
-using Server.Persistance.Repositories;
 
 using Serilog;
 using Serilog.Events;
 
-namespace Server.Services
+using Server.Domain;
+using Server.Domain.Entity;
+using Server.Infrastructure;
+using Server.Infrastructure.Assemblers;
+using Server.Infrastructure.Model;
+using Server.Infrastructure.Persistance;
+
+namespace Server.Application
 {
     public class DeviceService
     {
         private bool _isDebug = Log.IsEnabled(LogEventLevel.Debug);
         private DeviceRepository deviceRepository;
+        private DeviceAssembler deviceAssembler;
 
-        public DeviceService(DeviceRepository deviceRepository)
+        public DeviceService(DeviceRepository deviceRepository, DeviceAssembler deviceAssembler)
         {
             this.deviceRepository = deviceRepository;
         }
@@ -68,6 +73,20 @@ namespace Server.Services
                 result = true;
             }
             return result;
+        }
+
+        public async void updateStatus(string mac, string ip) {
+            AssertTool.notNull(mac, "mac");
+            AssertTool.notNull(ip, "ip");
+
+            Device deviceToUpdate = await Device.findByMac(deviceRepository, mac);
+            deviceToUpdate.updateIp(ip);
+            deviceToUpdate.updatePing();
+            deviceRepository.Save();
+        }
+
+        private void updateDeviceInfo (Device device) {
+
         }
     }
 }

@@ -18,8 +18,9 @@ using AutoMapper;
 using Server.Tools.Middleware;
 using Server.Application.Mappers;
 using Server.Persistance.Contexts;
-using Server.Persistance.Repositories;
-using Server.Services;
+using Server.Infrastructure.Persistance;
+using Server.Infrastructure.Assemblers;
+using Server.Application;
 using Server.Services.Extensions;
 
 namespace Server
@@ -38,9 +39,24 @@ namespace Server
         {
             services.AddControllers();
             services.AddDbContext<AppDbContext>(options => options.UseNpgsql(Configuration.GetConnectionString("smartDb")));
+            
+            // Infrastructure
             services.AddScoped<DeviceRepository>();
+            services.AddScoped<DeviceAssembler>();
+            services.AddScoped<UdpMessageAssembler>();
+            // Domain
+            // Application
             services.AddScoped<DeviceService>();
+            services.AddScoped<UdpMessageInterpreter>();
+            // Interface
             services.AddUdpDeviceService();
+            
+    
+            
+            
+            
+            
+            
             services.AddAutoMapper(typeof(DeviceMapper));
             services.AddCors();
         }
