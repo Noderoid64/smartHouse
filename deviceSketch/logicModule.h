@@ -1,7 +1,3 @@
-/*###
-    Logic Module v1.0.0
-  ###*/
-
 #ifndef LOGIC_MODULE_H
 #define LOGIC_MODULE_H
 
@@ -10,7 +6,7 @@
 
 class LogicModule {
   public:
-    LogicModule(bool isSerial, String deviceVersion, String deviceType);
+    LogicModule(bool isSerial);
     void init(WebModule* webModule);
   private:
     bool _isSerial;
@@ -20,7 +16,6 @@ class LogicModule {
     void handleTurnOn(ESP8266WebServer*);
     void handleTurnOff(ESP8266WebServer*);
     void handleGetStatus(ESP8266WebServer*);
-    void handleInfo(ESP8266WebServer*);
 };
 
 #endif

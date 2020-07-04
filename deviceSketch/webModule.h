@@ -5,48 +5,30 @@
 #ifndef WEB_MODULE_H
 #define WEB_MODULE_H
 
-#include <WiFiUdp.h>
-#include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
-#include "commonModule.h"
+#include "netModule.h"
+#include "storageModule.h"
 
 class WebModule {
   public:
-    ESP8266WebServer *server;
-
-    WebModule(bool isSerial, CommonModule *commonModule);
-    void init();
-    void createAccessPoint(String ssid, String password);
-    bool createWorkStation(String ssid, String password);
-    void destroyAccessPoint();
-    void createWebServer();
+    WebModule(NetModule *_netModule, StorageModule *_storageModule);
+    void startWebServer();
+    void stopWebServer();
     void registerHandler(char* route, std::function<void(ESP8266WebServer*)> handler);
-    void onNotFoundHandler();
-    void onMainHandler();
-    void onLoginHandler();
-    void onDisconnect();
-    void handleServer(String type, String ver);
+    void handleServer();
   private:
-    WiFiUDP *udp;
-    IPAddress *multicastAddress;
-    CommonModule *_commonModule;
-    void sendFile(String path, String contentType);
-    void sendGreeting(String mac, String type, String vers);
-    String getFileAsString(String path);
+    ESP8266WebServer *server;
+    NetModule *netModule;
+    StorageModule *storageModule;
+    void onMain();
+    void onLogin();
+    void onDisconnect();
+    void onInfo();
+    void onNotFound();
     bool onFileHandler(String url);
-    void redirectToMain();
+    String getFileAsString(String path);
     String getContentType(String filename);
-    void onGetNetworkInfo();
-    void onGetPingTime();
-    void onSetPingTime();
-    void onGetServerIp();
-    bool _isSerial;
-    bool _isAP;
-    bool _isWS;
-    String _networkSsid;
-    String _errorMessage;
-    long lastGreetingTime;
-    int _pingTime;
+    
 
 };
 #endif

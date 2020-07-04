@@ -1,5 +1,10 @@
+## DeviceSketch
+### Acrhitecture
+ - NetModule - responsible for connection/disconnection and udp messaging
+ - WebModule - register common and optional handlers
+
 ### Udp messages
-| mac | type | version | command | data |\
+| mac | type | version | command | data |
 #### Common commands
 |command|description|
 | -- | -- |
