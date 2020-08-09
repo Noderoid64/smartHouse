@@ -1,5 +1,5 @@
-#ifndef LOGIC_MODULE_H
-#define LOGIC_MODULE_H
+#ifndef SOCKET_LOGIC_H
+#define SOCKET_LOGIC_H
 
 #include <ESP8266WebServer.h>
 #include "webModule.h"
@@ -10,8 +10,6 @@ class LogicModule {
     void init(WebModule* webModule);
   private:
     bool _isSerial;
-    String _deviceVersion;
-    String _deviceType;
     bool pinStatus;
     void handleTurnOn(ESP8266WebServer*);
     void handleTurnOff(ESP8266WebServer*);

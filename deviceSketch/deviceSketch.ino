@@ -1,6 +1,6 @@
+#include "StationLogic.h"
 #include "webModule.h"
 #include "Async.h"
-#include "logicModule.h"
 #include "storageModule.h"
 #include "NetModule.h"
 #include "System.h"
@@ -8,8 +8,6 @@
 #define SERIAL_SPEED 115200
 #define TYPE "SOCKET"
 #define VERSION "0.1.5"
-
-
 
 LogicModule logicModule(true);
 StorageModule storageModule (VERSION, TYPE);
@@ -24,6 +22,7 @@ void setup() {
     csystem.createAP();  
   });
   webModule.startWebServer();
+  logicModule.init(&webModule);
   
 }
 
