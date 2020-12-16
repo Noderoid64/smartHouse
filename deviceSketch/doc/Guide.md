@@ -7,7 +7,7 @@
 - open arduinoIDE -> File -> Preferences
 - enter "http://arduino.esp8266.com/stable/package_esp8266com_index.json" to "Additional Boards Manager url"
 - go to Tools -> Board -> Boards Manager
-- install esp8266 be ESP8266 Community 2.6.3
+- install esp8266 by ESP8266 Community 2.6.3
 
 ### How connect esp8266 to TTL
 | TTL | ESP8266 |
